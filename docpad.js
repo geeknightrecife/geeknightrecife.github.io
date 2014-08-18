@@ -7,27 +7,30 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Geek Night Recife",
+      description: "É Agosto e mais um Geek Night está chegando!\nO Geek Night \
+        Recife começou com a intenção de ser um encontro informal com o \
+        objetivo de discutir sobre tecnologia. O evento vem cada vez mais se \
+        firmando como um espaço para produção e compartilhamento de \
+        conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a \
+        Geek Night vem recebendo palestras, práticas e fóruns, tendo como \
+        assunto os mais diversos temas relacionados ao universo geek.\nNão \
+        deixe de conferir o blog do Geek Night: http://geeknightrecife.github.io .",
+      date: "26 de Agosto",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "$100",
+      venue: "ThoughtWorks",
+      address: "Av Governador Agamenon Magalhães, 4779",
+      details: "12 andar. Empresarial Isaac Newton",
+      city: "Recife",
+      state: "PE"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        text: "Eu vou!",
+        link: "https://docs.google.com/forms/d/1IKSSegVsqWIJC76pZuLtAIOBApSlCp12o5phDR9FQOc/viewform?usp=send_form"
     },
 
     // Site info
@@ -45,124 +48,106 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
+      //'sponsors',
       'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
+      about: "Sobre",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
       sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      partners: "Parceiros",
+      contact: "Contato",
+      time: "Hora",
+      description: "Descrição",
+      slot: "Tema"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Check-in",
+        time: "19h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Johann Lima",
+        photo: "themes/yellow-swan/img/johann-lima.png",
+        bio: "Desenvolvedor poliglota, apaixonado por linguagens de script. \
+          Formado em Sistemas de Informação pela UFRPE. Atualmente é \
+          desenvolvedor web na Associação Brasil América (ABA).",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          text: "blog",
+          href: "http://codeorbecoded.wordpress.com"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          title: "Uma aplicação de impacto social com aprendizado de máquina",
+          description: "Com o propósito de empoderar as minorias, dando-nas o \
+            poder de gerar uma cultura de boycott e mudança social através de \
+            denúncias de situações discriminatórias associadas a lugares. O \
+            'Boca no Trombone' vem para mudar o jogo. O preenchimento do \
+            formulário de denúncia é facilitado por meio de um experimento que \
+            classifica o tipo de denúncia automaticamente por meio de \
+            algoritmos de classificação.",
+          time: "19h10"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Luiz Castro",
+        photo: "themes/yellow-swan/img/luiz-castro.jpg",
+        bio: "Analista, programador, roteirista e empreendedor, também já foi \
+          blogueiro e podcaster! Possui Bacharelado em Sistemas de Informação, \
+          pela Faculdade Santa Maria. Atualmente trabalha como \
+          Analista/Programador na Petroquímica de Suape (através da empresa \
+            Qualidados). Também é sócio em duas startups, são elas o Pague Pra \
+            Ver (www.paguepraver.net.br), site de Crowdfunding totalmente \
+            Nordestino e o Teach (www.teach.com.br), projeto de rede social \
+            voltada para o meio acadêmico. Foi Roteirista num projeto de jogo \
+            da (extinta) PXL Games Studio, startup da área de games em PE.",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          text: "twitter",
+          href: "http://twitter.com/castro_luiz"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "Aplicação da técnica A Jornada do Héroi na \
+            construção da narrativa de um jogo.",
+          description: "Abordaremos como podemos aplicar as técnicas de \
+            narrativa literária, presentes no guia a Jornada do Herói, do \
+            livro A Jornada do Escritor, na construção da narrativa de um jogo \
+            digital. Apresentararemos uma discursão da técnica citada e um \
+            breve estudo de seus estágios, com exemplos da aplicação dos \
+            mesmos, para que a construção narrativa de um jogo seja criada com \
+            base na Jornada do Herói. Assim, vamos mostrar uma forma de \
+            adaptar as técnicas da Jornada do Herói, para aconstrução da \
+            narrativa de um jogo digital.",
+          time: "19h30"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
+        name: "Coffe Break",
+        time: "19h50"
       },
       {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
+        name: "",
+        photo: "",
+        bio: "",
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          title: "A definir",
+          description: "",
+          time: "20h10"
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
+        name: "",
+        photo: "",
+        bio: "",
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "A definir",
+          description: "",
+          time: "20h30"
         }
       }
     ],
@@ -179,9 +164,9 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "ThoughtWorks",
+        logo: "themes/yellow-swan/img/tw-logo.png",
+        url: "http://www.thoughtworks.com/pt/"
       }
     ],
 
