@@ -139,7 +139,7 @@ module.exports = {
         photo: "themes/yellow-swan/img/vitor_albuquerque.jpg",
         bio: "Programador de software desde o auge da internet discada, já \
           passou por linguagens como mIRC Scripting, Object Pascal, C# e PHP. \
-          Atualmente trabalha com Java e vem otimizando meu ambiente de \
+          Atualmente trabalha com Java e vem otimizando seu ambiente de \
           trabalho com ferramentas como Vagrant, Flyway, Puppet, Jenkins e \
           outras.",
         link: {
