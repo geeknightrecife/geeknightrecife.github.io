@@ -77,8 +77,12 @@ module.exports = {
         name: "Johann Lima",
         photo: "themes/yellow-swan/img/johann-lima.png",
         bio: "Desenvolvedor poliglota, apaixonado por linguagens de script. \
-          Formado em Sistemas de Informação pela UFRPE. Atualmente é \
-          desenvolvedor web na Associação Brasil América (ABA).",
+          Formado em Sistemas de Informação pela UFRPE. Trabalho com \
+          desenvolvimento de software desde 2011. Durante esse tempo, ajudei a \
+          construir plataformas de rede social (Aqui Tem Natura, Natura), \
+          jogos educacionais (Turma do Som, D'Accord Music Software) e \
+          sistemas de constrole acadêmico (Abanet, Associação Brasil América), \
+          utilizando Java, ActionScript, Python, PHP, dentre outras linguagens.",
         link: {
           text: "blog",
           href: "http://codeorbecoded.wordpress.com"
@@ -131,12 +135,27 @@ module.exports = {
         time: "19h50"
       },
       {
-        name: "",
-        photo: "",
-        bio: "",
+        name: "Vitor Albuquerque",
+        photo: "themes/yellow-swan/img/vitor_albuquerque.jpg",
+        bio: "Programador de software desde o auge da internet discada, já \
+          passou por linguagens como mIRC Scripting, Object Pascal, C# e PHP. \
+          Atualmente trabalha com Java e vem otimizando meu ambiente de \
+          trabalho com ferramentas como Vagrant, Flyway, Puppet, Jenkins e \
+          outras.",
+        link: {
+          text: "twitter",
+          href: "http://twitter.com/vrcca"
+        },
         presentation: {
-          title: "A definir",
-          description: "",
+          title: "Evoluindo bancos de dados com Flyway - Uma alternativa ao uso \
+            do banco de dados centralizado.",
+          description: "Várias empresas tem seus projetos impactados por \
+            mudanças no banco de dados, gerando improdutividade da equipe e \
+            atraso na entrega. Os dois maiores sintomas são: centralização e \
+            mudança manual do banco de dados. Nessa palestra veremos como o \
+            Flyway nos ajuda a resolver alguns desses problemas e nos dá uma \
+            base para implantar o modelo 'um BD por programador' com a \
+            utilização de máquinas virtuais.​",
           time: "20h10"
         }
       },
