@@ -160,12 +160,20 @@ module.exports = {
         }
       },
       {
-        name: "",
-        photo: "",
-        bio: "",
+        name: "Marcos Brizeno",
+        photo: "themes/yellow-swan/img/marcos_brizeno.png",
+        bio: "Ciêntista da Computação pela Universidade Estadual do Ceará e \
+          atualmente Consultor Desenvolvedor na ThoughtWorks Recife. Trabalha \
+          basicamente com projeto Ruby e Rails, e também executa atividades de \
+          pesquisa sobre novas tecnologias e tendências no Desenvolvimento de \
+          Software. Apaixonado por Engenharia de Software e Metodologias Ágeis.",
         presentation: {
-          title: "A definir",
-          description: "",
+          title: "Comunidade e Carreira: você ganha, todos ganham",
+          description: "O que é melhor para sua carreira: experiência ou \
+            certificação? Devo largar a Universidade? Devo sair do meu emprego \
+            pra fazer um Mestrado? E se houvesse uma terceira opção que todos \
+            ganham? Sim, existe! Construir e participar de comunidades é talvez \
+            a melhor coisa que você possa fazer para sua carreira.",
           time: "20h30"
         }
       }
