@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Geek Night Recife",
-      description: "É Agosto e mais um Geek Night está chegando!\nO Geek Night \
+      description: "É Agosto e mais um Geek Night está chegando! O Geek Night \
         Recife começou com a intenção de ser um encontro informal com o \
         objetivo de discutir sobre tecnologia. O evento vem cada vez mais se \
         firmando como um espaço para produção e compartilhamento de \
