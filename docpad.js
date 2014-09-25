@@ -8,15 +8,15 @@ module.exports = {
     // Conference info
     conf: {
       name: "Geek Night Recife",
-      description: "É Agosto e mais um Geek Night está chegando!\nO Geek Night \
+      description: "É Setembro e mais um Geek Night está chegando! O Geek Night \
         Recife começou com a intenção de ser um encontro informal com o \
         objetivo de discutir sobre tecnologia. O evento vem cada vez mais se \
         firmando como um espaço para produção e compartilhamento de \
         conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a \
         Geek Night vem recebendo palestras, práticas e fóruns, tendo como \
-        assunto os mais diversos temas relacionados ao universo geek.\nNão \
+        assunto os mais diversos temas relacionados ao universo geek. Não \
         deixe de conferir o blog do Geek Night: http://geeknightrecife.github.io .",
-      date: "26 de Agosto",
+      date: "30 de Setembro",
       // If your event is free, just comment this line
       //price: "$100",
       venue: "ThoughtWorks",
@@ -30,7 +30,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Eu vou!",
-        link: "https://docs.google.com/forms/d/1IKSSegVsqWIJC76pZuLtAIOBApSlCp12o5phDR9FQOc/viewform?usp=send_form"
+        link: "https://www.facebook.com/events/729842123749088"
     },
 
     // Site info
@@ -71,62 +71,26 @@ module.exports = {
     schedule: [
       {
         name: "Check-in",
-        time: "19h00"
+        time: "19h20"
       },
       {
-        name: "Johann Lima",
-        photo: "themes/yellow-swan/img/johann-lima.png",
-        bio: "Desenvolvedor poliglota, apaixonado por linguagens de script. \
-          Formado em Sistemas de Informação pela UFRPE. Trabalho com \
-          desenvolvimento de software desde 2011. Durante esse tempo, ajudei a \
-          construir plataformas de rede social (Aqui Tem Natura, Natura), \
-          jogos educacionais (Turma do Som, D'Accord Music Software) e \
-          sistemas de constrole acadêmico (Abanet, Associação Brasil América), \
-          utilizando Java, ActionScript, Python, PHP, dentre outras linguagens.",
+        name: "Rodrigo Alencar",
+        photo: "themes/yellow-swan/img/rodrigo_alencar.png",
+        bio: "Rodrigo Alencar é lider tecnico dos Projetos de Impacto Social \
+          na ThoughtWorks Brasil na filial de Recife. Fundador do movimento \
+          Tecnologia Popular que visa trazer a tecnologia ao povo. Foi formado \
+          pelo SENAI em Desenvolvimento de Software em 2007 e desde então vem \
+          participando ativamente de projetos open sources e colocando um \
+          pouco da identidade negra em todos os trabalhos já feitos.",
         link: {
-          text: "blog",
-          href: "http://codeorbecoded.wordpress.com"
+          text: "github",
+          href: "http://github.com/RatoX"
         },
         presentation: {
-          title: "Uma aplicação de impacto social com aprendizado de máquina",
-          description: "Com o propósito de empoderar as minorias, dando-nas o \
-            poder de gerar uma cultura de boycott e mudança social através de \
-            denúncias de situações discriminatórias associadas a lugares. O \
-            'Boca no Trombone' vem para mudar o jogo. O preenchimento do \
-            formulário de denúncia é facilitado por meio de um experimento que \
-            classifica o tipo de denúncia automaticamente por meio de \
-            algoritmos de classificação.",
-          time: "19h10"
-        }
-      },
-      {
-        name: "Luiz Castro",
-        photo: "themes/yellow-swan/img/luiz-castro.jpg",
-        bio: "Analista, programador, roteirista e empreendedor, também já foi \
-          blogueiro e podcaster! Possui Bacharelado em Sistemas de Informação, \
-          pela Faculdade Santa Maria. Atualmente trabalha como \
-          Analista/Programador na Petroquímica de Suape (através da empresa \
-            Qualidados). Também é sócio em duas startups, são elas o Pague Pra \
-            Ver (www.paguepraver.net.br), site de Crowdfunding totalmente \
-            Nordestino e o Teach (www.teach.com.br), projeto de rede social \
-            voltada para o meio acadêmico. Foi Roteirista num projeto de jogo \
-            da (extinta) PXL Games Studio, startup da área de games em PE.",
-        link: {
-          text: "twitter",
-          href: "http://twitter.com/castro_luiz"
-        },
-        presentation: {
-          title: "Aplicação da técnica A Jornada do Héroi na \
-            construção da narrativa de um jogo.",
-          description: "Abordaremos como podemos aplicar as técnicas de \
-            narrativa literária, presentes no guia a Jornada do Herói, do \
-            livro A Jornada do Escritor, na construção da narrativa de um jogo \
-            digital. Apresentararemos uma discursão da técnica citada e um \
-            breve estudo de seus estágios, com exemplos da aplicação dos \
-            mesmos, para que a construção narrativa de um jogo seja criada com \
-            base na Jornada do Herói. Assim, vamos mostrar uma forma de \
-            adaptar as técnicas da Jornada do Herói, para aconstrução da \
-            narrativa de um jogo digital.",
+          title: "Toolkit 2.0 Javascript",
+          description: "Apresentação relampago sobre as novidades e tendencias \
+            para se trabalhar com Javascript nesse mundão que traz novidades \
+            a todo instante.",
           time: "19h30"
         }
       },
@@ -135,48 +99,27 @@ module.exports = {
         time: "19h50"
       },
       {
-        name: "Vitor Albuquerque",
-        photo: "themes/yellow-swan/img/vitor_albuquerque.jpg",
-        bio: "Programador de software desde o auge da internet discada, já \
-          passou por linguagens como mIRC Scripting, Object Pascal, C# e PHP. \
-          Atualmente trabalha com Java e vem otimizando seu ambiente de \
-          trabalho com ferramentas como Vagrant, Flyway, Puppet, Jenkins e \
-          outras.",
+        name: "Diego Asfora",
+        photo: "themes/yellow-swan/img/diego_asfora.png",
+        bio: "Trabalha a mais de 7 anos com Agile em diversos projetos e em \
+          várias empresas tendo inclusive durante esse período feito mestrado \
+          na área de priorização de Requisitos Ágeis. Trabalha há 10 anos com \
+          testes de software. Palestrante no Scrum Gathering Brazil em São \
+          Paulo 2009 e Scrum Gathering Rio 2014",
         link: {
           text: "twitter",
-          href: "http://twitter.com/vrcca"
+          href: "http://twitter.com/diegoasfora"
         },
         presentation: {
-          title: "Evoluindo bancos de dados com Flyway - Uma alternativa ao uso \
-            do banco de dados centralizado.",
-          description: "Várias empresas tem seus projetos impactados por \
-            mudanças no banco de dados, gerando improdutividade da equipe e \
-            atraso na entrega. Os dois maiores sintomas são: centralização e \
-            mudança manual do banco de dados. Nessa palestra veremos como o \
-            Flyway nos ajuda a resolver alguns desses problemas e nos dá uma \
-            base para implantar o modelo 'um BD por programador' com a \
-            utilização de máquinas virtuais.​",
+          title: "Agile Game",
+          description: "Aprenda os conceitos de agile jogando um game.",
           time: "20h10"
         }
       },
       {
-        name: "Marcos Brizeno",
-        photo: "themes/yellow-swan/img/marcos_brizeno.png",
-        bio: "Ciêntista da Computação pela Universidade Estadual do Ceará e \
-          atualmente Consultor Desenvolvedor na ThoughtWorks Recife. Trabalha \
-          basicamente com projeto Ruby e Rails, e também executa atividades de \
-          pesquisa sobre novas tecnologias e tendências no Desenvolvimento de \
-          Software. Apaixonado por Engenharia de Software e Metodologias Ágeis.",
-        presentation: {
-          title: "Comunidade e Carreira: você ganha, todos ganham",
-          description: "O que é melhor para sua carreira: experiência ou \
-            certificação? Devo largar a Universidade? Devo sair do meu emprego \
-            pra fazer um Mestrado? E se houvesse uma terceira opção que todos \
-            ganham? Sim, existe! Construir e participar de comunidades é talvez \
-            a melhor coisa que você possa fazer para sua carreira.",
-          time: "20h30"
-        }
-      }
+        name: "Pós Geek Night",
+        time: "21h10"
+      },
     ],
 
     // List of Sponsors
