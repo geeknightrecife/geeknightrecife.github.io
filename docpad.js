@@ -104,20 +104,19 @@ module.exports = {
         time: "19h50"
       },
       {
-        name: "Diego Asfora",
+        name: "Aline Cavalcante",
         photo: "themes/yellow-swan/img/diego_asfora.png",
-        bio: "Trabalha a mais de 7 anos com Agile em diversos projetos e em \
-          várias empresas tendo inclusive durante esse período feito mestrado \
-          na área de priorização de Requisitos Ágeis. Trabalha há 10 anos com \
-          testes de software. Palestrante no Scrum Gathering Brazil em São \
-          Paulo 2009 e Scrum Gathering Rio 2014",
+        bio: "17 anos, presidente do Fora da Caixa, embaixadora FazINOVA, \
+          graduanda em Psicologia pela UFPE, palestrante, empreendedora, \
+          designer e programadora.",
         link: {
           text: "twitter",
-          href: "http://twitter.com/diegoasfora"
+          href: "twitter.com/cavalcantalines"
         },
         presentation: {
-          title: "Agile Game",
-          description: "Aprenda os conceitos de agile jogando um game.",
+          title: "Pensando Fora da Caixa",
+          description: "Um pouco sobre pensar Fora da Caixa e empreender em \
+            todas as áreas da vida a partir do case da Aline Cavalcante.",
           time: "20h10"
         }
       },
