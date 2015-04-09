@@ -8,15 +8,20 @@ module.exports = {
     // Conference info
     conf: {
       name: "Geek Night Recife",
-      description: "É Setembro e mais um Geek Night está chegando! O Geek Night \
-        Recife começou com a intenção de ser um encontro informal com o \
+      theme: "por mulheres",
+      description: "Finalmente o primeiro Geek Night de 2015 está chegando! \
+        Buscando cada vez mais aumentar a participação de mulheres no evento, \
+        não só como ouvintes, mas como palestrantes, teremos mais uma edição do \
+        Geek Night {por mulheres}! \
+        Isso quer dizer que teremos apenas apresentações de mulheres. \
+        O Geek Night Recife começou com a intenção de ser um encontro informal com o \
         objetivo de discutir sobre tecnologia. O evento vem cada vez mais se \
         firmando como um espaço para produção e compartilhamento de \
         conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a \
         Geek Night vem recebendo palestras, práticas e fóruns, tendo como \
         assunto os mais diversos temas relacionados ao universo geek. Não \
         deixe de conferir o blog do Geek Night: http://geeknightrecife.github.io .",
-      date: "30 de Setembro",
+      date: "28 de Abril",
       // If your event is free, just comment this line
       //price: "$100",
       venue: "ThoughtWorks",
