@@ -35,7 +35,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Eu vou!",
-        link: "https://www.facebook.com/events/729842123749088"
+        link: "https://www.facebook.com/events/411424865692984"
     },
 
     // Site info
@@ -76,53 +76,46 @@ module.exports = {
     schedule: [
       {
         name: "Check-in",
-        time: "19h20"
+        time: "19h00"
       },
       {
-        name: "Rodrigo Alencar",
-        photo: "themes/yellow-swan/img/rodrigo_alencar.png",
-        bio: "Rodrigo Alencar é lider tecnico dos Projetos de Impacto Social \
-          na ThoughtWorks Brasil na filial de Recife. Fundador do movimento \
-          Tecnologia Popular que visa trazer a tecnologia ao povo. Foi formado \
-          pelo SENAI em Desenvolvimento de Software em 2007 e desde então vem \
-          participando ativamente de projetos open sources e colocando um \
-          pouco da identidade negra em todos os trabalhos já feitos.",
+        name: "Roselma Mendes",
+        photo: "themes/yellow-swan/img/presenters/roselma.jpg",
+        bio: "Apaixonada por desenvolvimento de software, sou formada em Sistemas de Informação e a 5 anos trabalho na área. Já trabalhei como desenvolvedora e também como analista de testes em projetos Java nas plataformas ME, EE e SE. No momento estou na ThoughtWorks como desenvolvedora, atualmente em um projeto Python.",
         link: {
           text: "github",
-          href: "http://github.com/RatoX"
+          href: "http://github.com/roselmamendes"
         },
         presentation: {
-          title: "Toolkit 2.0 Javascript",
-          description: "Apresentação relampago sobre as novidades e tendencias \
-            para se trabalhar com Javascript nesse mundão que traz novidades \
-            a todo instante.",
-          time: "19h30"
+          title: "Construindo um Google Pyrate - Python",
+          description: "Falar o que são webcrawlers e demonstrar como desenvolver um na linguagem Python.",
+          time: "19h20"
         }
       },
       {
         name: "Coffe Break",
-        time: "19h50"
+        time: "19h45"
       },
       {
         name: "Aline Cavalcante",
-        photo: "themes/yellow-swan/img/diego_asfora.png",
+        photo: "themes/yellow-swan/img/presenters/aline.jpg",
         bio: "17 anos, presidente do Fora da Caixa, embaixadora FazINOVA, \
           graduanda em Psicologia pela UFPE, palestrante, empreendedora, \
           designer e programadora.",
         link: {
           text: "twitter",
-          href: "twitter.com/cavalcantalines"
+          href: "http://twitter.com/cavalcantalines"
         },
         presentation: {
           title: "Pensando Fora da Caixa",
           description: "Um pouco sobre pensar Fora da Caixa e empreender em \
             todas as áreas da vida a partir do case da Aline Cavalcante.",
-          time: "20h10"
+          time: "20h00"
         }
       },
       {
         name: "Pós Geek Night",
-        time: "21h10"
+        time: "20h30"
       },
     ],
 
