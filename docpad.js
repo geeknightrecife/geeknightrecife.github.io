@@ -89,7 +89,7 @@ module.exports = {
         presentation: {
           title: "Desenvolvendo web crawler/scraper com Python",
           description: "Falar o que são webcrawlers e demonstrar como desenvolver um na linguagem Python.",
-          time: "19h10"
+          time: "19h20"
         }
       },
 
@@ -107,12 +107,12 @@ module.exports = {
           title: "Pensando Fora da Caixa",
           description: "Um pouco sobre pensar Fora da Caixa e empreender em \
             todas as áreas da vida a partir do case da Aline Cavalcante.",
-          time: "19h25"
+          time: "19h35"
         }
       },
       {
         name: "Coffe Break",
-        time: "19h55"
+        time: "20h05"
       },
       {
         name: "Taíse Silva",
@@ -125,12 +125,12 @@ module.exports = {
         presentation: {
           title: "Três noções básicas essenciais para a criação de uma suíte de automação para aplicativos web",
           description: "Reflexões sobre a combinação de padrões e ferramentas que oferecem testes automatizados com alto valor de negócio e baixo custo de manutenção de código.",
-          time: "20h15"
+          time: "20h25"
         }
       },
       {
         name: "Pós Geek Night",
-        time: "20h45"
+        time: "21h00"
       },
     ],
 
