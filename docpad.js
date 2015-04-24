@@ -87,15 +87,12 @@ module.exports = {
           href: "http://github.com/roselmamendes"
         },
         presentation: {
-          title: "Construindo um Google Pyrate - Python",
+          title: "Desenvolvendo web crawler/scraper com Python",
           description: "Falar o que são webcrawlers e demonstrar como desenvolver um na linguagem Python.",
-          time: "19h20"
+          time: "19h10"
         }
       },
-      {
-        name: "Coffe Break",
-        time: "19h45"
-      },
+
       {
         name: "Aline Cavalcante",
         photo: "themes/yellow-swan/img/presenters/aline.jpg",
@@ -110,12 +107,30 @@ module.exports = {
           title: "Pensando Fora da Caixa",
           description: "Um pouco sobre pensar Fora da Caixa e empreender em \
             todas as áreas da vida a partir do case da Aline Cavalcante.",
-          time: "20h00"
+          time: "19h25"
+        }
+      },
+      {
+        name: "Coffe Break",
+        time: "19h55"
+      },
+      {
+        name: "Taíse Silva",
+        photo: "themes/yellow-swan/img/presenters/taise.png",
+        bio: "Taíse é formada em Ciência da Computação pela UFPE, e trabalha com criação de software desde 2006, focando em qualidade e automação de testes. Atualmente, tem focado mais em análise de negócios. Trabalha na ThoughtWorks como analista de qualidade, de negócios e consultoria.",
+        link: {
+          text: "github",
+          href: "https://github.com/taisedias"
+        },
+        presentation: {
+          title: "Três noções básicas essenciais para a criação de uma suíte de automação para aplicativos web",
+          description: "Reflexões sobre a combinação de padrões e ferramentas que oferecem testes automatizados com alto valor de negócio e baixo custo de manutenção de código.",
+          time: "20h15"
         }
       },
       {
         name: "Pós Geek Night",
-        time: "20h30"
+        time: "20h45"
       },
     ],
 
