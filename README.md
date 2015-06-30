@@ -41,7 +41,7 @@
     $ git push origin source
   ```
 
-4. Deploy the github page to master branch
+4. Deploy the github page to `master` branch
 
   ```
     $ npm run deploy
