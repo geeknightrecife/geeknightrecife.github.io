@@ -1,5 +1,12 @@
 module.exports = {
 
+  plugins: {
+    ghpages: {
+      deployRemote: 'origin'
+      deployBranch: 'master'
+    }
+  }
+
   prompts: false,
 
   // These are variables will be accessible via our templates
