@@ -33,7 +33,7 @@
     $ git tag yyyy-MM // E.g.: 2015-07
   ```
 
-2. Update the 'docpad.json' file
+2. Update the `docpad.json` file
 
 3. Commit and push for `source` branch
 
@@ -41,7 +41,7 @@
     $ git push origin source
   ```
 
-4. Deploy the github page
+4. Deploy the github page to master branch
 
   ```
     $ npm run deploy
