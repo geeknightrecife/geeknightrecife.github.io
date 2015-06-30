@@ -2,10 +2,10 @@ module.exports = {
 
   plugins: {
     ghpages: {
-      deployRemote: 'origin'
+      deployRemote: 'origin',
       deployBranch: 'master'
     }
-  }
+  },
 
   prompts: false,
 
