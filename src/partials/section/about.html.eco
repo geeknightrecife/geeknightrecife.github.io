@@ -1,2 +1,0 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description"><%= @conf.description %></p>
