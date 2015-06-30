@@ -8,20 +8,10 @@ module.exports = {
     // Conference info
     conf: {
       name: "Geek Night Recife",
-      theme: "por mulheres",
-      description: "Finalmente o primeiro Geek Night de 2015 está chegando! \
-        Buscando cada vez mais aumentar a participação de mulheres no evento, \
-        não só como ouvintes, mas como palestrantes, teremos mais uma edição do \
-        Geek Night {por mulheres}! \
-        Isso quer dizer que teremos apenas apresentações de mulheres. \
-        O Geek Night Recife começou com a intenção de ser um encontro informal com o \
-        objetivo de discutir sobre tecnologia. O evento vem cada vez mais se \
-        firmando como um espaço para produção e compartilhamento de \
-        conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a \
-        Geek Night vem recebendo palestras, práticas e fóruns, tendo como \
-        assunto os mais diversos temas relacionados ao universo geek. Não \
-        deixe de conferir o blog do Geek Night: http://geeknightrecife.github.io .",
-      date: "28 de Abril",
+      theme: "entrega contínua",
+      description: "O Geek Night Recife está de volta e dessa vez o tema será Entrega Contínua! Não é necessário nenhum conhecimento prévio, todo estão convidados.
+        A intenção é fazer um encontro informal com o objetivo de discutir sobre tecnologia. O evento vem cada vez mais se firmando como um espaço para produção e compartilhamento de conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a Geek Night vem recebendo palestras, práticas e fóruns, tendo como assunto os mais diversos temas relacionados ao universo geek.",
+      date: "08 de Julho",
       // If your event is free, just comment this line
       //price: "$100",
       venue: "ThoughtWorks",
@@ -35,7 +25,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Eu vou!",
-        link: "https://www.facebook.com/events/411424865692984"
+        link: "https://www.facebook.com/events/102069203472323"
     },
 
     // Site info
@@ -79,58 +69,40 @@ module.exports = {
         time: "19h00"
       },
       {
-        name: "Roselma Mendes",
-        photo: "themes/yellow-swan/img/presenters/roselma.jpg",
-        bio: "Apaixonada por desenvolvimento de software, sou formada em Sistemas de Informação e a 5 anos trabalho na área. Já trabalhei como desenvolvedora e também como analista de testes em projetos Java nas plataformas ME, EE e SE. No momento estou na ThoughtWorks como desenvolvedora, atualmente em um projeto Python.",
+        name: "Justin Harringa",
+        photo: "themes/yellow-swan/img/presenters/justin.jpg",
+        bio: "Engenheiro de Sistemas no C.E.S.A.R.",
         link: {
           text: "github",
-          href: "http://github.com/roselmamendes"
+          href: "https://github.com/justinharringa"
         },
         presentation: {
-          title: "Desenvolvendo web crawler/scraper com Python",
-          description: "Falar o que são webcrawlers e demonstrar como desenvolver um na linguagem Python.",
+          title: "Continuous Delivery - fundamentos, benefícios e como começar",
+          description: "Justin Harringa vai apresentar os fundamentos e benefícios do Continuous Delivery e como você pode começar a introduzir essa prática nos seus projetos.",
           time: "19h20"
-        }
-      },
-
-      {
-        name: "Aline Cavalcante",
-        photo: "themes/yellow-swan/img/presenters/aline.jpg",
-        bio: "17 anos, presidente do Fora da Caixa, embaixadora FazINOVA, \
-          graduanda em Psicologia pela UFPE, palestrante, empreendedora, \
-          designer e programadora.",
-        link: {
-          text: "twitter",
-          href: "http://twitter.com/cavalcantalines"
-        },
-        presentation: {
-          title: "Pensando Fora da Caixa",
-          description: "Um pouco sobre pensar Fora da Caixa e empreender em \
-            todas as áreas da vida a partir do case da Aline Cavalcante.",
-          time: "19h35"
         }
       },
       {
         name: "Coffe Break",
-        time: "20h05"
+        time: "19h50"
       },
       {
-        name: "Taíse Silva",
-        photo: "themes/yellow-swan/img/presenters/taise.png",
-        bio: "Taíse é formada em Ciência da Computação pela UFPE, e trabalha com criação de software desde 2006, focando em qualidade e automação de testes. Atualmente, tem focado mais em análise de negócios. Trabalha na ThoughtWorks como analista de qualidade, de negócios e consultoria.",
+        name: "Renato Oliveira",
+        photo: "themes/yellow-swan/img/presenters/renato.jpg",
+        bio: "Fundador da Labcodes Software Studio e membro da Django Software Foundation.",
         link: {
-          text: "github",
-          href: "https://github.com/taisedias"
+          text: "twitter",
+          href: "https://twitter.com/_renatooliveira"
         },
         presentation: {
-          title: "Três noções básicas essenciais para a criação de uma suíte de automação para aplicativos web",
-          description: "Reflexões sobre a combinação de padrões e ferramentas que oferecem testes automatizados com alto valor de negócio e baixo custo de manutenção de código.",
-          time: "20h25"
+          title: "Testes Pythonicos com Py.test",
+          description: "Py.test é um framework maduro e completo de testes em Python. Diferente do Unittest, que é um projeto baseado no JUnit, o Py.test foi um projeto pensado para Python. Criado em 2004 por Holger Krekel, é usado por grandes projetos e empresas como PyPy, Sentry e Mozilla. Nesta palestra apresento uma introdução ao framework, runner, tests discovery, markers, fixtures e compara-lo ao Unittest.",
+          time: "20h10"
         }
       },
       {
         name: "Pós Geek Night",
-        time: "21h00"
+        time: "20h40"
       },
     ],
 
@@ -149,6 +121,11 @@ module.exports = {
         name: "ThoughtWorks",
         logo: "themes/yellow-swan/img/tw-logo.png",
         url: "http://www.thoughtworks.com/pt/"
+      },
+      {
+        name: "Snap",
+        logo: "themes/yellow-swan/img/snap-logo.png",
+        url: "https://snap-ci.com/"
       }
     ],
 
