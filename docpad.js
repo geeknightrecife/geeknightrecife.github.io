@@ -17,12 +17,12 @@ module.exports = {
       name: "Geek Night Recife",
       theme: "entrega contínua",
       description: "O Geek Night Recife está de volta e dessa vez o tema será Entrega Contínua! Não é necessário nenhum conhecimento prévio, todo estão convidados. A intenção é fazer um encontro informal com o objetivo de discutir sobre tecnologia. O evento vem cada vez mais se firmando como um espaço para produção e compartilhamento de conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a Geek Night vem recebendo palestras, práticas e fóruns, tendo como assunto os mais diversos temas relacionados ao universo geek.",
-      date: "08 de Julho",
+      date: "27 de Agosto",
       // If your event is free, just comment this line
       //price: "$100",
-      venue: "ThoughtWorks",
-      address: "Av Governador Agamenon Magalhães, 4779",
-      details: "12 andar. Empresarial Isaac Newton",
+      venue: "CESAR.EDU",
+      address: "Rua do Brum, 77, Bairro do Recife, CEP 50030-260",
+      details: "No Auditório",
       city: "Recife",
       state: "PE"
     },
@@ -31,7 +31,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Eu vou!",
-        link: "https://www.facebook.com/events/102069203472323"
+        link: ""
     },
 
     // Site info
@@ -75,16 +75,16 @@ module.exports = {
         time: "19h00"
       },
       {
-        name: "Justin Harringa",
-        photo: "themes/yellow-swan/img/presenters/justin.jpg",
-        bio: "Engenheiro de Sistemas no C.E.S.A.R.",
+        name: "Aleff",
+        //photo: "themes/yellow-swan/img/presenters/justin.jpg",
+        bio: "",
         link: {
-          text: "github",
-          href: "https://github.com/justinharringa"
+          text: "",
+          href: ""
         },
         presentation: {
-          title: "Continuous Delivery - fundamentos, benefícios e como começar",
-          description: "Justin Harringa vai apresentar os fundamentos e benefícios do Continuous Delivery e como você pode começar a introduzir essa prática nos seus projetos.",
+          title: "",
+          description: "",
           time: "19h20"
         }
       },
@@ -93,16 +93,16 @@ module.exports = {
         time: "19h50"
       },
       {
-        name: "Renato Oliveira",
-        photo: "themes/yellow-swan/img/presenters/renato.jpg",
-        bio: "Fundador da Labcodes Software Studio e membro da Django Software Foundation.",
+        name: "Mateus",
+        //photo: "themes/yellow-swan/img/presenters/renato.jpg",
+        bio: "",
         link: {
-          text: "twitter",
-          href: "https://twitter.com/_renatooliveira"
+          text: "",
+          href: ""
         },
         presentation: {
-          title: "Testes Pythonicos com Py.test",
-          description: "Py.test é um framework maduro e completo de testes em Python. Diferente do Unittest, que é um projeto baseado no JUnit, o Py.test foi um projeto pensado para Python. Criado em 2004 por Holger Krekel, é usado por grandes projetos e empresas como PyPy, Sentry e Mozilla. Nesta palestra apresento uma introdução ao framework, runner, tests discovery, markers, fixtures e compara-lo ao Unittest.",
+          title: "",
+          description: "",
           time: "20h10"
         }
       },
@@ -132,6 +132,11 @@ module.exports = {
         name: "Snap",
         logo: "themes/yellow-swan/img/snap-logo.png",
         url: "https://snap-ci.com/"
+      },
+      {
+        name: "CESAR.EDU",
+        logo: "themes/yellow-swan/img/cesar_edu.png",
+        url: "http://www.cesar.edu.br/"
       }
     ],
 
