@@ -15,7 +15,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Geek Night Recife",
-      theme: "entrega contínua",
+      //theme: "entrega contínua",
       description: "O Geek Night Recife está de volta e dessa vez o tema será Entrega Contínua! Não é necessário nenhum conhecimento prévio, todo estão convidados. A intenção é fazer um encontro informal com o objetivo de discutir sobre tecnologia. O evento vem cada vez mais se firmando como um espaço para produção e compartilhamento de conhecimento. Tendo a idéia de ser um espaço democrático e aberto, a Geek Night vem recebendo palestras, práticas e fóruns, tendo como assunto os mais diversos temas relacionados ao universo geek.",
       date: "27 de Agosto",
       // If your event is free, just comment this line
@@ -93,16 +93,16 @@ module.exports = {
         time: "19h50"
       },
       {
-        name: "Mateus",
-        //photo: "themes/yellow-swan/img/presenters/renato.jpg",
+        name: "Mateus Revoredo",
+        photo: "themes/yellow-swan/img/presenters/mateus_geek.jpeg",
         bio: "",
         link: {
-          text: "",
-          href: ""
+          text: "Github",
+          href: "https://github.com/mateusrevoredo"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Bootstrapping web applications without Bootstrap",
+          description: "E se eu lhe disesse que você pode fazer o bootstrapping de uma aplicação web sem utilizar o Twitter Bootstrap? E mais, e se essa alternativa fosse mais organizada, mais fácil, mais flexível, e proporcionasse a você escrever um HTML muito mais semântico? Parece utópico? Nesse lightning talk, vamos fazer um overview nos frameworks de front-end da Thoughtbot(Bourbon, Neat, Bitters & Refills) e como em conjunto eles podem ser uma alternativa ao Twitter Bootstrap em diversas ocasiões.",
           time: "20h10"
         }
       },
