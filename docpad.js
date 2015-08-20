@@ -21,10 +21,10 @@ module.exports = {
       // If your event is free, just comment this line
       //price: "$100",
       venue: "CESAR.EDU",
-      address: "Rua do Brum, 77, Bairro do Recife, CEP 50030-260",
-      details: "No Auditório",
-      city: "Recife",
-      state: "PE"
+      address: "Rua do Brum, 77, Bairro do Recife, CEP 50030-260, Recife, PE",
+      //details: "",
+      //city: "Recife",
+      //state: "PE"
     },
 
     // The Call To Action button at the header,
@@ -51,7 +51,7 @@ module.exports = {
       'schedule',
       //'sponsors',
       'partners'
-      // 'contact'
+      //'contact'
     ],
 
     // Labels which you can translate to other languages
