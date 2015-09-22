@@ -1,3 +1,16 @@
+// Loader
+$dot-color: #79C3CD;
+$dot-size: 35px;
+$circle-size: 70px;
+$animation-time: 4s;
+
+$color-yellow: #FBD301;
+$color-red: #FF3270;
+$color-blue: #208BF1;
+$color-green: #AFE102;
+
+$colors: ($color-red, $color-blue, $color-green, $color-yellow);
+
 @include web-fonts(($fixed-font-family:($light, $regular, $bold)));
 body, html {
     font-family: $fixed-font-family, $base-font-family;
@@ -128,113 +141,100 @@ time {
     left: 0;
     background-color: #fff;
 }
-.loader-gplus {
-    display: inline-block;
-    position: absolute;
-    top: calc(50% - 20px);
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    border-radius: 20px;
-    animation: base 3s steps(1) 0s infinite;
-    &::before, &::after {
-        content: ' ';
-        display: block;
-        width: 50%;
-        height: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        z-index: 1;
-        border-radius: 0 20px 20px 0;
-        transform-origin: 0 50%;
-    }
-    &::before {
-        z-index: 2;
-        transform-style: preserve-3d;
-        animation: flip 3s linear 0s infinite;
-    }
-    &::after {
-        animation: reveal 3s steps(1) 0s infinite;
-    }
+
+// Loader
+.dots {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	outline: 1px solid red;
+
+	filter: url(#goo);
 }
-@keyframes base {
-    0% {
-        transform: rotate(0deg);
-        background-color: #21aa29;
-    }
-    25% {
-        transform: rotate(90deg);
-        background-color: #2159d6;
-    }
-    50% {
-        transform: rotate(180deg);
-        background-color: #d62408;
-    }
-    75% {
-        transform: rotate(270deg);
-        background-color: #ffcf00;
-    }
-    100% {
-        transform: rotate(360deg);
-        background-color: #21aa29;
-    }
+
+.dot {
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	&:before {
+		content: '';
+		width: $dot-size;
+		height: $dot-size;
+		border-radius: 50px;
+		background: $color-yellow;
+		position: absolute;
+		left: 50%;
+		transform: translateY(0);
+		margin-left: -($dot-size/2);
+		margin-top: -($dot-size/2);
+	}
+
+
+	@keyframes dot-move {
+		0% {
+			transform: translateY(0);
+		}
+
+		18%, 22% {
+			transform: translateY(-($circle-size));
+		}
+
+		40%, 100% {
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes dot-colors {
+		@for $i from 0 to 4 {
+			#{$i*25%} {
+				background-color: nth($colors, ($i+3)%4+1);
+			}
+		}
+
+		100% {
+			background-color: nth($colors, 4);
+		}
+	}
+
+	&:nth-child(5):before {
+		z-index: 100;
+		width: $dot-size * 1.3;
+		height: $dot-size * 1.3;
+		margin-left: -($dot-size * .65);
+		margin-top: -($dot-size * .65);
+		animation: dot-colors $animation-time ease infinite;
+	}
+
+	@for $i from 0 to 4 {
+		@keyframes dot-rotate-#{$i + 1} {
+			0% {
+				transform: rotate(#{($i+1)*270deg - 375deg});
+			}
+
+			100% {
+				transform: rotate(#{($i+1)*270deg + 0deg});
+			}
+		}
+
+		&:nth-child(#{$i + 1}) {
+			animation: dot-rotate-#{$i + 1} $animation-time #{$i * $animation-time / 4} linear infinite;
+
+			&:before {
+				background-color: nth($colors, $i+1);
+				animation: dot-move $animation-time #{$i * $animation-time/4} ease infinite;
+			}
+		}
+	}
 }
-@keyframes reveal {
-    0% {
-        background-color: #2159d6;
-        transform: rotate(0deg);
-    }
-    25% {
-        background-color: #d62408;
-        transform: rotate(180deg);
-    }
-    50% {
-        background-color: #ffcf00;
-        transform: rotate(0deg);
-    }
-    75% {
-        background-color: #21aa29;
-        transform: rotate(180deg);
-    }
-    100% {
-        background-color: #2159d6;
-        transform: rotate(0deg);
-    }
-}
-@keyframes flip {
-    0% {
-        background-color: #21aa29;
-        transform: rotateY(0deg);
-    }
-    12.5%, 87.56% {
-        background-color: #105514;
-    }
-    12.51%, 37.5% {
-        background-color: #102c6b;
-    }
-    25% {
-        background-color: #2159d6;
-    }
-    37.51%, 62.5% {
-        background-color: #6b1204;
-    }
-    50% {
-        background-color: #d62408;
-    }
-    62.51%, 87.5% {
-        background-color: #7f6700;
-    }
-    75%, 78% {
-        background-color: #ffcf00;
-    }
-    100% {
-        background-color: #21aa29;
-        transform: rotateY(-720deg);
-    }
-}
+
 .social-links {
     li {
         margin-right: 4px;
