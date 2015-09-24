@@ -103,7 +103,7 @@
             if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
                 var hash = window.location.hash;
                 $(hash).click();
-            } 
+            }
         });
 
         $(function() {
@@ -382,10 +382,6 @@
             if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
-            if (googleMaps == 'logistics') {
-                mapOptions.zoom = 5;
-                mapOptions.zoomControl = true;
-            }
 
             map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
             var marker = new google.maps.Marker({
@@ -405,37 +401,7 @@
             var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
             map.mapTypes.set('default', defaultMapType);
             map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
-                map.setMapTypeId('default');
-                var input = (document.getElementById('location-input'));
-                autocomplete = new google.maps.places.Autocomplete(input);
-                google.maps.event.addListener(autocomplete, 'place_changed', function() {
-                    marker.setVisible(false);
-                    var place = autocomplete.getPlace();
-                    if (place.geometry == 'undefined' || !place.geometry) {
-                        return;
-                    }
-                    var address = '';
-                    if (place.address_components) {
-                        address = [
-                            (place.address_components[0] && place.address_components[0].short_name || ''), (place.address_components[1] && place.address_components[1].short_name || ''), (place.address_components[2] && place.address_components[2].short_name || '')
-                        ].join(' ');
-                    }
-                    geocoder.geocode({
-                        'address': address
-                    }, function(results, status) {
-                        if (status == google.maps.GeocoderStatus.OK) {
-                            origin = results[0].geometry.location;
-                            calcRoute(origin, 'TRANSIT');
-                        } else {
-                            alert('Geocode was not successful for the following reason: ' + status);
-                        }
-                    });
-                });
-
-            } else {
-                map.setMapTypeId('zoomed');
-            }
+            map.setMapTypeId('zoomed');
 
             function calcRoute(origin, selectedMode) {
                 var request = {
@@ -483,7 +449,7 @@
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
             }
-            
+
             function calcRouteFromMyLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {
