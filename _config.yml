@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "Início"}
  - {permalink: "/schedule/", text: "Agenda"}
  - {permalink: "/speakers/", text: "Palestrantes"}
- - {permalink: "/logistics/", text: "Edições Anteriores"}
+ - {permalink: "/previous/", text: "Edições Anteriores"}
  - {permalink: "/team/", text: "Organizadores"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
@@ -107,9 +107,8 @@ twitterHashTag: "geeknightrecife"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
+organizersTitle: "Parceiros"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
