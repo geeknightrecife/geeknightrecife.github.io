@@ -14,6 +14,7 @@ module Jekyll
       self.data['schedule'] = schedule
 
       self.data['title'] = "Arquivo: #{title}"
+      self.data['permalink'] = "/#{dir}/"
     end
   end
 

@@ -1,6 +1,13 @@
 <!-- Begin Sessions Modals -->
+{% if page.permalink == '/schedule/'%}
+  {% assign sessions = site.data.sessions %}
+  {% assign speakers = site.data.speakers %}
+{% else %}
+  {% assign sessions = page.sessions %}
+  {% assign speakers = page.speakers %}
+{% endif %}
 <div class="modals" class="modals">
-	{% for session in site.data.sessions %}
+	{% for session in sessions %}
 		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -29,7 +36,7 @@
 						{% endif %}
 						<hr>
 						<div class="people-details">
-							{% for speaker in site.data.speakers %}
+							{% for speaker in speakers %}
 								{% for session_speaker in session.speakers %}
 									{% if session_speaker == speaker.id %}
 									<div class="row">
@@ -43,7 +50,7 @@
 											{% if speaker.ribbon != null %}
 											<div class="modal-ribbon-wrapper">
 					                            {% for ribbon in speaker.ribbon %}
-					                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
+					                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>
 					                            {% endfor %}
 					                        </div>
 					                        {% endif %}
