@@ -7,7 +7,7 @@
           {% for event in site.data.previous %}
           <!-- {% assign colWidth = 12 | divided_by: forloop.length %} -->
           <div class="col-md-4 col-sm-6 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-              <a href="teste">
+              <a href="{{ event.folder }}">
                 <div class="card">
                     <h4>{{ event.title }}</h4>
                     <p>{{ event.subtitle }}</p>
