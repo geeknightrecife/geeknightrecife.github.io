@@ -3,12 +3,15 @@
     background-repeat: no-repeat;
     &.logo-dark {
     	background-position: 0 -1px;
+      background-size: 100%;
     }
     &.logo-gray {
     	background-position: 0 -63px;
+      background-size: 100%;
 	}
 	&.logo-light {
 	    background-position: 0 -127px;
+      background-size: 100%;
 	}
 }
 .icon {

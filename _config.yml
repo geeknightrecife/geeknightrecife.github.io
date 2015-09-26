@@ -69,13 +69,13 @@ aboutBlock:
  - {title: "Networking", image: "networking.jpg", text: "Frequentemente após o término do encontro o papo continua no bar ou restaurante mais próximo, permitindo que os participantes possam trocar idéias sobre os temas abordados naquela noite, e conhecer melhor a comunidade que fazem parte." }
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "speakers.jpg"
 rockstarSpeakersCount: 2
 rockstarSpeakersTitle: "Palestrantes"
 rockstarSpeakersButtonText: "Conheça os palestrantes"
 
 # Location Block
-locationBlockTitle: "Local"
+locationBlockTitle: "Endereço"
 eventLocationName: "C.E.S.A.R EDU"
 eventLocationLink: "https://www.google.com.br/maps/place/R.+do+Brum,+77+-+Recife,+PE,+50030-260/@-8.0598405,-34.8718425,19z/data=!3m1!4b1!4m2!3m1!1s0x7ab18a2e13a3b6b:0xcbfb0b0d3f4bb7e6?hl=en"
 eventStreetAddress: "R. do Brum, 77"
@@ -90,15 +90,6 @@ eventPlaceCoordinates: "-8.059844, -34.871848"
 mapCenterCoordinates: "-8.059844, -34.871848"
 mapMobileCenterCoordinates: "-8.059844, -34.871848"
 
-# Venue Block
-venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
-
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
@@ -108,37 +99,22 @@ twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_int
 # Partners Block
 organizersTitle: "Parceiros"
 
-# Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
-
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://www.facebook.com/groups/geeknightrecife/", icon: "facebook"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "attribution", text: "Atribuições"}
  -
-  title: "Contacts"
+  title: "Contato"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "https://geeknightrecifepe.slack.com/", text: "Junte-se a nós no Slack"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
-
-# Blog
-blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+   - {permalink: "http://pt-br.confcodeofconduct.com/", text: "Código de Conduta"}
 
 # Speakers List Block
 showSessions: true
