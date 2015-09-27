@@ -86,3 +86,4 @@ Alguns pontos ainda estão pendentes
 - [ ] Página com informações sobre "quero palestrar"
 - [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
 - [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
+- [ ] Criar Google Form para receber os candidados a palestrante.
