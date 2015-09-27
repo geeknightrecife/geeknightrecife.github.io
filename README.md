@@ -68,14 +68,15 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 
 ##TODO
 
-No momento alguns pontos ainda estão pendentes
+Alguns pontos ainda estão pendentes
 
 - [ ] Detalhar texto na página de licenças
-- [ ] Álbum de fotos para os eventos passados.
+- [ ] Álbum de fotos para os eventos passados(Baseado em uma URL do flickr).
 - [ ] Página com os responsáveis
 - [ ] Clean up do layout(seções removidas)
 - [ ] Feed do Twitter
 - [ ] Exibir menos conteúdo quando não tiver evento confirmado
 - [ ] Cadastrar o histórico de todos os eventos passados
 - [ ] Página com informações sobre "quero palestrar"
+- [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
 - [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
