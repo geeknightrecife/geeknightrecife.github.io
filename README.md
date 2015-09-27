@@ -65,3 +65,16 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 7. O progresso do build pode ser acompanhado [aqui](https://snap-ci.com/mateusrevoredo/geeknightrecife.github.io/branch/source)
 
 8. Após a finalização do build com sucesso, a nova versão do site estará disponível [aqui](http://geeknightrecife.github.io) 
+
+##TODO
+
+No momento alguns pontos ainda estão pendentes
+
+- [ ] Detalhar texto na página de licenças
+- [ ] Álbum de fotos para os eventos passados.
+- [ ] Página com os responsáveis
+- [ ] Clean up do layout(seções removidas)
+- [ ] Feed do Twitter
+- [ ] Exibir menos conteúdo quando não tiver evento confirmado
+- [ ] Cadastrar o histórico de todos os eventos que já tiveram
+- [ ] Página com informações sobre "quero palestrar"
