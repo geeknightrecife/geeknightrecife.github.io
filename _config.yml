@@ -47,9 +47,9 @@ navigationLinks:
  - {permalink: "/previous/", text: "Edições Anteriores"}
  - {permalink: "/team/", text: "Organizadores"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+ - {link: "#", text: "Seja um Palestrante"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+ - {link: "#", text: "Seja um Palestrante"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -94,7 +94,7 @@ mapMobileCenterCoordinates: "-8.059844, -34.871848"
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "geeknightrecife"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterFeed: "#"
 
 # Partners Block
 organizersTitle: "Parceiros"
