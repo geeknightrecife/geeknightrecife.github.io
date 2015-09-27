@@ -76,5 +76,6 @@ No momento alguns pontos ainda estão pendentes
 - [ ] Clean up do layout(seções removidas)
 - [ ] Feed do Twitter
 - [ ] Exibir menos conteúdo quando não tiver evento confirmado
-- [ ] Cadastrar o histórico de todos os eventos que já tiveram
+- [ ] Cadastrar o histórico de todos os eventos passados
 - [ ] Página com informações sobre "quero palestrar"
+- [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
