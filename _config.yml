@@ -1,0 +1,124 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Geek Night Recife"
+email: "devfest@gdg.org.ua"
+description: "Um encontro informal para discutir sobre tecnologia"
+baseurl: ""
+url: "http://geeknightrecife.github.io"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsSiteUrl: "gdg-x.github.io"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "GDG Lviv"
+organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "lviv@gdg.org.ua"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@DevFest"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://bit.ly/dfua-c4p"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Início"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/previous/", text: "Edições Anteriores"}
+ - {permalink: "/team/", text: "Organizadores"}
+bottomNavigationLinks:
+ - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+rightNavigationButtons:
+ - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Geek Night Recife: <typeout>"
+eventDate: "10 de Outubro, 2015, Thoughtworks, Recife"
+typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
+typeoutFallback: "Tecnologia"
+heroButtons:
+ - {link: "https://www.facebook.com/events/435653246643355/", text: "Eu Vou!"}
+
+# About Block
+aboutTitle: "Sobre a Geek Night Recife"
+aboutBlock:
+ - {title: "O Evento", image: "conferencia.jpg", text: "A Geek Night é um encontro informal mensal onde escolhemos e discutimos sobre um tópico de tecnologia relevante/interessante. Esperamos criar um espaço para discussão de idéias, tecnologias e técnicas no campo do desenvolvimento de software. Pode ser um grupo de pessoas trabalhando em um projeto open source ou trazer seu próprio projeto para trabalharmos." }
+ - {title: "Palestras", image: "palestras.jpg", text: "Tendo a idéia de ser um espaço democrático, aberto e diverso, a Geek Night vem recebendo palestras, práticas e fóruns, tendo todo o tipo de assunto relacionados ao universo geek." }
+
+ - {title: "Networking", image: "networking.jpg", text: "Frequentemente após o término do encontro o papo continua no bar ou restaurante mais próximo, permitindo que os participantes possam trocar idéias sobre os temas abordados naquela noite, e conhecer melhor a comunidade que fazem parte." }
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "speakers.jpg"
+rockstarSpeakersCount: 2
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
+
+# Location Block
+locationBlockTitle: "Endereço"
+eventLocationName: "C.E.S.A.R EDU"
+eventLocationLink: "https://www.google.com.br/maps/place/R.+do+Brum,+77+-+Recife,+PE,+50030-260/@-8.0598405,-34.8718425,19z/data=!3m1!4b1!4m2!3m1!1s0x7ab18a2e13a3b6b:0xcbfb0b0d3f4bb7e6?hl=en"
+eventStreetAddress: "R. do Brum, 77"
+eventAddressLocality: "Recife"
+eventAddressLocalityRegion: "Pernambuco"
+eventPostalCode: "50030-260"
+eventAddressCountry: "Brasil"
+eventStartTime: "2014-10-25T19:00"
+eventDoorTime: "09:00"
+eventEndTime: "2015-10-25T21:00"
+eventPlaceCoordinates: "-8.059844, -34.871848"
+mapCenterCoordinates: "-8.059844, -34.871848"
+mapMobileCenterCoordinates: "-8.059844, -34.871848"
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "geeknightrecife"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Parceiros"
+
+# Footer
+socialLinks:
+ - {link: "https://www.facebook.com/groups/geeknightrecife/", icon: "facebook"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "attribution", text: "Atribuições"}
+ -
+  title: "Contato"
+  links:
+   - {link: "https://geeknightrecifepe.slack.com/", text: "Junte-se a nós no Slack"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "http://pt-br.confcodeofconduct.com/", text: "Código de Conduta"}
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
