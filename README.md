@@ -32,6 +32,12 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
     $ bundle install
   ```
 
+4. Ative o watcher para que o site seja recompilado a cada alteração
+
+  ```
+    $ bundle exec jekyll serve --watch
+  ```  
+
 ## Atualizando
 
 1. Antes de começar a modificar a versão atual para adicionar informações de um novo evento, crie uma tag para o último
