@@ -1,48 +1,67 @@
 # Geek Night Recife
-  Hotsite for Geek Night Recife.
 
-  The hostsite uses the `Conf Boilerplate` for documentation about the project [look here](https://github.com/geeknightrecife/geeknightrecife.github.io/tree/source).
+Hotsite do Geek Night Recife.
 
-## Installing
+Esse hotsite tem seu build e deploy orgulhosamente realizados pelo [Snap CI](https://snap-ci.com/).
 
-1. Install [Git](http://git-scm.com/downloads) and [NodeJS](http://nodejs.org/download/), if you don't have it yet.
+__No momento o status do build é:__
 
-2. Clone the project
+![](https://snap-ci.com/mateusrevoredo/geeknightrecife.github.io/branch/source/build_image.svg)
+
+O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para informações específicas do template [clique aqui](https://github.com/gdg-x/zeppelin).
+
+## Instalando
+
+1. Instale o [Git](http://git-scm.com/downloads) e [Ruby](https://www.ruby-lang.org/en/downloads/), caso ainda não tenha.
+
+2. Clone o projeto
 
   ```
     $ git clone https://github.com/geeknightrecife/geeknightrecife.github.io
   ```
 
-3. Change for `source` branch
+3. Troque o branch para `source`
 
   ```
     $ git checkout source
   ```
 
-4. Install dependencies
+4. Instale as dependências
 
   ```
-    $ npm install
+    $ bundle install
   ```
 
-## Updating
+## Atualizando
 
-1. Before init a new event, create a tag for the last one
+1. Antes de começar a modificar a versão atual para adicionar informações de um novo evento, crie uma tag para o último
 
   ```
-    $ git tag yyyy-MM // E.g.: 2015-07
+    $ git tag yyyy-MM-DD // E.x.: 2015-07-05
   ```
 
-2. Update the `docpad.json` file
+2. ####Atualizar o arquivo `_config.yml`
 
-3. Commit and push for `source` branch
+	1. Alterar o `# Location Block` para o novo endereço onde ocorrerá o evento.
+	2. Alterar o `eventDate` para a nova data
+	3. Substituir `heroButtons` para o link do novo evento do Facebook.
+
+3. ####Mover os dados do evento anterior para o histórico
+	1. Criar uma pasta no formato `yyyy-MM-DD` dentro de `_data/archive`
+	2. Copiar os arquivos `schedule.yml`, `speakers.yml`, `sessions.yml` e `organizers.yml` para dentro da pasta criada antes de começar a editá-los.
+	3. Caso o participante da edição passada tenha enviado o link para os slides, adicionar o link para a apresentação, inserindo uma key `presentation:` no arquivo `sessions.yml` copiado no passo anterior.
+	3. Adicionar entrada para o evento anterior no arquivo `_data/previous.yml`
+
+4. Editar os arquivos `schedule.yml`, `speakers.yml`, `sessions.yml` e `organizers.yml` adicionando/alterando as informações para o evento que irá ocorrer.	
+
+5. Commit e push bara o branch `source`
 
   ```
     $ git push origin source
   ```
 
-4. Deploy the github page to `master` branch
+6. O Snap CI irá detectar o novo push no branch `source`, e fará o build e publicação do hotsite.
 
-  ```
-    $ npm run deploy
-  ```
+7. O progresso do build pode ser acompanhado [aqui](https://snap-ci.com/mateusrevoredo/geeknightrecife.github.io/branch/source)
+
+8. Após a finalização do build com sucesso, a nova versão do site estará disponível [aqui](http://geeknightrecife.github.io) 
