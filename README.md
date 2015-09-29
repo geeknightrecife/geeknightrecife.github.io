@@ -1,4 +1,4 @@
-# Geek Night Recife
+# Geek Night Recife [![Status das Dependências](https://gemnasium.com/mateusrevoredo/geeknightrecife.github.io.svg)](https://gemnasium.com/mateusrevoredo/geeknightrecife.github.io)
 
 Hotsite do Geek Night Recife.
 
@@ -7,8 +7,6 @@ Esse hotsite tem seu build e deploy orgulhosamente realizados pelo [Snap CI](htt
 __No momento o status do build é:__
 
 [![Status do Build](https://snap-ci.com/mateusrevoredo/geeknightrecife.github.io/branch/source/build_image.svg)](https://snap-ci.com/mateusrevoredo/geeknightrecife.github.io/)
-
-[![Status das Dependências](https://gemnasium.com/mateusrevoredo/geeknightrecife.github.io.svg)](https://gemnasium.com/mateusrevoredo/geeknightrecife.github.io)
 
 O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para informações específicas do template [clique aqui](https://github.com/gdg-x/zeppelin).
 
