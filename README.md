@@ -87,5 +87,5 @@ Alguns pontos ainda estão pendentes
 - [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
 - [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
 - [ ] Criar Google Form para receber os candidados a palestrante.
-- [ ] Adicionar task de minificação no build
-- [ ] Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.
+- [x] ~~Adicionar task de minificação no build~~
+- [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
