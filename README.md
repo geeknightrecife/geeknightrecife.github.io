@@ -80,7 +80,7 @@ Alguns pontos ainda estão pendentes
 - [ ] Álbum de fotos para os eventos passados(Baseado em uma URL do flickr).
 - [ ] Página com os responsáveis
 - [ ] Clean up do layout(seções removidas)
-- [x] Feed do Twitter
+- [x] ~~Feed do Twitter~~
 - [ ] Exibir menos conteúdo quando não tiver evento confirmado
 - [ ] Cadastrar o histórico de todos os eventos passados
 - [ ] Página com informações sobre "quero palestrar"
