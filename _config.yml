@@ -95,6 +95,8 @@ tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "geeknightrecife"
 twitterFeed: "#"
+twitterConsumerKey: ""
+twitterConsumerSecret:  ""
 
 # Partners Block
 organizersTitle: "Parceiros"

@@ -229,40 +229,35 @@
             location.hash = $(this).attr('id');
         });
 
+        $('.tweets > .tweet > .tweet-text').each(function(){
+          $(this).html(linkify($(this).text()));
+        });
 
-        if (typeof twitterFeedUrl !== 'undefined') {
-            $.getJSON(twitterFeedUrl, function(data) {
-                $.each(data, function(i, gist) {
-                    var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + '" target="_blank">@' + gist.user.screen_name + '</a></p></div>';
-                    $('#tweets').append(tweetElement);
-                });
-                animateTweets();
-            });
+        animateTweets();
 
-            function linkify(inputText) {
-                var replacedText, links1, links2, hashtags, profileLinks;
-                links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-                replacedText = inputText.replace(links1, '<a href="$1" target="_blank">$1</a>');
-                links2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-                replacedText = replacedText.replace(links2, '$1<a href="http://$2" target="_blank">$2</a>');
-                hashtags = /#(\S*)/g;
-                replacedText = replacedText.replace(hashtags, '<a href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
-                profileLinks = /\B@([\w-]+)/gm;
-                replacedText = replacedText.replace(profileLinks, '<a href="https://twitter.com/$1" target="_blank">@$1</a>');
-                return replacedText;
+        function linkify(inputText) {
+            var replacedText, links1, links2, hashtags, profileLinks;
+            links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+            replacedText = inputText.replace(links1, '<a href="$1" target="_blank">$1</a>');
+            links2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+            replacedText = replacedText.replace(links2, '$1<a href="http://$2" target="_blank">$2</a>');
+            hashtags = /#(\S*)/g;
+            replacedText = replacedText.replace(hashtags, '<a href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
+            profileLinks = /\B@([\w-]+)/gm;
+            replacedText = replacedText.replace(profileLinks, '<a href="https://twitter.com/$1" target="_blank">@$1</a>');
+            return replacedText;
+        }
+
+        function animateTweets() {
+            var $tweets = $('#tweets').find('.tweet'),
+                i = 0;
+            $($tweets.get(0)).removeClass('hidden');
+            function changeTweets() {
+                var next = (++i % $tweets.length);
+                $($tweets.get(next - 1)).addClass('hidden');
+                $($tweets.get(next)).removeClass('hidden');
             }
-
-            function animateTweets() {
-                var $tweets = $('#tweets').find('.tweet'),
-                    i = 0;
-                $($tweets.get(0)).removeClass('hidden');
-                function changeTweets() {
-                    var next = (++i % $tweets.length);
-                    $($tweets.get(next - 1)).addClass('hidden');
-                    $($tweets.get(next)).removeClass('hidden');
-                }
-                var interval = setInterval(changeTweets, 5000);
-            }
+            var interval = setInterval(changeTweets, 5000);
         }
     });
 
