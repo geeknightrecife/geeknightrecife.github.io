@@ -89,3 +89,4 @@ Alguns pontos ainda estão pendentes
 - [ ] Criar Google Form para receber os candidados a palestrante.
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
+- [ ] Adicionar documentação de fetch dos tweets no readme
