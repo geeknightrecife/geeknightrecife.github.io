@@ -98,6 +98,11 @@ twitterFeed: "#"
 twitterConsumerKey: ""
 twitterConsumerSecret:  ""
 
+#Facebook
+facebookAppId: ""
+facebookAppSecret: ""
+facebookApiVersion: "2.4"
+
 # Partners Block
 organizersTitle: "Parceiros"
 

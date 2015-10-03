@@ -1,9 +1,15 @@
+{% if page.permalink == '/' %}
+  {% assign organizers = site.data.organizers %}
+{% else %}
+  {% assign organizers = page.organizers %}
+{% endif %}
+
 <!-- Begin Partners Section -->
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.organizersTitle }}</h3>
-            {% for organizer in site.data.organizers %}
+            {% for organizer in organizers %}
             <h5>{{ organizer.group }}</h5>
             <ul class="list-inline">
                 {% for element in organizer.elements %}

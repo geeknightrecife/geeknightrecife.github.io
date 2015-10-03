@@ -1,11 +1,10 @@
-<!-- Begin Speakers List 2-->
-<section id="speakers">
+<!-- Begin Previous Editions-->
+<section id="previous">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
 
           {% assign animationDelay = 0 %}
           {% for event in site.data.previous %}
-          <!-- {% assign colWidth = 12 | divided_by: forloop.length %} -->
           <div class="col-md-4 col-sm-6 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
               <a href="{{ event.folder }}">
                 <div class="card">
@@ -19,4 +18,4 @@
         </div>
     </div>
 </section>
-<!-- End Speakers List 2 -->
+<!-- End Previous Editions -->

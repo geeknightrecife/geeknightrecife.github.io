@@ -120,6 +120,10 @@ GEM
       html-pipeline (~> 1.9)
       jekyll (>= 2.0)
     json (1.8.3)
+    koala (2.2.0)
+      addressable
+      faraday
+      multi_json
     kramdown (1.5.0)
     liquid (2.6.2)
     listen (2.10.1)
@@ -188,6 +192,7 @@ DEPENDENCIES
   autoprefixer-rails
   compass
   github-pages
+  koala
   sass-media_query_combiner
   twitter
 
