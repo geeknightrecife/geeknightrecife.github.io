@@ -78,7 +78,6 @@ Alguns pontos ainda estão pendentes
 
 - [x] ~~Detalhar texto na página de licenças~~
 - [x] ~~Álbum de fotos para os eventos passados(Baseado em uma URL do facebook).~~
-- [ ] Página com os responsáveis
 - [ ] Clean up do layout(seções removidas)
 - [x] ~~Feed do Twitter~~
 - [ ] Exibir menos conteúdo quando não tiver evento confirmado
