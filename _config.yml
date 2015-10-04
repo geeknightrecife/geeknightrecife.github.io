@@ -8,25 +8,15 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
-
 # Site Settings
 title: "Geek Night Recife"
-email: "devfest@gdg.org.ua"
 description: "Um encontro informal para discutir sobre tecnologia"
 baseurl: ""
 url: "http://geeknightrecife.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-68157157-1"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
-
-# Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+googleAnalyticsSiteUrl: "geeknightrecife.github.io"
+siteVerification: "U69IMjHq7CsO241RifiWl1ef13rSUC3bNg_JjOfw8i4"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
@@ -35,8 +25,8 @@ socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
-# Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
+# Link para "seja um palestrante"
+becomeSpeaker: "https://bit.ly/dfua-c4p"
 
 
 # Navigation
@@ -92,7 +82,7 @@ mapMobileCenterCoordinates: "-8.059844, -34.871848"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
+tweetsFeedTitle: "E aí?"
 twitterHashTag: "geeknightrecife"
 twitterFeed: "#"
 twitterConsumerKey: ""

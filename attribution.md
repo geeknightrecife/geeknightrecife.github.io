@@ -5,7 +5,20 @@ permalink: /attribution/
 image: license.jpg
 ---
 
-####Creative Commons - Attribution 2.0 Generic
+####Creative Commons - Atribuição 2.0 Genérica
+
+
+
+ Algumas fotos utilizadas nesse website estão licenciadas sob a "[Creative Commons - Atribuição 2.0 Genérica](https://creativecommons.org/licenses/by/2.0/deed.pt_BR)".
+
+ De acordo com a licença, estamos autorizados a copiar e redistribuir o material em qualquer suporte ou formato, além de remixar, transformar, e criar a partir do material
+para qualquer fim, mesmo que comercial. Contanto que os créditos apropriados sejam dados, e referências sejam feitas aos trabalhos originais.
+
+A licença completa pode ser encontrada [aqui](https://creativecommons.org/licenses/by/2.0/br/legalcode)
+
+Abaixo encontram-se listadas todas as imagens e suas devidas atribuições.
+
+---
 
 ![](/img/attribution/beer.jpg)
 **Diverse Beers** - *Imagem originalmente postada no Flickr por Charles Hutchins disponível em [https://www.flickr.com/photos/celesteh/2251012435](https://www.flickr.com/photos/celesteh/2251012435).*
