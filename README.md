@@ -90,3 +90,4 @@ Alguns pontos ainda estão pendentes
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
 - [ ] Adicionar documentação de fetch dos tweets no readme
+- [ ] Adicionar time organizador no Analytics, Search, Snap etc.
