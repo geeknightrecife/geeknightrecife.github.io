@@ -10,7 +10,7 @@
             </h3>
             <div id="tweets" class="tweets">
               {% for tweet in site.data.tweets limit:10 %}
-                <div class="tweet animated fadeInUp hidden"><p class="tweet-text">{{ tweet.tweet }}</p><p class="tweet-meta">by <a href="https://twitter.com/{{ tweet.username }}" target="_blank">@{{ tweet.username }}</a></p></div>
+                <div class="tweet animated fadeInUp hidden"><p class="tweet-text">{{ tweet.tweet }}</p><p class="tweet-meta">por <a href="https://twitter.com/{{ tweet.username }}" target="_blank">@{{ tweet.username }}</a></p></div>
               {% endfor %}
             </div>
         </div>
