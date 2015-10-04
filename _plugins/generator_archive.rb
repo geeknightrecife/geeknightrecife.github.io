@@ -51,7 +51,8 @@ module Jekyll
     safe true
 
     def generate(site)
-      if site.config['facebookAppId'].empty? ||
+      if ENV['JEKYLL_ENV'] != 'production' ||
+        site.config['facebookAppId'].empty? ||
         site.config['facebookAppId'].nil? ||
         site.config['facebookApiVersion'].empty? ||
         site.config['facebookApiVersion'].nil? ||
@@ -59,8 +60,7 @@ module Jekyll
         site.config['facebookAppSecret'].nil?
         return
       end
-      # ENV['JEKYLL_ENV'] != 'production'
-      # >
+
       dir = 'previous'
       site.data['previous'].each do |archive|
         speakers = site.data['archive'][archive['folder']]['speakers']
