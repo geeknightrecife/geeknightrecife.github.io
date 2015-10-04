@@ -76,7 +76,7 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 
 Alguns pontos ainda estão pendentes
 
-- [ ] Detalhar texto na página de licenças
+- [x] Detalhar texto na página de licenças
 - [x] ~~Álbum de fotos para os eventos passados(Baseado em uma URL do facebook).~~
 - [ ] Página com os responsáveis
 - [ ] Clean up do layout(seções removidas)
