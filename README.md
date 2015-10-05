@@ -85,7 +85,7 @@ Alguns pontos ainda estão pendentes
 - [ ] Página com informações sobre "quero palestrar"
 - [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
 - [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
-- [ ] Criar Google Form para receber os candidados a palestrante.
+- [x] ~~Criar Google Form para receber os candidados a palestrante.~~
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
 - [ ] Adicionar documentação de fetch dos tweets no readme
