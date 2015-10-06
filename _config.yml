@@ -26,7 +26,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Link para "seja um palestrante"
-becomeSpeaker: "https://bit.ly/dfua-c4p"
+becomeSpeaker: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform"
 
 
 # Navigation
@@ -36,9 +36,9 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/previous/", text: "Edições Anteriores"}
 bottomNavigationLinks:
- - {link: "#", text: "Seja um Palestrante"}
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
 rightNavigationButtons:
- - {link: "#", text: "Seja um Palestrante"}
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
 
 # Hero Block
 heroImage: "hero.jpg"
