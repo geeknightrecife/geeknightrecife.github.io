@@ -74,19 +74,13 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 
 ##TODO
 
-Alguns pontos ainda estão pendentes
-
-- [x] ~~Detalhar texto na página de licenças~~
-- [x] ~~Álbum de fotos para os eventos passados(Baseado em uma URL do facebook).~~
-- [ ] Clean up do layout(seções removidas)
+- [x] ~~Clean up do layout(seções removidas)~~
 - [x] ~~Feed do Twitter~~
-- [ ] Exibir menos conteúdo quando não tiver evento confirmado
+- [x] ~~Exibir menos conteúdo quando não tiver evento confirmado~~
 - [ ] Cadastrar o histórico de todos os eventos passados
-- [ ] Página com informações sobre "quero palestrar"
 - [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
-- [ ] Futuramente, fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
+- [ ] Fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
 - [x] ~~Criar Google Form para receber os candidados a palestrante.~~
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
-- [ ] Adicionar documentação de fetch dos tweets no readme
 - [ ] Adicionar time organizador no Analytics, Search, Snap etc.
