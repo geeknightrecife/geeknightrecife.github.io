@@ -9,7 +9,9 @@ permalink: /
 
  {% include rockstar-speakers.html %}
 
- {% include location-map.html %}
+ {% if site.preparingNextEvent == false %}
+   {% include location-map.html %}
+ {% endif %}
 
  {% include twitter-feed.html %}
 
