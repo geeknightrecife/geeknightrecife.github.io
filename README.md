@@ -77,12 +77,12 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 - [x] ~~Clean up do layout(seções removidas)~~
 - [x] ~~Feed do Twitter~~
 - [x] ~~Exibir menos conteúdo quando não tiver evento confirmado~~
-- [ ] Cadastrar o histórico de todos os eventos passados
-- [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
-- [ ] Fazer o fetch automático dos eventos anteriores baseado na tag do git. Ao invés de manualmente
 - [x] ~~Criar Google Form para receber os candidados a palestrante.~~
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
 - [ ] Adicionar time organizador no Analytics, Search, Snap etc.
 - [ ] Corrigir issue no delay do load das boxes de eventos anteriores
-- [ ] Centralizar as datas do evento em um único ponto da configuracao
+- [ ] Centralizar as datas do evento em um único ponto da configuração
+- [ ] Cadastrar o histórico de todos os eventos passados
+- [ ] Enviar o evento anterior para "previous" no daily build do SnapCI
+- [ ] Adicionar convenções de tamanhos de imagem e nomenclatura de arquivos aqui no README
