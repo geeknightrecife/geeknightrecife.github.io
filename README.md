@@ -84,3 +84,5 @@ O hotsite utiliza o `Project Zeppelin` com diversas customizações. Para inform
 - [x] ~~Adicionar task de minificação no build~~
 - [x] ~~Fazer o Snap CI deletar a pasta _site inteira e substituir o conteúdo. Ao invés de fazer merge.~~
 - [ ] Adicionar time organizador no Analytics, Search, Snap etc.
+- [ ] Corrigir issue no delay do load das boxes de eventos anteriores
+- [ ] Centralizar as datas do evento em um único ponto da configuracao
