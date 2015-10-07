@@ -1,0 +1,24 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+
+-
+  id: 001
+  title: "Bootstrapping web applications without Bootstrap"
+  description: "E se eu lhe disesse que você pode fazer o bootstrapping de uma aplicação web sem utilizar o Twitter Bootstrap? E mais, e se essa alternativa fosse mais organizada, mais fácil, mais flexível, e proporcionasse a você escrever um HTML muito mais semântico? Parece utópico? Nesse lightning talk, vamos fazer um overview nos frameworks de front-end da Thoughtbot(Bourbon, Neat, Bitters & Refills) e como em conjunto eles podem ser uma alternativa ao Twitter Bootstrap em diversas ocasiões."
+  speakers: [1]
+  presentation: "https://speakerdeck.com/mateusrevoredo/bootstrapping-web-applications-without-bootstrap"
+-
+  id: 002
+  title: "Testes de UI: não aceite mais falso negativos"
+  description: "Um teste falha em sua ferramenta de CI. Você lê o nome do teste e já sabe: é só rodar novamente que ele deve passar. Se você está nesse cenário, não se sinta sozinho, muitos times enfrentam o mesmo problema. Não podemos admitir que falso negativos atrapalhem o feedback da nossa integração contínua."
+  speakers: [2]

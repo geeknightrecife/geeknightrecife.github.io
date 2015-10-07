@@ -23,7 +23,18 @@ module Jekyll
     end
 
     def generate_facebook_albums(schedule)
-      return if schedule['facebookAlbumId'].nil? || schedule['facebookAlbumId'].empty?
+      if ENV['JEKYLL_ENV'] != 'production' ||
+        site.config['facebookAppId'].empty? ||
+        site.config['facebookAppId'].nil? ||
+        site.config['facebookApiVersion'].empty? ||
+        site.config['facebookApiVersion'].nil? ||
+        site.config['facebookAppSecret'].empty? ||
+        site.config['facebookAppSecret'].nil? ||
+        schedule['facebookAlbumId'].nil? ||
+        schedule['facebookAlbumId'].empty?
+        return
+      end
+
       Koala.config.api_version = "v#{site.config['facebookApiVersion']}"
       @oauth = Koala::Facebook::OAuth.new(site.config['facebookAppId'], site.config['facebookAppSecret'])
       app_access_token = @oauth.get_app_access_token
@@ -51,16 +62,6 @@ module Jekyll
     safe true
 
     def generate(site)
-      if ENV['JEKYLL_ENV'] != 'production' ||
-        site.config['facebookAppId'].empty? ||
-        site.config['facebookAppId'].nil? ||
-        site.config['facebookApiVersion'].empty? ||
-        site.config['facebookApiVersion'].nil? ||
-        site.config['facebookAppSecret'].empty? ||
-        site.config['facebookAppSecret'].nil?
-        return
-      end
-
       dir = 'previous'
       site.data['previous'].each do |archive|
         speakers = site.data['archive'][archive['folder']]['speakers']

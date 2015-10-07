@@ -1,0 +1,21 @@
+-
+  id: 1
+  name: "Mateus"
+  surname: "Revoredo"
+  company: "CESAR"
+  title: "Engenheiro de Sistemas"
+  thumbnailUrl: MateusRevoredo.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "https://github.com/mateusrevoredo"}
+    - {name: "twitter", link: "https://twitter.com/mateusrevoredo"}
+-
+  id: 2
+  name: "Andrei"
+  surname: "Tognolo"
+  company: "ThoughtWorks"
+  title: "Consultant Developer"
+  thumbnailUrl: AndreiTognolo.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/AndreiTognolo"}

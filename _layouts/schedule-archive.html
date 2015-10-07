@@ -7,6 +7,8 @@ image: schedule.jpg
 
 {% include schedule.html %}
 
-{% include event-pictures.html %}
+{% if site.pictures %}
+  {% include event-pictures.html %}
+{% endif %}
 
 {% include partners.html %}
