@@ -1,0 +1,122 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+# Event coming soon
+preparingNextEvent: true
+comingSoonText: "Fiquem ligados, estamos preparando a próxima Geek Night..."
+comingSoonDetailTitle: "Em breve..."
+comingSoonDetailText: >
+  A última Geek Night foi um sucesso! Neste momento estamos preparando o conteúdo do nosso próximo encontro.
+  Enquanto não divulgamos a agenda, dá uma olhada como foram os nossos <a href="/previous\">encontros anteriores</a>.
+  Ou melhor, caso você tenha uma boa idéia e queira compartilhar com a comunidade, por que você não aproveita para <a href="https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform">submeter uma palestra</a>?.
+
+# Site Settings
+title: "Geek Night Recife"
+description: "Um encontro informal para discutir sobre tecnologia"
+baseurl: ""
+url: "http://geeknightrecife.github.io"
+googleAnalyticsTrackingId: "UA-68157157-1"
+googleAnalyticsSiteUrl: "geeknightrecife.github.io"
+siteVerification: "U69IMjHq7CsO241RifiWl1ef13rSUC3bNg_JjOfw8i4"
+
+# Head
+metaKeywords: "geek, night, recife, tecnologia, evento, programacao, meetup, desenvolvedores, comunidade"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Link para "seja um palestrante"
+becomeSpeaker: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Início"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/previous/", text: "Edições Anteriores"}
+bottomNavigationLinks:
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
+rightNavigationButtons:
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Geek Night Recife: <typeout>"
+eventDate: "28 de Outubro, 2015, CESAR, Recife"
+typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
+typeoutFallback: "Tecnologia"
+heroButtons:
+ - {link: "https://www.facebook.com/events/435653246643355/", text: "Eu Vou!"}
+
+# About Block
+aboutTitle: "Sobre a Geek Night Recife"
+aboutBlock:
+ - {title: "O Evento", image: "conferencia.jpg", text: "A Geek Night é um encontro informal mensal onde escolhemos e discutimos sobre um tópico de tecnologia relevante/interessante. Esperamos criar um espaço para discussão de idéias, tecnologias e técnicas no campo do desenvolvimento de software. Pode ser um grupo de pessoas trabalhando em um projeto open source ou trazer seu próprio projeto para trabalharmos." }
+ - {title: "Palestras", image: "palestras.jpg", text: "Tendo a idéia de ser um espaço democrático, aberto e diverso, a Geek Night vem recebendo palestras, práticas e fóruns, tendo todo o tipo de assunto relacionados ao universo geek." }
+
+ - {title: "Networking", image: "networking.jpg", text: "Frequentemente após o término do encontro o papo continua no bar ou restaurante mais próximo, permitindo que os participantes possam trocar idéias sobre os temas abordados naquela noite, e conhecer melhor a comunidade que fazem parte." }
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "speakers.jpg"
+rockstarSpeakersCount: 2
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
+
+# Location Block
+locationBlockTitle: "Endereço"
+eventLocationName: "C.E.S.A.R EDU"
+eventLocationLink: "https://www.google.com.br/maps/place/R.+do+Brum,+77+-+Recife,+PE,+50030-260/@-8.0598405,-34.8718425,19z/data=!3m1!4b1!4m2!3m1!1s0x7ab18a2e13a3b6b:0xcbfb0b0d3f4bb7e6?hl=en"
+eventStreetAddress: "R. do Brum, 77"
+eventAddressLocality: "Recife"
+eventAddressLocalityRegion: "Pernambuco"
+eventPostalCode: "50030-260"
+eventAddressCountry: "Brasil"
+eventStartTime: "2014-10-28T19:00"
+eventDoorTime: "09:00"
+eventEndTime: "2015-10-28T21:00"
+eventPlaceCoordinates: "-8.059844, -34.871848"
+mapCenterCoordinates: "-8.059844, -34.871848"
+mapMobileCenterCoordinates: "-8.059844, -34.871848"
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "E aí?"
+twitterHashTag: "geeknightrecife"
+twitterFeed: "#"
+twitterConsumerKey: ""
+twitterConsumerSecret:  ""
+
+#Facebook
+facebookAppId: ""
+facebookAppSecret: ""
+facebookApiVersion: "2.4"
+
+# Partners Block
+organizersTitle: "Parceiros"
+
+# Footer
+socialLinks:
+ - {link: "https://www.facebook.com/groups/geeknightrecife/", icon: "facebook"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "attribution", text: "Atribuições"}
+ -
+  title: "Contato"
+  links:
+   - {link: "https://geeknightrecifepe.slack.com/", text: "Junte-se a nós no Slack"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "http://pt-br.confcodeofconduct.com/", text: "Código de Conduta"}
+
+# Speakers List Block
+showSessions: true

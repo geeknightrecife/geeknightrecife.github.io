@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /
+---
+
+ {% include hero.html %}
+
+ {% include about.html %}
+
+ {% include rockstar-speakers.html %}
+
+ {% if site.preparingNextEvent == false %}
+   {% include location-map.html %}
+ {% endif %}
+
+ {% include twitter-feed.html %}
+
+ {% include partners.html %}

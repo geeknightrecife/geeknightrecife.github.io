@@ -1,0 +1,21 @@
+<!-- Begin Previous Editions-->
+<section id="previous">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
+
+          {% assign animationDelay = 0 %}
+          {% for event in site.data.previous %}
+          <div class="col-md-4 col-sm-6 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+              <a href="{{ event.folder }}">
+                <div class="card">
+                    <h4>{{ event.title }}</h4>
+                    <p>{{ event.subtitle }}</p>
+                </div>
+              </a>
+          </div>
+          {% assign animationDelay = animationDelay | plus:500 %}
+          {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Previous Editions -->

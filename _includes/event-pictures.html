@@ -1,0 +1,19 @@
+<!-- Begin Speakers List 2-->
+<section id="pictures">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h3>Fotos do Evento</h3>
+          {% for picture in page.pictures limit:12 %}
+          <div class="col-md-4 col-sm-6 col-xs-12 same-height">
+            <div class="venue-elem-wrapper">
+              <a href="{{ picture.link }}" target="_blank">
+                <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{picture.id}})"></div>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+          <a href="{{ page.facebookAlbum }}" class="btn btn-primary waves-effect waves-button waves-light waves-float animated hiding" data-animation="fadeIn" data-delay="0" target="_blank">Veja mais</a>
+        </div>
+    </div>
+</section>
+<!-- End Speakers List 2 -->

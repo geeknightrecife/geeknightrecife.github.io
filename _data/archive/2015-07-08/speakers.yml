@@ -1,0 +1,21 @@
+-
+  id: 1
+  name: "Justin"
+  surname: "Harringa"
+  company: "CESAR"
+  title: "Engenheiro de Sistemas"
+  thumbnailUrl: JustinHarringa.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "https://github.com/justinharringa"}
+    - {name: "twitter", link: "https://twitter.com/justinharringa"}
+-
+  id: 2
+  name: "Renato"
+  surname: "Oliveira"
+  company: "Labcodes Software Studio e membro da Django Software Foundation"
+  title: "Fundador"
+  thumbnailUrl: RenatoOliveira.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/_renatooliveira"}

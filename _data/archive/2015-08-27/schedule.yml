@@ -1,0 +1,36 @@
+-
+  date: "2014-08-27"
+  dateReadable: "27 de Agosto de 2015"
+  tracks:
+    - {title: "Agenda", color: "#03a9f4"}
+  timeslots:
+    # Check-in
+    - {
+    	startTime: "19:00",
+    	endTime: "19:20",
+    	sessionIds: [010]
+    }
+    # Primeira Palestra
+    - {
+    	startTime: "19:20",
+    	endTime: "19:50",
+    	sessionIds: [001]
+    }
+    # Coffee Break
+    - {
+    	startTime: "19:50",
+    	endTime: "20:10",
+    	sessionIds: [020]
+    }
+    # Segunda Palestra
+    - {
+        startTime: "20:10",
+        endTime: "20:40",
+        sessionIds: [002]
+    }
+    # Pós Geek Night
+    - {
+        startTime: "20:40",
+        endTime: "22:00",
+        sessionIds: [030]
+    }

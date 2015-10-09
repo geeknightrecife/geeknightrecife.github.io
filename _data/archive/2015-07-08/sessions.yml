@@ -1,0 +1,24 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+
+-
+  id: 001
+  title: "Continuous Delivery - fundamentos, benefícios e como começar"
+  description: "Justin Harringa vai apresentar os fundamentos e benefícios do Continuous Delivery e como você pode começar a introduzir essa prática nos seus projetos."
+  speakers: [1]
+  presentation: "https://drive.google.com/file/d/0BxKUUc3FInEmLUFLRlM3V1otYVU/view"
+-
+  id: 002
+  title: "Testes Pythonicos com Py.test"
+  description: "Py.test é um framework maduro e completo de testes em Python. Diferente do Unittest, que é um projeto baseado no JUnit, o Py.test foi um projeto pensado para Python. Criado em 2004 por Holger Krekel, é usado por grandes projetos e empresas como PyPy, Sentry e Mozilla. Nesta palestra apresento uma introdução ao framework, runner, tests discovery, markers, fixtures e compara-lo ao Unittest."
+  speakers: [2]
