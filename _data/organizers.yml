@@ -3,4 +3,3 @@
     - {name: "ThoughtWorks", description: "Desenvolvimento Ágil e Design de Experiência", link: "https://www.thoughtworks.com/pt/", imageUrl: "thoughtworks.png"}
     - {name: "Snap CI", description: "Deliver reliable software, faster.", link: "https://snap-ci.com/", imageUrl: "snap.png"}
     - {name: "C.E.S.A.R", description: "Centro de Estudos e Sistemas Avançados do Recife", link: "http://cesar.org.br/", imageUrl: "cesar.png"}
-    - {name: "Impact Hub", description: "Espaço de Coworking", link: "http://recife.impacthub.net/", imageUrl: "impact-hub.jpg"}
