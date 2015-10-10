@@ -7,17 +7,17 @@
                 <div class="pull-left">
                     <h3>{{ site.locationBlockTitle }}</h3>
                     <ul>
-                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
-                        <li>{{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}</li>
+                        {% if site.data.location.eventLocationName %}<li>{{ site.data.location.eventLocationName }}</li>{% endif %}
+                        <li>{{ site.data.location.eventStreetAddress }}, {{ site.data.location.eventAddressLocality }}</li>
                         <li>
-                            {% assign startTime = site.eventStartTime | split: "T" %}
+                            {% assign startTime = site.data.location.eventStartTime | split: "T" %}
                             <time>{{ startTime[1] }}</time> -
-                            {% assign endTime = site.eventEndTime | split: "T" %}
+                            {% assign endTime = site.data.location.eventEndTime | split: "T" %}
                             <time>{{ endTime[1] }}</time>
                         </li>
                     </ul>
                 </div>
-                <a href="{{ site.eventLocationLink}}" target="_blank" class="pull-right">
+                <a href="{{ site.data.location.eventLocationLink}}" target="_blank" class="pull-right">
                     <svg class="icon icon-direction" viewBox="0 0 32 32">
                         <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
                     </svg>

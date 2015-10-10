@@ -72,15 +72,15 @@ layout: compress
         {% if page.permalink == '/' %}
             if ($(window).width() > 767) {
                 var googleMaps = 'index',
-                    eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
-                    centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }}),
+                    eventPlace = new google.maps.LatLng({{ site.data.location.eventPlaceCoordinates | replace:' ','' }}),
+                    centerMap = new google.maps.LatLng({{ site.data.location.mapCenterCoordinates | replace:' ','' }}),
+                    mobileCenterMap = new google.maps.LatLng({{ site.data.location.mapMobileCenterCoordinates | replace:' ','' }}),
                     icon = '{{ site.baseurl }}/img/other/map-marker.svg';
             } else {
                var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
+                eventPlaceCoordinates = '{{ site.data.location.eventPlaceCoordinates | replace:' ','' }}',
+                centerMapCoordinates = '{{ site.data.location.mapCenterCoordinates | replace:' ','' }}',
+                mobileCenterMapCoordinates = '{{ site.data.location.mapMobileCenterCoordinates | replace:' ','' }}',
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';

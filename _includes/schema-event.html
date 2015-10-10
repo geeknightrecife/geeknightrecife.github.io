@@ -6,24 +6,24 @@
         "description": "{{ site.description }}",
         "image" : "{{ site.socialImageSrcGooglePlus | prepend: site.baseurl | prepend: site.url }}",
         "url" : "{{ site.url }}",
-        "startDate" : "{{ site.eventStartTime }}",
-        "doorTime" : "{{ site.eventDoorTime }}",
-        "endDate" : "{{ site.eventEndTime }}",
+        "startDate" : "{{ site.data.location.eventStartTime }}",
+        "doorTime" : "{{ site.data.location.eventDoorTime }}",
+        "endDate" : "{{ site.data.location.eventEndTime }}",
         "location" : {
             "@type" : "Place",
-            "name" : "{{ site.eventLocationName }}",
-            "sameAs" : "{{ site.eventLocationLink }}",
+            "name" : "{{ site.data.location.eventLocationName }}",
+            "sameAs" : "{{ site.data.location.eventLocationLink }}",
             "address" : {
                 "@type" : "PostalAddress",
-                "streetAddress" : "{{ site.eventStreetAddress }}",
-                "addressLocality" : "{{ site.eventAddressLocality }}",
-                "addressRegion" : "{{ site.eventAddressLocalityRegion }}",
-                "postalCode" : "{{ site.eventPostalCode }}",
-                "addressCountry" : "{{ site.eventAddressCountry }}"
+                "streetAddress" : "{{ site.data.location.eventStreetAddress }}",
+                "addressLocality" : "{{ site.data.location.eventAddressLocality }}",
+                "addressRegion" : "{{ site.data.location.eventAddressLocalityRegion }}",
+                "postalCode" : "{{ site.data.location.eventPostalCode }}",
+                "addressCountry" : "{{ site.data.location.eventAddressCountry }}"
             },
             "geo" : {
                 "@type" : "GeoCoordinates",
-                {% assign coordinates = site.eventPlaceCoordinates | split:"," %}
+                {% assign coordinates = site.data.location.eventPlaceCoordinates | split:"," %}
                 "latitude" : "{{ coordinates[0] }}",
                 "longitude" : "{{ coordinates[1] }}"
             }

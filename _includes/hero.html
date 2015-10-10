@@ -10,7 +10,30 @@
               <p>{{ site.comingSoonText }}</p>
               <a href="{{ site.becomeSpeaker }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Quero palestrar!</a>
             {% else %}
-              <p>{{ site.eventDate }}</p>
+              {% if site.eventDate %}
+                <p>{{ site.eventDate }}</p>
+              {% else %}
+                <p>
+                  {% assign m = site.data.location.eventStartTime | date: "%-m" %}
+                  {{ site.data.location.eventStartTime | date: "%-d" }}
+                  de
+                  {% case m %}
+                    {% when '1' %}Janeiro,
+                    {% when '2' %}Fevereiro,
+                    {% when '3' %}Março,
+                    {% when '4' %}Abril,
+                    {% when '5' %}Maio,
+                    {% when '6' %}Junho,
+                    {% when '7' %}Julho,
+                    {% when '8' %}Agosto,
+                    {% when '9' %}Setembro,
+                    {% when '10' %}Outubro,
+                    {% when '11' %}Novembro,
+                    {% when '12' %}Dezembro,
+                  {% endcase %}
+                  {{ site.data.location.eventStartTime | date: "%-Y" }}, {{ site.data.location.eventLocationName }}, {{ site.data.location.eventAddressLocality }}
+                </p>
+              {% endif %}
               {% for button in site.heroButtons %}
               <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
               {% endfor %}

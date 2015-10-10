@@ -4,12 +4,28 @@
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
 
           {% assign animationDelay = 0 %}
-          {% for event in site.data.previous %}
+          {% for event in site.data.archive reversed %}
           <div class="col-md-4 col-sm-6 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-              <a href="{{ event.folder }}">
+              <a href="{{ event[0] }}">
                 <div class="card">
-                    <h4>{{ event.title }}</h4>
-                    <p>{{ event.subtitle }}</p>
+                  <h5>
+                    {% assign m = event[1].location.eventStartTime | date: "%-m" %}
+                    {% case m %}
+                      {% when '1' %}Janeiro
+                      {% when '2' %}Fevereiro
+                      {% when '3' %}Março
+                      {% when '4' %}Abril
+                      {% when '5' %}Maio
+                      {% when '6' %}Junho
+                      {% when '7' %}Julho
+                      {% when '8' %}Agosto
+                      {% when '9' %}Setembro
+                      {% when '10' %}Outubro
+                      {% when '11' %}Novembro
+                      {% when '12' %}Dezembro
+                    {% endcase %}
+                    de {{ event[1].location.eventStartTime | date: "%-Y" }}
+                  </h5>
                 </div>
               </a>
           </div>

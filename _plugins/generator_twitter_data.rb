@@ -28,7 +28,6 @@ module Jekyll
 
       saved_tweets = read_tweets_yml
       client.search("##{site.config['twitterHashTag']}", result_type: "recent", count: 15).take(15).collect do |tweet|
-        puts tweet
         formatted_tweet = {"id" => tweet.id, "username" => tweet.user.screen_name, "tweet" => tweet.text, "date" => tweet.created_at}
         saved_tweets.push(formatted_tweet) unless saved_tweets.include?(formatted_tweet)
       end

@@ -1,10 +1,11 @@
 require 'koala'
 require 'yaml'
+require 'time'
 
 module Jekyll
 
   class ArchivePage < Page
-    def initialize(site, base, dir, speakers, sessions, title, schedule, organizers)
+    def initialize(site, base, dir, speakers, sessions, schedule, organizers, location)
       @site = site
       @base = base
       @dir = dir
@@ -16,8 +17,12 @@ module Jekyll
       self.data['sessions'] = sessions
       self.data['schedule'] = schedule
       self.data['organizers'] = organizers
+      self.data['location'] = location
 
-      self.data['title'] = "Arquivo: #{title}"
+      #Surely this is not the best way to handle translations
+      month_names = [nil, 'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+      datetime = Time.parse(location['eventStartTime'])
+      self.data['title'] = "Arquivo: #{month_names[datetime.month]} de #{datetime.year}"
       self.data['permalink'] = "/#{dir}/"
       self.data['pictures'] = generate_facebook_albums(schedule[0])
     end
@@ -63,13 +68,14 @@ module Jekyll
 
     def generate(site)
       dir = 'previous'
-      site.data['previous'].each do |archive|
-        speakers = site.data['archive'][archive['folder']]['speakers']
-        sessions = site.data['archive'][archive['folder']]['sessions']
-        schedule = site.data['archive'][archive['folder']]['schedule']
-        organizers = site.data['archive'][archive['folder']]['organizers']
+      site.data['archive'].keys.each do |archive|
+        speakers = site.data['archive'][archive]['speakers']
+        sessions = site.data['archive'][archive]['sessions']
+        schedule = site.data['archive'][archive]['schedule']
+        organizers = site.data['archive'][archive]['organizers']
+        location = site.data['archive'][archive]['location']
 
-        site.pages << ArchivePage.new(site, site.source, File.join(dir, archive['folder']), speakers, sessions, archive['title'], schedule, organizers)
+        site.pages << ArchivePage.new(site, site.source, File.join(dir, archive), speakers, sessions, schedule, organizers, location)
       end
     end
   end

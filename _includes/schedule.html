@@ -3,17 +3,18 @@
   {% assign schedule = site.data.schedule %}
   {% assign sessions = site.data.sessions %}
   {% assign speakers = site.data.speakers %}
+  {% assign location = site.data.location %}
 {% else %}
   {% assign schedule = page.schedule %}
   {% assign sessions = page.sessions %}
   {% assign speakers = page.speakers %}
+  {% assign location = page.location %}
 {% endif %}
 
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
         {% for day in schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
-            <!-- <h4 class="schedule-table-heading">{{ day.dateReadable}}</h4> -->
             <div class="timeslot track-header stick-header">
                 <div class="track-header-label"></div>
                 <div class="timeslot-elements flexbox-wrapper">
@@ -31,7 +32,26 @@
             {% for timeslot in day.timeslots %}
             <div class="timeslot" itemtype="http://schema.org/subEvent">
                 <div class="timeslot-label">
-                    <time class="start-time" itemprop="startDate" datetime="{{ day.dateReadable }}T{{ timeslot.startTime }}">
+                    <time class="start-time" itemprop="startDate" datetime="
+                    {% assign m = location.eventStartTime | date: '%-m' %}
+                    {{ location.eventStartTime | date: '%-d' }}
+                    de
+                    {% case m %}
+                      {% when '1' %}Janeiro
+                      {% when '2' %}Fevereiro
+                      {% when '3' %}Março
+                      {% when '4' %}Abril
+                      {% when '5' %}Maio
+                      {% when '6' %}Junho
+                      {% when '7' %}Julho
+                      {% when '8' %}Agosto
+                      {% when '9' %}Setembro
+                      {% when '10' %}Outubro
+                      {% when '11' %}Novembro
+                      {% when '12' %}Dezembro
+                    {% endcase %}
+                    de
+                    {{ location.eventStartTime | date: '%-Y' }}T{{ timeslot.startTime }}">
                         {% assign startTime = timeslot.startTime | split: ":" %}
                         {{ startTime[0] }}<span>{{ startTime[1] }}</span>
                     </time>
