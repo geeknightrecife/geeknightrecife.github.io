@@ -81,7 +81,7 @@ module Jekyll
     end
 
     def archive_previous_event(site)
-      if ENV['JEKYLL_ENV'] != 'production' ||
+      if ENV['JEKYLL_ENV'] != 'production'
         return
       end
       current_event_time = Time.parse(site.data['location']['eventEndTime'])
