@@ -99,9 +99,9 @@ module Jekyll
         FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
         FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
 
-        system 'ls'
-        # exec( 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml' )
-        # exec( "git tag #{current_formatted_event_time}" )
+        system ' echo "Snap CI #$SNAP_PIPELINE_COUNTER"'
+        # system 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml'
+        # system "git tag #{current_formatted_event_time}"
 
       end
     end
