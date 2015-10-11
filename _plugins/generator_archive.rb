@@ -96,12 +96,12 @@ module Jekyll
         FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
         FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
 
-        system ' echo "Snap CI #$SNAP_PIPELINE_COUNTER"'
+        system 'echo "Snap CI #$SNAP_PIPELINE_COUNTER"'
         system 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml'
         system "git tag #{current_formatted_event_time}"
         system 'git status'
         system 'git add .'
-        system 'git commit -m "#{current_formatted_event_time}"'
+        system 'git commit -m "Snap CI #$SNAP_PIPELINE_COUNTER"'
         system 'git push origin master'
 
       end
