@@ -99,6 +99,7 @@ module Jekyll
         system ' echo "Snap CI #$SNAP_PIPELINE_COUNTER"'
         system 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml'
         system "git tag #{current_formatted_event_time}"
+        system 'git status'
         system 'git add .'
         system 'git commit -m "#{current_formatted_event_time}"'
         system 'git push origin master'
