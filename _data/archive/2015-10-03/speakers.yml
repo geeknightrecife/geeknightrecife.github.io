@@ -1,0 +1,21 @@
+-
+  id: 1
+  name: "Julio"
+  surname: "Faerman"
+  company: "Amazon Web Services"
+  title: "Technical Evangelist"
+  thumbnailUrl: JulioFaerman.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "https://github.com/jfaerman"}
+    - {name: "twitter", link: "https://twitter.com/jmfaerman"}
+-
+  id: 2
+  name: "Eric"
+  surname: "Cavalcanti"
+  company: "CESAR"
+  title: "Engenheiro de Sistemas"
+  thumbnailUrl: EricCavalcanti.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/ericoc"}
