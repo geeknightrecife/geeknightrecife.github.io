@@ -67,7 +67,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      archive_previous_event(site)
+      # archive_previous_event(site)
       dir = 'previous'
       site.data['archive'].keys.each do |archive|
         speakers = site.data['archive'][archive]['speakers']
