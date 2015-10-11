@@ -81,24 +81,28 @@ module Jekyll
     end
 
     def archive_previous_event(site)
+      if ENV['JEKYLL_ENV'] != 'production' ||
+        return
+      end
       current_event_time = Time.parse(site.data['location']['eventEndTime'])
       current_formatted_event_time = current_event_time.strftime '%Y-%m-%d'
       puts current_formatted_event_time
       puts current_event_time
       puts Time.now
       puts (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
-      # if (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
-      #   created_folder = "_data/archive/#{current_formatted_event_time}/"
-      #   Dir.mkdir created_folder
-      #   FileUtils.cp('_data/location.yml', "#{created_folder}location.yml")
-      #   FileUtils.cp('_data/organizers.yml', "#{created_folder}organizers.yml")
-      #   FileUtils.cp('_data/schedule.yml', "#{created_folder}schedule.yml")
-      #   FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
-      #   FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
-      #
-      #   exec( 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml' )
-      #   exec( "git tag #{current_formatted_event_time}" )
-      # end
+      if (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
+        created_folder = "_data/archive/#{current_formatted_event_time}/"
+        Dir.mkdir created_folder
+        FileUtils.cp('_data/location.yml', "#{created_folder}location.yml")
+        FileUtils.cp('_data/organizers.yml', "#{created_folder}organizers.yml")
+        FileUtils.cp('_data/schedule.yml', "#{created_folder}schedule.yml")
+        FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
+        FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
+
+        # exec( 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml' )
+        # exec( "git tag #{current_formatted_event_time}" )
+
+      end
     end
   end
 end
