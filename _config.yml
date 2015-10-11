@@ -98,7 +98,6 @@ footerBlocks:
  -
   title: "Contato"
   links:
-   - {link: "https://slackgeeknightrecife.herokuapp.com", text: "Junte-se a nós no Slack"}
  -
   title: "FAQ"
   links:

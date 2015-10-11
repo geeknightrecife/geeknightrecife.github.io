@@ -12,6 +12,13 @@
 		<div class="col-md-{{ colWidth }} col-xs-6">
 			<h5>{{ block.title }}</h5>
 			<ul>
+				{% if block.title == "Contato" %}
+					<li>
+						<a href="https://slackgeeknightrecife.herokuapp.com/">
+							<img src="https://slackgeeknightrecife.herokuapp.com/badge.svg">
+						</a>
+					</li>
+				{% endif %}
 				{% for linkElement in block.links %}
 				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
 				{% endfor %}
