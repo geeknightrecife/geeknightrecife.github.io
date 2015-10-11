@@ -1,104 +1,108 @@
----
+# Plugins
 gems:
 - jekyll-sitemap
 safe: false
+
+# Build Settings
 markdown: kramdown
 permalink: pretty
-exclude:
-- "/automation/"
-- README.md
-- LICENSE.txt
-- CNAME
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+# Event coming soon
 preparingNextEvent: true
-comingSoonText: Fiquem ligados, estamos preparando a próxima Geek Night...
-comingSoonDetailTitle: Em breve...
-comingSoonDetailText: |
-  A última Geek Night foi um sucesso! Neste momento estamos preparando o conteúdo do nosso próximo encontro. Enquanto não divulgamos a agenda, dá uma olhada como foram os nossos <a href="/previous\">encontros anteriores</a>. Ou melhor, caso você tenha uma boa idéia e queira compartilhar com a comunidade, por que você não aproveita para <a href="https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform">submeter uma palestra</a>?.
-title: Geek Night Recife
-description: Um encontro informal para discutir sobre tecnologia
-baseurl: ''
-url: http://geeknightrecife.github.io
-googleAnalyticsTrackingId: UA-68157157-1
-googleAnalyticsSiteUrl: geeknightrecife.github.io
-siteVerification: U69IMjHq7CsO241RifiWl1ef13rSUC3bNg_JjOfw8i4
-metaKeywords: geek, night, recife, tecnologia, evento, programacao, meetup, desenvolvedores,
-  comunidade
+comingSoonText: "Fiquem ligados, estamos preparando a próxima Geek Night..."
+comingSoonDetailTitle: "Em breve..."
+comingSoonDetailText: >
+  A última Geek Night foi um sucesso! Neste momento estamos preparando o conteúdo do nosso próximo encontro.
+  Enquanto não divulgamos a agenda, dá uma olhada como foram os nossos <a href="/previous\">encontros anteriores</a>.
+  Ou melhor, caso você tenha uma boa idéia e queira compartilhar com a comunidade, por que você não aproveita para <a href="https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform">submeter uma palestra</a>?.
+
+# Site Settings
+title: "Geek Night Recife"
+description: "Um encontro informal para discutir sobre tecnologia"
+baseurl: ""
+url: "http://geeknightrecife.github.io"
+googleAnalyticsTrackingId: "UA-68157157-1"
+googleAnalyticsSiteUrl: "geeknightrecife.github.io"
+siteVerification: "U69IMjHq7CsO241RifiWl1ef13rSUC3bNg_JjOfw8i4"
+
+# Head
+metaKeywords: "geek, night, recife, tecnologia, evento, programacao, meetup, desenvolvedores, comunidade"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
-becomeSpeaker: https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform
+
+# Link para "seja um palestrante"
+becomeSpeaker: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform"
+
+# Navigation
 navigationLinks:
-- permalink: "/"
-  text: Início
-- permalink: "/schedule/"
-  text: Agenda
-- permalink: "/speakers/"
-  text: Palestrantes
-- permalink: "/previous/"
-  text: Edições Anteriores
+ - {permalink: "/", text: "Início"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/previous/", text: "Edições Anteriores"}
 bottomNavigationLinks:
-- link: https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform
-  text: Seja um Palestrante
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
 rightNavigationButtons:
-- link: https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform
-  text: Seja um Palestrante
-heroImage: hero.jpg
-heroTitle: 'Geek Night Recife: <typeout>'
-typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing",
-  "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
-typeoutFallback: Tecnologia
+ - {link: "https://docs.google.com/forms/d/10gU-dTJwEfsDZZrRZCLGP5FSqFeT40PwNwMNXqffJ8w/viewform", text: "Seja um Palestrante"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Geek Night Recife: <typeout>"
+typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
+typeoutFallback: "Tecnologia"
 heroButtons:
-- link: https://www.facebook.com/events/435653246643355/
-  text: Eu Vou!
-aboutTitle: Sobre a Geek Night Recife
+ - {link: "https://www.facebook.com/events/435653246643355/", text: "Eu Vou!"}
+
+# About Block
+aboutTitle: "Sobre a Geek Night Recife"
 aboutBlock:
-- title: O Evento
-  image: conferencia.jpg
-  text: A Geek Night é um encontro informal mensal onde escolhemos e discutimos sobre
-    um tópico de tecnologia relevante/interessante. Esperamos criar um espaço para
-    discussão de idéias, tecnologias e técnicas no campo do desenvolvimento de software.
-    Pode ser um grupo de pessoas trabalhando em um projeto open source ou trazer seu
-    próprio projeto para trabalharmos.
-- title: Palestras
-  image: palestras.jpg
-  text: Tendo a idéia de ser um espaço democrático, aberto e diverso, a Geek Night
-    vem recebendo palestras, práticas e fóruns, tendo todo o tipo de assunto relacionados
-    ao universo geek.
-- title: Networking
-  image: networking.jpg
-  text: Frequentemente após o término do encontro o papo continua no bar ou restaurante
-    mais próximo, permitindo que os participantes possam trocar idéias sobre os temas
-    abordados naquela noite, e conhecer melhor a comunidade que fazem parte.
-rockstarSpeakersImage: speakers.jpg
+ - {title: "O Evento", image: "conferencia.jpg", text: "A Geek Night é um encontro informal mensal onde escolhemos e discutimos sobre um tópico de tecnologia relevante/interessante. Esperamos criar um espaço para discussão de idéias, tecnologias e técnicas no campo do desenvolvimento de software. Pode ser um grupo de pessoas trabalhando em um projeto open source ou trazer seu próprio projeto para trabalharmos." }
+ - {title: "Palestras", image: "palestras.jpg", text: "Tendo a idéia de ser um espaço democrático, aberto e diverso, a Geek Night vem recebendo palestras, práticas e fóruns, tendo todo o tipo de assunto relacionados ao universo geek." }
+
+ - {title: "Networking", image: "networking.jpg", text: "Frequentemente após o término do encontro o papo continua no bar ou restaurante mais próximo, permitindo que os participantes possam trocar idéias sobre os temas abordados naquela noite, e conhecer melhor a comunidade que fazem parte." }
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "speakers.jpg"
 rockstarSpeakersCount: 2
-rockstarSpeakersTitle: Palestrantes
-rockstarSpeakersButtonText: Conheça os palestrantes
-locationBlockTitle: Endereço
-tweetsFeedImage: twitter-feed.jpg
-tweetsFeedTitle: E aí?
-twitterHashTag: geeknightrecife
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
+
+# Location Block
+locationBlockTitle: "Endereço"
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "E aí?"
+twitterHashTag: "geeknightrecife"
 twitterFeed: "#"
-twitterConsumerKey: ''
-twitterConsumerSecret: ''
-facebookAppId: ''
-facebookAppSecret: ''
-facebookApiVersion: '2.4'
-organizersTitle: Parceiros
+twitterConsumerKey: ""
+twitterConsumerSecret:  ""
+
+#Facebook
+facebookAppId: ""
+facebookAppSecret: ""
+facebookApiVersion: "2.4"
+
+# Partners Block
+organizersTitle: "Parceiros"
+
+# Footer
 socialLinks:
-- link: https://www.facebook.com/groups/geeknightrecife/
-  icon: facebook
+ - {link: "https://www.facebook.com/groups/geeknightrecife/", icon: "facebook"}
 footerBlocks:
-- title: Links
+ -
+  title: "Links"
   links:
-  - link: attribution
-    text: Atribuições
-- title: Contato
+   - {link: "attribution", text: "Atribuições"}
+ -
+  title: "Contato"
   links:
-  - link: https://slackgeeknightrecife.herokuapp.com
-    text: Junte-se a nós no Slack
-- title: FAQ
+   - {link: "https://slackgeeknightrecife.herokuapp.com", text: "Junte-se a nós no Slack"}
+ -
+  title: "FAQ"
   links:
-  - permalink: http://pt-br.confcodeofconduct.com/
-    text: Código de Conduta
+   - {permalink: "http://pt-br.confcodeofconduct.com/", text: "Código de Conduta"}
+
+# Speakers List Block
 showSessions: true
-reparingNextEvent: true

@@ -93,13 +93,7 @@ module Jekyll
         FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
         FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
 
-        config = YAML.load_file('_config.yml')
-
-        config['preparingNextEvent'] = true
-
-        File.open('_config.yml','w') do |f|
-           f.write config.to_yaml
-        end
+        exec( 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml' )
         exec( "git tag #{current_formatted_event_time}" )
       end
     end
