@@ -2,19 +2,19 @@
 $ [32mgit clone git@localhost:geeknightrecife/geeknightrecife.github.io .[0m
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
-Command [32mgit clone git@localhost:geeknightrecife/geeknightrecife.github.io .[0m exited successfully with status 0. Took 1.77 seconds.
+Command [32mgit clone git@localhost:geeknightrecife/geeknightrecife.github.io .[0m exited successfully with status 0. Took 1.43 seconds.
 
 $ [32mgit checkout source[0m
 Switched to a new branch 'source'
 Branch source set up to track remote branch source from origin.
-Command [32mgit checkout source[0m exited successfully with status 0. Took 0.08023 seconds.
+Command [32mgit checkout source[0m exited successfully with status 0. Took 0.08889 seconds.
 
-$ [32mgit reset --hard fa22d99a2250a4558c4602e121839b6cdeca2e36[0m
-HEAD is now at fa22d99 Debug non generation of _site folder
-Command [32mgit reset --hard fa22d99a2250a4558c4602e121839b6cdeca2e36[0m exited successfully with status 0. Took 0.06492 seconds.
+$ [32mgit reset --hard eab898d6e53ebfb8a05789dceccd96c4ceb0972c[0m
+HEAD is now at eab898d Debug non generation of _site folder
+Command [32mgit reset --hard eab898d6e53ebfb8a05789dceccd96c4ceb0972c[0m exited successfully with status 0. Took 0.05175 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
-Command [32mgit submodule update --init --recursive[0m exited successfully with status 0. Took 0.07138 seconds.
+Command [32mgit submodule update --init --recursive[0m exited successfully with status 0. Took 0.07581 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -22,11 +22,11 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=39
+$ export SNAP_PIPELINE_COUNTER=40
 $ export SNAP_STAGE_NAME=Dependencies
 $ export SNAP_BRANCH=source
-$ export SNAP_COMMIT=fa22d99a2250a4558c4602e121839b6cdeca2e36
-$ export SNAP_COMMIT_SHORT=fa22d99
+$ export SNAP_COMMIT=eab898d6e53ebfb8a05789dceccd96c4ceb0972c
+$ export SNAP_COMMIT_SHORT=eab898d
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
@@ -75,37 +75,37 @@ Using http_parser.rb 0.6.0
 Using naught 1.1.0
 Using simple_oauth 0.3.1
 Using bundler 1.10.6
+Using parslet 1.5.0
+Using autoprefixer-rails 6.0.3
 Using tzinfo 1.2.2
 Using memoizable 0.4.2
-Using parslet 1.5.0
-Using timers 4.0.4
-Using classifier-reborn 2.0.3
 Using coffee-script 2.4.1
-Using autoprefixer-rails 6.0.3
+Using classifier-reborn 2.0.3
+Using timers 4.0.4
 Using rb-inotify 0.9.5
 Using ethon 0.8.0
 Using unf 0.1.4
 Using faraday 0.9.1
-Using compass-core 1.0.3
 Using compass-import-once 1.0.5
 Using jekyll-sass-converter 1.3.0
 Using sass-media_query_combiner 0.0.7
+Using compass-core 1.0.3
 Using pygments.rb 0.6.3
 Using nokogiri 1.6.6.2
-Using activesupport 4.2.4
-Using celluloid 0.16.0
 Using toml 0.1.2
+Using activesupport 4.2.4
+Using jekyll-coffeescript 1.0.1
+Using celluloid 0.16.0
 Using typhoeus 0.8.0
 Using domain_name 0.5.24
 Using koala 2.2.0
-Using compass 1.0.3
-Using jekyll-coffeescript 1.0.1
 Using html-pipeline 1.9.0
+Using compass 1.0.3
+Using github-pages-health-check 0.5.3
 Using listen 2.10.1
 Using http-cookie 1.0.2
-Using github-pages-health-check 0.5.3
-Using http 0.9.7
 Using jekyll-watch 1.2.1
+Using http 0.9.7
 Using jekyll 2.4.0
 Using twitter 5.15.0
 Using jekyll-mentions 0.2.1
@@ -114,6 +114,6 @@ Using jemoji 0.5.0
 Using github-pages 39
 Bundle complete! 6 Gemfile dependencies, 81 gems now installed.
 Bundled gems are installed into /var/go/.bundled-gems.
-Command [32mbundle install[0m exited successfully with status 0. Took 1.03 seconds.
+Command [32mbundle install[0m exited successfully with status 0. Took 1.38 seconds.
 
 Saving console log for later
