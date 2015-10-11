@@ -76,12 +76,12 @@ tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "E aí?"
 twitterHashTag: "geeknightrecife"
 twitterFeed: "#"
-twitterConsumerKey: ""
-twitterConsumerSecret:  ""
+twitterConsumerKey: "1uzjX8x2ilg0n3WG0KFw6gjw3"
+twitterConsumerSecret:  "6EDEXNcy2RtMPZzoZFhD9otyNRX2uyD6Eh36bgfdnbxokfH6wx"
 
 #Facebook
-facebookAppId: ""
-facebookAppSecret: ""
+facebookAppId: "545567042258209"
+facebookAppSecret: "7116b7f32df4164bb122ae85cd81d5dd"
 facebookApiVersion: "2.4"
 
 # Partners Block
