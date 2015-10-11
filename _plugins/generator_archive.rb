@@ -84,9 +84,9 @@ module Jekyll
       if ENV['JEKYLL_ENV'] != 'production'
         return
       end
+
       current_event_time = Time.parse(site.data['location']['eventEndTime'])
       current_formatted_event_time = current_event_time.strftime '%Y-%m-%d'
-      Time.zone = "-03:00"
       puts current_formatted_event_time
       puts current_event_time
       puts Time.now
