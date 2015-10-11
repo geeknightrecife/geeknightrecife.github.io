@@ -100,7 +100,7 @@ module Jekyll
         File.open('_config.yml','w') do |f|
            f.write config.to_yaml
         end
-        # Create git tag
+        exec( "git tag #{current_formatted_event_time}" )
       end
     end
   end
