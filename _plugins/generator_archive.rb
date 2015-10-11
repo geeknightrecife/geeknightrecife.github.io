@@ -87,13 +87,6 @@ module Jekyll
 
       current_event_time = Time.parse(site.data['location']['eventEndTime'])
       current_formatted_event_time = current_event_time.strftime '%Y-%m-%d'
-      puts Time.now
-      puts current_event_time
-      puts current_formatted_event_time
-      puts (Time.now > current_event_time)
-      puts !site.data['archive'].has_key?(current_formatted_event_time)
-      puts site.data['archive']
-      puts (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
       if (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
         created_folder = "_data/archive/#{current_formatted_event_time}/"
         Dir.mkdir created_folder
@@ -106,7 +99,6 @@ module Jekyll
         system 'echo "Snap CI #$SNAP_PIPELINE_COUNTER"'
         system 'sed -i "s/preparingNextEvent: false/preparingNextEvent: true/g" _config.yml'
         system "git tag #{current_formatted_event_time}"
-        system 'git status'
         system 'git add .'
         system 'git commit -m "Snap CI #$SNAP_PIPELINE_COUNTER"'
         system 'git push origin master'
