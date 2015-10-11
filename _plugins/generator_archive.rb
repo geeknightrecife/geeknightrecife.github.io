@@ -101,7 +101,7 @@ module Jekyll
         system "git tag #{current_formatted_event_time}"
         system 'git add .'
         system 'git commit -m "Snap CI #$SNAP_PIPELINE_COUNTER"'
-        system 'git push origin source'
+        system 'git push'
 
       end
     end
