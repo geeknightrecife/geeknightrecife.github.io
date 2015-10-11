@@ -67,6 +67,7 @@ module Jekyll
     safe true
 
     def generate(site)
+      archive_previous_event(site)
       dir = 'previous'
       site.data['archive'].keys.each do |archive|
         speakers = site.data['archive'][archive]['speakers']
@@ -76,6 +77,30 @@ module Jekyll
         location = site.data['archive'][archive]['location']
 
         site.pages << ArchivePage.new(site, site.source, File.join(dir, archive), speakers, sessions, schedule, organizers, location)
+      end
+    end
+
+    def archive_previous_event(site)
+      current_event_time = Time.parse(site.data['location']['eventEndTime'])
+      current_formatted_event_time = current_event_time.strftime '%Y-%m-%d'
+
+      if (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
+        created_folder = "_data/archive/#{current_formatted_event_time}/"
+        Dir.mkdir created_folder
+        FileUtils.cp('_data/location.yml', "#{created_folder}location.yml")
+        FileUtils.cp('_data/organizers.yml', "#{created_folder}organizers.yml")
+        FileUtils.cp('_data/schedule.yml', "#{created_folder}schedule.yml")
+        FileUtils.cp('_data/sessions.yml', "#{created_folder}sessions.yml")
+        FileUtils.cp('_data/speakers.yml', "#{created_folder}speakers.yml")
+
+        config = YAML.load_file('_config.yml')
+
+        config['preparingNextEvent'] = true
+
+        File.open('_config.yml','w') do |f|
+           f.write config.to_yaml
+        end
+        # Create git tag
       end
     end
   end
