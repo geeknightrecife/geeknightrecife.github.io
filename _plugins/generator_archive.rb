@@ -87,10 +87,6 @@ module Jekyll
 
       current_event_time = Time.parse(site.data['location']['eventEndTime'])
       current_formatted_event_time = current_event_time.strftime '%Y-%m-%d'
-      puts current_formatted_event_time
-      puts current_event_time
-      puts Time.now
-      puts (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
       if (Time.now > current_event_time) && !site.data['archive'].has_key?(current_formatted_event_time)
         created_folder = "_data/archive/#{current_formatted_event_time}/"
         Dir.mkdir created_folder
