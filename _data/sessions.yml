@@ -13,13 +13,11 @@
 
 -
   id: 001
-  title: "Aplicações móveis multi-plataforma com Titanium Mobile"
-  description: "O Titanium Mobile é um framework open source para desenvolvimento de aplicações móveis multi-plataforma, usando uma única linguagem de programação, o JavaScript. Com este framework você poderá criar aplicativos com a aparência e comportamento nativos para as plataformas iOS, Android e Windows Phone."
-  speakers: [2]
-  presentation: "http://www.slideshare.net/ericoc/aplicacoes-moveis-multiplataforma-com-titanium-geek-night"
+  title: "Bate-papo com o atual presidente da Associação Python Brasil e CTO da Genomika Diagnósticos"
+  description: 'Em conversa sobre mineração de dados, machine learning, big data, bioinformática, educação online, software livre e carreira, Paulo Romeira entrevista Marcel Caraciolo, atual CTO da Genomika Diagnósticos e presidente da Associação Python Brasil, para saber porque Python vem ganhando tanto interesse da comunidade científica e como anda o mercado para quem pretende ser um "pythonista".'
+  speakers: [1]
 -
   id: 002
-  title: "Implementando microservices: casos reais e aprendizados"
-  description: "Depois de entender a proposta de valor e estratégias para adoção de arquiteturas de microserviços, como realizar a implementação? Quais as experiências e recomendações de quem escreve e opera aplicações neste estilo? Conheça nesta apresentação as escolhas técnicas da mudança arquitetural para microservices e quais ferramentas podem apoiá-lo(a), assim como cases, ferramentas e experiências de quem já trilhou este caminho."
-  speakers: [1]
-  presentation: "https://speakerdeck.com/jfaerman/implementando-microservices"
+  title: "Priorização por Objetivos"
+  description: 'O backlog tradicional já não nos serve mais. Ele falha em descrever o por quê de algo ser importante e não deixa eventuais dependências claras. Ele acaba sendo um lugar para listar funcionalidades futuras “para que não sejam esquecidas”. Se algo é suficientemente importante, não será esquecido. Nos dias de hoje, conceber um bom produto rapidamente é a chave para o sucesso tanto de startups quanto de grandes empresas. Ao construir novos produtos obter feedback rápido das funcionalidades mais básicas dos recursos de maior valor é fundamental. Priorização por objetivos apresenta uma forma de abordar estes problemas.'
+  speakers: [2]

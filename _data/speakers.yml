@@ -1,21 +1,26 @@
 -
   id: 1
-  name: "Julio"
-  surname: "Faerman"
-  company: "Amazon Web Services"
-  title: "Technical Evangelist"
-  thumbnailUrl: JulioFaerman.jpg
+  name: "Marcel"
+  surname: "Caraciolo"
+  company: "Genomika Diagnósticos"
+  title: "Diretor de Tecnologia"
+  bio: "Engenheiro de Computação pela Escola Politécnica/UPE e atualmente diretor de tecnologia da Genomika Diagnósticos, laboratório clínico focado em testes moleculares para detecção de tumores, cânceres e doenças raras.  Atualmente presidente da Associação Python Brasil e interessado em desenvolvimento de tecnologias com machine learning, big data, mineração de dados e bioinformática. Co-fundador das ex-empresas PyCursos, Atépassar e  Favoritoz focado em serviços de educação e varejo.  Contribuidor da tecnologia Python no Brasil participando da organização de mais 30 encontros mensais realizados pelo país sobre difusão de open-source e comunidade de software livre."
+  thumbnailUrl: MarcelCaraciolo.jpg
   rockstar: true
   social:
-    - {name: "github", link: "https://github.com/jfaerman"}
-    - {name: "twitter", link: "https://twitter.com/jmfaerman"}
+    - {name: "github", link: "https://github.com/marcelcaraciolo"}
+    - {name: "twitter", link: "https://github.com/marcelcaraciolo"}
+    - {name: "linkedin", link: "https://br.linkedin.com/in/marcelcaraciolo"}
+    - {name: "site", link: "http://aimotion.blogspot.com.br/"}
+    - {name: "site", link: "http://genomika.com.br"}
 -
   id: 2
-  name: "Eric"
-  surname: "Cavalcanti"
-  company: "CESAR"
-  title: "Engenheiro de Sistemas"
-  thumbnailUrl: EricCavalcanti.jpg
+  name: "Lourenço"
+  surname: "Soares"
+  company: "Thoughtworks"
+  title: "Analista de Sistemas"
+  bio: "Salvando o mundo, um projeto de cada vez! Eu atuo como Analista de Sistemas, ajudando equipes à utilizar a tecnologia para gerar melhoria contínua em sistemas e processos. Eu sou um entusiasta de Métodos Ágeis que adora ajudar os outros a aprender, inovar e eliminar desperdício. Na ThoughtWorks, eu ajudo organizações a identificar qual a próxima coisa mais importante a fazer, simplificar processos complicados e fui parte de times que descobriram maneiras bem sucedidas de entregar projetos distribuídos."
+  thumbnailUrl: LourencoSoares.jpg
   rockstar: true
   social:
-    - {name: "twitter", link: "https://twitter.com/ericoc"}
+    - {name: "twitter", link: "https://twitter.com/protolous"}
