@@ -9,7 +9,7 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Event coming soon
-preparingNextEvent: false
+preparingNextEvent: true
 comingSoonText: "Fiquem ligados, estamos preparando a próxima Geek Night..."
 comingSoonDetailTitle: "Em breve..."
 comingSoonDetailText: >
@@ -76,12 +76,12 @@ tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "E aí?"
 twitterHashTag: "geeknightrecife"
 twitterFeed: "#"
-twitterConsumerKey: ""
-twitterConsumerSecret:  ""
+twitterConsumerKey: "x9ihlhrZ9cIm9sourXdd8uW5O"
+twitterConsumerSecret:  "KX8o5tEUnqx09Hp9HQYVJk9Ms3mnXWJ3R03Vr60BuEELaGSQiT"
 
 #Facebook
-facebookAppId: ""
-facebookAppSecret: ""
+facebookAppId: "545567042258209"
+facebookAppSecret: "5ca0e9e2f0c5908b531fde0b69608c4d"
 facebookApiVersion: "2.4"
 
 # Partners Block

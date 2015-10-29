@@ -1,4 +1,13 @@
 ---
+- id: 659502370922057728
+  username: AndreiTognolo
+  tweet: 'Entrevista com @marcelcaraciolo no #geeknightrecife com apoio da @thoughtworks_pt
+    e @inovacao_cesar https://t.co/spIOqn7ZsE'
+  date: 2015-10-28 19:49:52.000000000 -03:00
+- id: 659491363302543362
+  username: brunolimawd
+  tweet: "#geeknightrecife (@ https://t.co/KRZA6QvamC in Recife, Pernambuco) https://t.co/aZDUHq4hB7"
+  date: 2015-10-28 19:06:08.000000000 -03:00
 - id: 644479703399694336
   username: ericoc
   tweet: 'Os slides da minha apresentação de ontem no Geek Night Recife http://t.co/L3MD2AKbt0
@@ -38,8 +47,3 @@
   tweet: Dia 8 de julho vou palestrar pela primeira vez em português sobre Continuous
     Delivery. http://t.co/bkyEpjEH0v https://t.co/yBs6QMNUHE
   date: 2015-07-01 13:08:18.000000000 -03:00
-- id: 616065087120494592
-  username: _renatoOliveira
-  tweet: Next week I'll be giving a talk about @pytestdotorg at @thoughtworks' Geek
-    Night Recife! http://t.co/Ng0ZNHgNbX
-  date: 2015-06-30 23:05:37.000000000 -03:00
