@@ -1,6 +1,7 @@
 -
   tracks:
     - {title: "Agenda", color: "#03a9f4"}
+  facebookAlbumId: "1076063309100898"
   timeslots:
     # Check-in
     - {
