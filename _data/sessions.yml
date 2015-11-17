@@ -13,11 +13,11 @@
 
 -
   id: 001
-  title: "Bate-papo com o atual presidente da Associação Python Brasil e CTO da Genomika Diagnósticos"
-  description: 'Em conversa sobre mineração de dados, machine learning, big data, bioinformática, educação online, software livre e carreira, Paulo Romeira entrevista Marcel Caraciolo, atual CTO da Genomika Diagnósticos e presidente da Associação Python Brasil, para saber porque Python vem ganhando tanto interesse da comunidade científica e como anda o mercado para quem pretende ser um "pythonista".'
+  title: "Privacidade é um direito seu! "
+  description: 'Essa é uma talk sobre o atual cenário de privacidade digital, e como ele vai de encontro com a natureza humana. Descubra quem lhe observa e que opções você tem.'
   speakers: [1]
 -
   id: 002
-  title: "Priorização por Objetivos"
-  description: 'O backlog tradicional já não nos serve mais. Ele falha em descrever o por quê de algo ser importante e não deixa eventuais dependências claras. Ele acaba sendo um lugar para listar funcionalidades futuras “para que não sejam esquecidas”. Se algo é suficientemente importante, não será esquecido. Nos dias de hoje, conceber um bom produto rapidamente é a chave para o sucesso tanto de startups quanto de grandes empresas. Ao construir novos produtos obter feedback rápido das funcionalidades mais básicas dos recursos de maior valor é fundamental. Priorização por objetivos apresenta uma forma de abordar estes problemas.'
+  title: "[IN]Segurança em Hospitais"
+  description: 'Vivemos na era da tecnologia e com seus avanços, vem também os grandes prejuízos causados pela sua falta de maturidade no ciclo de desenvolvimento de software relacionado à segurança da informação. A ideia da palestra é mostrar o quão perigoso pode ser uma simples consulta ao médico. Já parou para pensar com o que poderia acontecer  se o resultado de um exame médico fosse alterado? E se mudássemos a dosagem de algum medicamento critico?  E se suas informações confidenciais fossem expostas na internet? Minha ideia é mostrar e descrever as ações que devemos tomar para restringir os riscos e evitar expor os pacientes e seus dados a atividades criminosas.'
   speakers: [2]
