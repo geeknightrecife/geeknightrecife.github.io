@@ -16,6 +16,7 @@
   title: "Bate-papo com o atual presidente da Associação Python Brasil e CTO da Genomika Diagnósticos"
   description: 'Em conversa sobre mineração de dados, machine learning, big data, bioinformática, educação online, software livre e carreira, Paulo Romeira entrevista Marcel Caraciolo, atual CTO da Genomika Diagnósticos e presidente da Associação Python Brasil, para saber porque Python vem ganhando tanto interesse da comunidade científica e como anda o mercado para quem pretende ser um "pythonista".'
   speakers: [1]
+  presentation: "http://pauloromeira.com/geekinterview/marcelcaraciolo"
 -
   id: 002
   title: "Priorização por Objetivos"
