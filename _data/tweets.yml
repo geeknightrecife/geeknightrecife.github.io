@@ -1,49 +1,49 @@
 ---
-- id: 659502370922057728
-  username: AndreiTognolo
-  tweet: 'Entrevista com @marcelcaraciolo no #geeknightrecife com apoio da @thoughtworks_pt
-    e @inovacao_cesar https://t.co/spIOqn7ZsE'
-  date: 2015-10-28 19:49:52.000000000 -03:00
-- id: 659491363302543362
-  username: brunolimawd
-  tweet: "#geeknightrecife (@ https://t.co/KRZA6QvamC in Recife, Pernambuco) https://t.co/aZDUHq4hB7"
-  date: 2015-10-28 19:06:08.000000000 -03:00
-- id: 644479703399694336
-  username: ericoc
-  tweet: 'Os slides da minha apresentação de ontem no Geek Night Recife http://t.co/L3MD2AKbt0
-    @appcelerator #Titanium'
-  date: 2015-09-17 08:55:09.000000000 -03:00
-- id: 644465633367859201
-  username: isaacvitor
-  tweet: 'Ontem a noite participei do  #geeknightrecife muito bacana, acho que foi
-    o metro quadrado com mais nerds na cidade. #titanium #microservices'
-  date: 2015-09-17 07:59:15.000000000 -03:00
-- id: 644299225673678848
+- id: 669653482018889729
   username: dpcavalcanti
-  tweet: "@jmfaerman no #geeknightrecife http://t.co/tj6GJSCpRk"
-  date: 2015-09-16 20:58:00.000000000 -03:00
-- id: 644294803870609409
-  username: AndreiTognolo
-  tweet: 'Palestra do @jmfaerman sobre Microserviços no #geeknight Recife @impacthubrecife
-    http://t.co/m6AKfp6SGg'
-  date: 2015-09-16 20:40:26.000000000 -03:00
-- id: 642053322078298113
-  username: jmfaerman
-  tweet: Geek Night Recife { Microservices e Titanium Mobile }. Check it out and RSVP!
-    http://t.co/0r3NyeomCW
-  date: 2015-09-10 16:13:35.000000000 -03:00
-- id: 637032194469416960
-  username: thiagochapa
-  tweet: "@inovacao_cesar  assistindo o GeekNight Recife com o @mateusrevoredo  \\0/
-    http://t.co/yLUxlgv9bN"
-  date: 2015-08-27 19:41:25.000000000 -03:00
-- id: 636222758758674432
+  tweet: "@brunolimawd falando de #privacidade no #geeknightrecife #showdebola https://t.co/Z5MVqysUaw"
+  date: 2015-11-25 20:06:46.000000000 -03:00
+- id: 669646387844407296
+  username: arthurpaixao
+  tweet: 'Como vai sua privacidade? #GeekNightRecife https://t.co/9KoUuIj4WY'
+  date: 2015-11-25 19:38:34.000000000 -03:00
+- id: 669511878377369600
+  username: arthurpaixao
+  tweet: 'RT @thoughtworks_pt: Hoje acontecerá mais um #GeekNightRecife com palestra
+    de @arthurpaixao e @brunolimawd. Acesse: https://t.co/kCSWMeoYwD'
+  date: 2015-11-25 10:44:05.000000000 -03:00
+- id: 669510229156040705
+  username: brunolimawd
+  tweet: 'RT @thoughtworks_pt: Hoje acontecerá mais um #GeekNightRecife com palestra
+    de @arthurpaixao e @brunolimawd. Acesse: https://t.co/kCSWMeoYwD'
+  date: 2015-11-25 10:37:32.000000000 -03:00
+- id: 669508339856883713
   username: thoughtworks_pt
-  tweet: 'Mais um #geeknight #Recife : dia 27, com palestras sobre #Bootstrapping
-    e #Testes de UI (por @AndreiTognolo ) http://t.co/LiNEIvGYWf'
-  date: 2015-08-25 14:05:00.000000000 -03:00
-- id: 616277157166346240
-  username: justinharringa
-  tweet: Dia 8 de julho vou palestrar pela primeira vez em português sobre Continuous
-    Delivery. http://t.co/bkyEpjEH0v https://t.co/yBs6QMNUHE
-  date: 2015-07-01 13:08:18.000000000 -03:00
+  tweet: 'Hoje acontecerá mais um #GeekNightRecife com palestra de @arthurpaixao e
+    @brunolimawd. Acesse: https://t.co/kCSWMeoYwD'
+  date: 2015-11-25 10:30:01.000000000 -03:00
+- id: 669207966533423108
+  username: fkenjikamei
+  tweet: 'RT @thoughtworks_pt: No dia 25/11 acontecerá mais um #GeekNightRecife com
+    palestra de @arthurpaixao e @brunolimawd Participe: https://t.co/…'
+  date: 2015-11-24 14:36:27.000000000 -03:00
+- id: 669194269521870848
+  username: thoughtworks_pt
+  tweet: 'No dia 25/11 acontecerá mais um #GeekNightRecife com palestra de @arthurpaixao
+    e @brunolimawd Participe: https://t.co/kCSWMeoYwD'
+  date: 2015-11-24 13:42:01.000000000 -03:00
+- id: 669153251313496066
+  username: brunolimawd
+  tweet: "Amanhã tem #GeekNightRecife sobre privacidade e segurança \U0001F609https://t.co/XH6JMTAKhr
+    #Mozilla #MozillaBrasil #Firefox https://t.co/6BXAcfI4fU"
+  date: 2015-11-24 10:59:02.000000000 -03:00
+- id: 668968616050692096
+  username: EderRoger
+  tweet: 'RT @thoughtworks_pt: No dia 25/11 acontecerá mais um #GeekNightRecife com
+    palestra de @arthurpaixao e @brunolimawd Participe: https://t.co/…'
+  date: 2015-11-23 22:45:21.000000000 -03:00
+- id: 668961851590508549
+  username: jpaulorio
+  tweet: 'RT @thoughtworks_pt: No dia 25/11 acontecerá mais um #GeekNightRecife com
+    palestra de @arthurpaixao e @brunolimawd Participe: https://t.co/…'
+  date: 2015-11-23 22:18:28.000000000 -03:00

@@ -1,0 +1,27 @@
+-
+  id: 1
+  name: "Bruno"
+  surname: "Lima"
+  company: "C.E.S.A.R"
+  title: "Front-end Developer"
+  bio: "Web Developer, focado no front-end. Mais de 7 anos de experiência, passando por empresas de softwares e agências. Foi líder da equipe de Front-end na Fishy e atualmente é Front-end Developer no CESAR. Voluntário da Mozilla, apoiando a open web e neutralidade da rede. E membro do NodeBots Recife."
+  thumbnailUrl: BrunoLima.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "http://github.com/brunolimawd"}
+    - {name: "twitter", link: "http://twitter.com/brunolimawd"}
+    - {name: "linkedin", link: "http://linkedin.com/in/brunolimawd"}
+    - {name: "facebook", link: "http://fb.com/brunolimawd"}
+-
+  id: 2
+  name: "Arthur"
+  surname: "Paixão"
+  company: "MV S/A"
+  title: "Engenheiro de Software Sênior"
+  bio: "Formado no curso técnico em Analise e Desenvolvimento de Software pela UNIBRATEC, graduado em Segurança da Informação pela Faculdade dos Guararapes. Atualmente estou atuando como Engenheiro de Software Sênior na MV s/a. Fui vencedor do Hackaflag 2015 (Recife), Segundo Colocado na Criptorace 2015. Palestrante nos eventos RSW, Jornada Acadêmica - UNIBRATEC, ExpoDesign e Professor do curso de extensão em Invasão em Redes Corporativas na Faculdade dos Guararapes."
+  thumbnailUrl: ArthurPaixao.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/arthurpaixao"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/arthurpaixao"}
+    - {name: "site", link: "http://www.arthurpaixao.com.br/blog/"}
