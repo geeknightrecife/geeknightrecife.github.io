@@ -16,6 +16,7 @@
   title: "Privacidade é um direito seu! "
   description: 'Essa é uma talk sobre o atual cenário de privacidade digital, e como ele vai de encontro com a natureza humana. Descubra quem lhe observa e que opções você tem.'
   speakers: [1]
+  presentation: "http://brunolima.io/talk-moz-privacy/"
 -
   id: 002
   title: "[IN]Segurança em Hospitais"
