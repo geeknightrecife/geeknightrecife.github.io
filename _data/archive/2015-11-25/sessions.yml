@@ -16,8 +16,10 @@
   title: "Privacidade é um direito seu! "
   description: 'Essa é uma talk sobre o atual cenário de privacidade digital, e como ele vai de encontro com a natureza humana. Descubra quem lhe observa e que opções você tem.'
   speakers: [1]
+  presentation: "http://brunolima.io/talk-moz-privacy/"
 -
   id: 002
   title: "[IN]Segurança em Hospitais"
   description: 'Vivemos na era da tecnologia e com seus avanços, vem também os grandes prejuízos causados pela sua falta de maturidade no ciclo de desenvolvimento de software relacionado à segurança da informação. A ideia da palestra é mostrar o quão perigoso pode ser uma simples consulta ao médico. Já parou para pensar com o que poderia acontecer  se o resultado de um exame médico fosse alterado? E se mudássemos a dosagem de algum medicamento critico?  E se suas informações confidenciais fossem expostas na internet? Minha ideia é mostrar e descrever as ações que devemos tomar para restringir os riscos e evitar expor os pacientes e seus dados a atividades criminosas.'
   speakers: [2]
+  presentation: "http://www.slideshare.net/arthurpaixao/insegurana-em-hospitais"
