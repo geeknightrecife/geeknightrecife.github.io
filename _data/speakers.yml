@@ -1,27 +1,24 @@
 -
   id: 1
-  name: "Bruno"
-  surname: "Lima"
-  company: "C.E.S.A.R"
-  title: "Front-end Developer"
+  name: "Caio Lüders"
+  surname: "de Araújo"
+  company: "UFPE"
+  title: 'char cr_cla[][500] = {"Graduando em Engenharia da computação pela UFPE" , "http://www.b00t4nd0.com" , "Finalista do h4ck4fl4g 2014" , "vencedor do hackathon de segurança da Telefônica na CP Recife 2014" , "Finalista da FEBRACE 2013" , "http://www.github.com/geolado" , "CTF PLAYER !" , "n00b nas horas vagas"};'
   bio: "Web Developer, focado no front-end. Mais de 7 anos de experiência, passando por empresas de softwares e agências. Foi líder da equipe de Front-end na Fishy e atualmente é Front-end Developer no CESAR. Voluntário da Mozilla, apoiando a open web e neutralidade da rede. E membro do NodeBots Recife."
-  thumbnailUrl: BrunoLima.jpg
+  thumbnailUrl: CaioAraujo.jpg
   rockstar: true
   social:
-    - {name: "github", link: "http://github.com/brunolimawd"}
-    - {name: "twitter", link: "http://twitter.com/brunolimawd"}
-    - {name: "linkedin", link: "http://linkedin.com/in/brunolimawd"}
-    - {name: "facebook", link: "http://fb.com/brunolimawd"}
+    - {name: "github", link: "http://github.com/geolado"}
+    - {name: "twitter", link: "http://twitter.com/geolado"}
+    - {name: "site", link: "http://b00t4nd0.com"}
 -
   id: 2
-  name: "Arthur"
-  surname: "Paixão"
-  company: "MV S/A"
-  title: "Engenheiro de Software Sênior"
-  bio: "Formado no curso técnico em Analise e Desenvolvimento de Software pela UNIBRATEC, graduado em Segurança da Informação pela Faculdade dos Guararapes. Atualmente estou atuando como Engenheiro de Software Sênior na MV s/a. Fui vencedor do Hackaflag 2015 (Recife), Segundo Colocado na Criptorace 2015. Palestrante nos eventos RSW, Jornada Acadêmica - UNIBRATEC, ExpoDesign e Professor do curso de extensão em Invasão em Redes Corporativas na Faculdade dos Guararapes."
-  thumbnailUrl: ArthurPaixao.jpg
+  name: "Aline"
+  surname: "Matoso"
+  company: "Manifesto Games"
+  title: "Project Manager"
+  bio: "Aline Cesário é administradora e designer, com o mestrado em gestão de design e projetos de inovação. trabalha na área de TI a 7 anos, a à 5 na Manifesto games como produtra de jogos e foi vencedora do premio Sebrae de jogos para Educação Financeira em 2015 concorrendo com 213 jogos. Incentivar e estimular comportamentos através de jogos digitais tem sido um desafio constante em seu trabalho."
+  thumbnailUrl: AlineMatoso.jpg
   rockstar: true
   social:
-    - {name: "twitter", link: "https://twitter.com/arthurpaixao"}
-    - {name: "linkedin", link: "https://www.linkedin.com/in/arthurpaixao"}
-    - {name: "site", link: "http://www.arthurpaixao.com.br/blog/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/aline-cesario-matoso-51172b64/en"}

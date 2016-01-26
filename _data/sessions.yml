@@ -13,11 +13,11 @@
 
 -
   id: 001
-  title: "Privacidade é um direito seu! "
-  description: 'Essa é uma talk sobre o atual cenário de privacidade digital, e como ele vai de encontro com a natureza humana. Descubra quem lhe observa e que opções você tem.'
+  title: "O Maravilhoso Mundo das Competições Capture the Flag"
+  description: 'Esta palestra visa fazer uma introdução sobre o maravilhoso mundo das competições Capture the Flag (CTF), eventos de segurança da informação que englobam muitas competências das equipes participantes, exigindo a resolução rápida de problemas de diversas categorias e níveis de dificuldade, obtendo assim as flags e pontuando. O Projeto CTF-BR (www.ctf-br.org) também será explanado.'
   speakers: [1]
 -
   id: 002
-  title: "[IN]Segurança em Hospitais"
-  description: 'Vivemos na era da tecnologia e com seus avanços, vem também os grandes prejuízos causados pela sua falta de maturidade no ciclo de desenvolvimento de software relacionado à segurança da informação. A ideia da palestra é mostrar o quão perigoso pode ser uma simples consulta ao médico. Já parou para pensar com o que poderia acontecer  se o resultado de um exame médico fosse alterado? E se mudássemos a dosagem de algum medicamento critico?  E se suas informações confidenciais fossem expostas na internet? Minha ideia é mostrar e descrever as ações que devemos tomar para restringir os riscos e evitar expor os pacientes e seus dados a atividades criminosas.'
+  title: "Gameficação além da buzzword"
+  description: 'Vamos conversar sobre gameficação além da buzzword: Até onde vai a gameficação? Como elementos de jogos vem sendo utilizados para envolver e engajar usuário de qualquer tipo de produto, e como isso também pode dar errado.'
   speakers: [2]
