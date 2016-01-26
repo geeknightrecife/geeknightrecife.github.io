@@ -3,8 +3,8 @@
   name: "Caio Lüders"
   surname: "de Araújo"
   company: "UFPE"
-  title: 'char cr_cla[][500] = {"Graduando em Engenharia da computação pela UFPE" , "http://www.b00t4nd0.com" , "Finalista do h4ck4fl4g 2014" , "vencedor do hackathon de segurança da Telefônica na CP Recife 2014" , "Finalista da FEBRACE 2013" , "http://www.github.com/geolado" , "CTF PLAYER !" , "n00b nas horas vagas"};'
-  bio: "Web Developer, focado no front-end. Mais de 7 anos de experiência, passando por empresas de softwares e agências. Foi líder da equipe de Front-end na Fishy e atualmente é Front-end Developer no CESAR. Voluntário da Mozilla, apoiando a open web e neutralidade da rede. E membro do NodeBots Recife."
+  title: "Estudante"
+  bio: 'char cr_cla[][500] = {"Graduando em Engenharia da computação pela UFPE" , "http://www.b00t4nd0.com" , "Finalista do h4ck4fl4g 2014" , "vencedor do hackathon de segurança da Telefônica na CP Recife 2014" , "Finalista da FEBRACE 2013" , "http://www.github.com/geolado" , "CTF PLAYER !" , "n00b nas horas vagas"};'
   thumbnailUrl: CaioAraujo.jpg
   rockstar: true
   social:
