@@ -1,24 +1,30 @@
 -
   id: 1
-  name: "Caio Lüders"
-  surname: "de Araújo"
-  company: "UFPE"
-  title: "Estudante"
-  bio: 'char cr_cla[][500] = {"Graduando em Engenharia da computação pela UFPE" , "http://www.b00t4nd0.com" , "Finalista do h4ck4fl4g 2014" , "vencedor do hackathon de segurança da Telefônica na CP Recife 2014" , "Finalista da FEBRACE 2013" , "http://www.github.com/geolado" , "CTF PLAYER !" , "n00b nas horas vagas"};'
-  thumbnailUrl: CaioAraujo.jpg
+  name: "Andreza"
+  surname: "Leite"
+  company: "Women Who Code"
+  title: "Fundadora"
+  bio: 'Andreza Leite tem Mestrado em Ciência da Computação pelo Centro de Informática da Universidade Federal de Pernambuco (UFPE) e está cursando o Doutorado também no CIn/UFPE. Graduada em Sistemas de Informação pela Universidade Federal do Pará (UFPA). É professora na Universidade Federal Rural de Pernambuco (UFRPE). Tem experiência na área de Ciência da Computação, com interesse principalmente nos temas: Banco de Dados; Sistemas Distribuídos e Gerenciamento de dados em Nuvem. Já palestrou em eventos de Tecnologia e Empreendedorismo como Campus Party, FISL, CSBC, Consoline entre outros. É Fundadora do Women Who Code Recife, Pyladies Recife e Embaixadora do Technovation Challenge Brasil.'
+  thumbnailUrl: AndrezaLeite.jpg
   rockstar: true
   social:
-    - {name: "github", link: "http://github.com/geolado"}
-    - {name: "twitter", link: "http://twitter.com/geolado"}
-    - {name: "site", link: "http://b00t4nd0.com"}
 -
   id: 2
-  name: "Aline"
-  surname: "Matoso"
-  company: "Manifesto Games"
-  title: "Project Manager"
-  bio: "Aline Cesário é administradora e designer, com o mestrado em gestão de design e projetos de inovação. trabalha na área de TI a 7 anos, a à 5 na Manifesto games como produtra de jogos e foi vencedora do premio Sebrae de jogos para Educação Financeira em 2015 concorrendo com 213 jogos. Incentivar e estimular comportamentos através de jogos digitais tem sido um desafio constante em seu trabalho."
-  thumbnailUrl: AlineMatoso.jpg
+  name: "Lhaís"
+  surname: "Rodrigues"
+  company: "Women Makers"
+  title: "Idealizadora e Fundadora"
+  bio: "Idealizadora e Fundadora do Women Makers, Estudante de Engenharia da Computação pelo CIn-UFPE, Microsoft Student Partner, Embaixadora do Technovation Challenge e Hobbista de Internet das Coisas e Sistemas Embarcados. Possui experiência há mais de 1 ano com projetos que busquem incentivar e inspirar a participação de mulheres e meninas para a área de Tecnologia, sendo colaboradora do Women Who Code, já participou de projetos e organizações que buscam impulsionar o Empreendedorismo e Liderança como AIESEC, LabX da Fundação Estudar e Artemisia e desenvolveu seus conhecimentos técnicos tecnológicos MIC ETEPAM. Além disso, já vivenciou experiência em países como Estados Unidos e Suíça - onde desenvolveu melhor o seu perfil pessoal e profissional. Adora desenvolvimento de software e mobile, aprender coisas novas e fazer network."
+  thumbnailUrl: LhaisRodrigues.jpg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/aline-cesario-matoso-51172b64/en"}
+-
+  id: 3
+  name: "Lidiane"
+  surname: "Monteiro"
+  company: ""
+  title: ""
+  bio: "Fundadora do Blog do InspirAda na Computação, Padawan de Desenvolvimento de Software e Mãe de Teddy, um cachorro com mais de 5 apelidos. Além disso, cursa Licenciatura em Computação na UFRPE e faz estágio na FUNDAJ. Como rata de comunidade de TI contribuiu na fundação de algumas em Recife para incentivar mulheres: Women Who Code, PyLadies, Django Girls, JS4Girls. Participa ativamente da comunidade Python há pelo menos 3 anos e contribui como co-coordenadora de Mídias Socais da Python Brasil. É 99% Computação e Educação, mas alguns outros % em Jornalismo. Não escreve bem (nem códigos, nem textos), mas acredita que pode chegar lá compartilhando o que aprender e com Jornalismo de Dados. Apaixonada por Python, curte ativismo social, feminismo, programação, ciência de dados, bolo de rolo e Cerveja."
+  thumbnailUrl: LidianeMonteiro.jpg
+  rockstar: true
+  social:
