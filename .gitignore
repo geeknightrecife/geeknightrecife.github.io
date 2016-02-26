@@ -4,3 +4,4 @@ out
 _sass/.sass-cache
 _site
 snap-ci-console.log
+.idea
