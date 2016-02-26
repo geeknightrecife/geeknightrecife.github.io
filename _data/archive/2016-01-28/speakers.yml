@@ -1,0 +1,24 @@
+-
+  id: 1
+  name: "Caio Lüders"
+  surname: "de Araújo"
+  company: "UFPE"
+  title: "Estudante"
+  bio: 'char cr_cla[][500] = {"Graduando em Engenharia da computação pela UFPE" , "http://www.b00t4nd0.com" , "Finalista do h4ck4fl4g 2014" , "vencedor do hackathon de segurança da Telefônica na CP Recife 2014" , "Finalista da FEBRACE 2013" , "http://www.github.com/geolado" , "CTF PLAYER !" , "n00b nas horas vagas"};'
+  thumbnailUrl: CaioAraujo.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "http://github.com/geolado"}
+    - {name: "twitter", link: "http://twitter.com/geolado"}
+    - {name: "site", link: "http://b00t4nd0.com"}
+-
+  id: 2
+  name: "Aline"
+  surname: "Matoso"
+  company: "Manifesto Games"
+  title: "Project Manager"
+  bio: "Aline Cesário é administradora e designer, com o mestrado em gestão de design e projetos de inovação. trabalha na área de TI a 7 anos, a à 5 na Manifesto games como produtra de jogos e foi vencedora do premio Sebrae de jogos para Educação Financeira em 2015 concorrendo com 213 jogos. Incentivar e estimular comportamentos através de jogos digitais tem sido um desafio constante em seu trabalho."
+  thumbnailUrl: AlineMatoso.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/aline-cesario-matoso-51172b64/en"}
