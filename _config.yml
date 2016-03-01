@@ -52,7 +52,7 @@ heroTitle: "Geek Night Recife: <typeout>"
 typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
 typeoutFallback: "Tecnologia"
 heroButtons:
- - {link: "https://www.facebook.com/events/1670641689874807/", text: "Eu Vou!"}
+ - {link: "https://www.facebook.com/events/1689946224615780/", text: "Eu Vou!"}
 
 # About Block
 aboutTitle: "Sobre a Geek Night Recife"

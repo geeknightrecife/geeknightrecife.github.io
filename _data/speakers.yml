@@ -2,12 +2,16 @@
   id: 1
   name: "Andreza"
   surname: "Leite"
-  company: "Women Who Code"
-  title: "Fundadora"
+  company: "UFRPE"
+  title: "Docente"
   bio: 'Andreza Leite tem Mestrado em Ciência da Computação pelo Centro de Informática da Universidade Federal de Pernambuco (UFPE) e está cursando o Doutorado também no CIn/UFPE. Graduada em Sistemas de Informação pela Universidade Federal do Pará (UFPA). É professora na Universidade Federal Rural de Pernambuco (UFRPE). Tem experiência na área de Ciência da Computação, com interesse principalmente nos temas: Banco de Dados; Sistemas Distribuídos e Gerenciamento de dados em Nuvem. Já palestrou em eventos de Tecnologia e Empreendedorismo como Campus Party, FISL, CSBC, Consoline entre outros. É Fundadora do Women Who Code Recife, Pyladies Recife e Embaixadora do Technovation Challenge Brasil.'
   thumbnailUrl: AndrezaLeite.jpg
   rockstar: true
   social:
+      - {name: "github", link: "https://github.com/andrezaleite"}
+      - {name: "twitter", link: "https://twitter.com/andreza_paju"}
+      - {name: "linkedin", link: "https://br.linkedin.com/in/andrezaleite"}
+      - {name: "facebook", link: "https://www.facebook.com/andreza.leite1"}
 -
   id: 2
   name: "Lhaís"
@@ -18,6 +22,8 @@
   thumbnailUrl: LhaisRodrigues.jpg
   rockstar: true
   social:
+      - {name: "github", link: "https://github.com/lhaisrs"}
+      - {name: "twitter", link: "https://twitter.com/lhaisrs_"}
 -
   id: 3
   name: "Lidiane"
