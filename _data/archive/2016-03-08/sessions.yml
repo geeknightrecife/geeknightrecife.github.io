@@ -1,0 +1,23 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+
+-
+  id: 001
+  title: "Women Who Code Recife e o Cenário da Mulher na Tecnologia"
+  description: 'Women Who Code Recife faz parte de uma organização global dedicada a educar e inspirar as mulheres a buscar e destacar em carreiras tecnológicas. Em Recife, o Women Who Code foi criado em 8 de Janeiro de 2014 com o grande objetivo de compartilhar conhecimentos e aprender linguagens de programação com criações de grupo de estudos e disseminando eventos como Hackathons, Palestras e etc.'
+  speakers: [1]
+-
+  id: 002
+  title: "Como Python tem emponderado as mulheres"
+  description: 'PyLadies e Django Girls são cases de sucesso de como Python tem emponderado as mulheres. Venha conhecer um pouco da história, saber alguns dados das ações e impacto das iniciativas. Entender o que há lado a lado do empoderamento das mulheres e uma linguagem de programação. Saber mais sobre os recursos do Python (Guia de Estilo, The Zen Of Python, propósito e aplicações da linguagem) e Django. Mais informações sobre eventos que acontecerão em Recife e como você pode participar e contribuir.'
+  speakers: [2, 3]
