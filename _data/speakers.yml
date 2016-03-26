@@ -1,36 +1,12 @@
 -
   id: 1
-  name: "Andreza"
-  surname: "Leite"
-  company: "UFRPE"
-  title: "Docente"
-  bio: 'Andreza Leite tem Mestrado em Ciência da Computação pelo Centro de Informática da Universidade Federal de Pernambuco (UFPE) e está cursando o Doutorado também no CIn/UFPE. Graduada em Sistemas de Informação pela Universidade Federal do Pará (UFPA). É professora na Universidade Federal Rural de Pernambuco (UFRPE). Tem experiência na área de Ciência da Computação, com interesse principalmente nos temas: Banco de Dados; Sistemas Distribuídos e Gerenciamento de dados em Nuvem. Já palestrou em eventos de Tecnologia e Empreendedorismo como Campus Party, FISL, CSBC, Consoline entre outros. É Fundadora do Women Who Code Recife, Pyladies Recife e Embaixadora do Technovation Challenge Brasil.'
-  thumbnailUrl: AndrezaLeite.jpg
+  name: "Matheus"
+  surname: "Lubarino"
+  company: "Indra Recife"
+  title: "Desenvolvedor Web"
+  bio: '"Sou estudante de Sistema da Informação pela faculdade Joaquim Nabuco. Trabalho com desenvolvimento Web na Indra Company com a tecnologia Java. Também realizo algumas contribuições para a comunidade mozilla como traduções e criação de Addons'
+  thumbnailUrl: MatheusLubarino.jpg
   rockstar: true
   social:
-      - {name: "github", link: "https://github.com/andrezaleite"}
-      - {name: "twitter", link: "https://twitter.com/andreza_paju"}
-      - {name: "linkedin", link: "https://br.linkedin.com/in/andrezaleite"}
-      - {name: "facebook", link: "https://www.facebook.com/andreza.leite1"}
--
-  id: 2
-  name: "Lhaís"
-  surname: "Rodrigues"
-  company: "Women Makers"
-  title: "Idealizadora e Fundadora"
-  bio: "Idealizadora e Fundadora do Women Makers, Estudante de Engenharia da Computação pelo CIn-UFPE, Microsoft Student Partner, Embaixadora do Technovation Challenge e Hobbista de Internet das Coisas e Sistemas Embarcados. Possui experiência há mais de 1 ano com projetos que busquem incentivar e inspirar a participação de mulheres e meninas para a área de Tecnologia, sendo colaboradora do Women Who Code, já participou de projetos e organizações que buscam impulsionar o Empreendedorismo e Liderança como AIESEC, LabX da Fundação Estudar e Artemisia e desenvolveu seus conhecimentos técnicos tecnológicos MIC ETEPAM. Além disso, já vivenciou experiência em países como Estados Unidos e Suíça - onde desenvolveu melhor o seu perfil pessoal e profissional. Adora desenvolvimento de software e mobile, aprender coisas novas e fazer network."
-  thumbnailUrl: LhaisRodrigues.jpg
-  rockstar: true
-  social:
-      - {name: "github", link: "https://github.com/lhaisrs"}
-      - {name: "twitter", link: "https://twitter.com/lhaisrs_"}
--
-  id: 3
-  name: "Lidiane"
-  surname: "Monteiro"
-  company: ""
-  title: ""
-  bio: "Fundadora do Blog do InspirAda na Computação, Padawan de Desenvolvimento de Software e Mãe de Teddy, um cachorro com mais de 5 apelidos. Além disso, cursa Licenciatura em Computação na UFRPE e faz estágio na FUNDAJ. Como rata de comunidade de TI contribuiu na fundação de algumas em Recife para incentivar mulheres: Women Who Code, PyLadies, Django Girls, JS4Girls. Participa ativamente da comunidade Python há pelo menos 3 anos e contribui como co-coordenadora de Mídias Socais da Python Brasil. É 99% Computação e Educação, mas alguns outros % em Jornalismo. Não escreve bem (nem códigos, nem textos), mas acredita que pode chegar lá compartilhando o que aprender e com Jornalismo de Dados. Apaixonada por Python, curte ativismo social, feminismo, programação, ciência de dados, bolo de rolo e Cerveja."
-  thumbnailUrl: LidianeMonteiro.jpg
-  rockstar: true
-  social:
+      - {name: "github", link: "https://github.com/lubarinobr"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/matheus-lubarino-b2740471"}
