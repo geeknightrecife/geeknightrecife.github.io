@@ -1,0 +1,24 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+
+-
+  id: 001
+  title: "Devops com Vagrant"
+  description: 'A necessidade de ter que configurar vários ambientes e de realizar configurações variadas para cada projeto em uma equipe de software pode se tornar uma coisas bastante estressante. Então que tal você digitar poucas instruções e simplesmente surgi do nada uma máquina toda configurada para o seu projeto ? Pois é isso que irei mostrar com o Vagrant, uma tecnologia que pode agilizar o seu processo de desenvolvimento.'
+  speakers: [1]
+-
+  id: 002
+  title: "Web Design Responsivo"
+  description: 'O crescimento do mercado de dispositivos móveis tem tornado a internet mais acessível para a população, sem que haja a necessidade de ter um computador para poder consumir seu conteúdo.
+Com os mais variados tamanhos de tela, surgiu a necessidade em se pensar em design responsivo para que esse conteúdo possa se adaptar as várias resoluções. Venha entender qual a importância design de web ser pensado dessa forma e de que maneiras o site pode se comportar para atender essa necessidade.'
+  speakers: [2, 3]
