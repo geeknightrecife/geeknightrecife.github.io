@@ -1,0 +1,37 @@
+-
+  id: 1
+  name: "Henrique"
+  surname: "Rezende"
+  company: "ThoughtWorks"
+  title: "Senior Consultant Developer"
+  bio: "Henrique Rezende atua como consultor na Thoughtworks desde 2011, onde se tornou um entusiasta ágil por osmose. Acredita em times multidisciplinares e no poder colaborativo de cada membro da equipe."
+  thumbnailUrl: HenriqueRezende.jpg
+  rockstar: true
+  social:
+      - {name: "github", link: "https://github.com/henriquerrezende"}
+      - {name: "linkedin", link: "https://br.linkedin.com/pub/henrique-ribeiro-rezende/24/144/67b"}
+      - {name: "twitter", link: "https://twitter.com/henriquerrezend"}
+-
+  id: 2
+  name: "Andrei"
+  surname: "Tognolo"
+  company: "ThoughtWorks"
+  title: "Senior Consultant Developer"
+  bio: "Um idealista que busca transformar utopias em realidade através de well crafted software. Tenho trabalho com desenvolvimento de software desde 2007, com focus em metodologias ágeis, principalmente usando Java, Ruby e JavaScript. Atualmente sou Senior Consultant Developer na ThoughtWorks, onde trabalho como membro do time de desenvolvimento do Snap CI"
+  thumbnailUrl: AndreiTognolo.jpg
+  rockstar: true
+  social:
+      - {name: "github", link: "http://github.com/andreitognolo"}
+      - {name: "linkedin", link: "http://www.linkedin.com/pub/andrei-tognolo/16/294/631"}
+      - {name: "twitter", link: "https://twitter.com/andreitognolo"}
+-
+  id: 3
+  name: "Elizabeth"
+  surname: "Marques"
+  company: "Indra"
+  title: "Analista de testes"
+  bio: "Formação Acadêmica na Área Humanas. E Formação Profissional na Área de Exatas. Certificada em CTFL e ITIL V2. Metida a entendedora de processos de desenvolvimento e adepta a mapas mentas e papel e lápis. Trabalho em TI desde 2009 até então. À convite de uma amiga, inicie como suporte a microcomputadores, periféricos, plataforma e sistemas corporativos e rede interna na Lanlink. Em 2013, também à convite, ingressei na Indra como Help Desk para Sistema Administrativos. E à um ano aceite o desafio de ingressar como Teste de Software na fabrica. Cada vez mais certa do caminho que escolhi trilhar."
+  thumbnailUrl: ElizabethMarques.jpg
+  rockstar: true
+  social:
+      - {name: "facebook", link: "https://facebook.com/marques.bbetty"}

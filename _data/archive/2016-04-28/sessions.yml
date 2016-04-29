@@ -1,0 +1,23 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+
+-
+  id: 001
+  title: "Mais e mais Builds Simultâneas no Snap CI"
+  description: 'Desde seu início o Snap CI buscou uma arquitetura enxuta, que atendesse as demandas do momento, mas que fosse simples o bastante para ser evoluída. O número de builds simultâneas cresceu e tivemos que evoluir nossa arquitetura. Nessa palestra vamos apresentar a arquitetura do Snap CI, apresentar os problemas de escalabilidade que sofremos e os caminhos que trilhamos para evoluí-la.'
+  speakers: [1,2]
+-
+  id: 002
+  title: "Heurísticas: agregando valor ao teste"
+  description: 'Abordar as heurísticas para o teste de software como ferramentar para agregar valor e conseguinte, qualidade ao produto. Pretender passar um pouco da experiência adquirida na área de desenvolvimento. Como um testador poder adequar e flexibilizar seus testes utilizando técnicas de heurísticas.'
+  speakers: [3]
