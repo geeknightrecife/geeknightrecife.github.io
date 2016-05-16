@@ -2,3 +2,4 @@
   elements:
     - {name: "ThoughtWorks", description: "Desenvolvimento Ágil e Design de Experiência", link: "https://www.thoughtworks.com/pt/", imageUrl: "thoughtworks.png"}
     - {name: "C.E.S.A.R", description: "Centro de Estudos e Sistemas Avançados do Recife", link: "http://cesar.org.br/", imageUrl: "cesar.png"}
+    - {name: "Impact Hub Recife", description: "Espaços Inspiradores + Comunidade Vibrante + Conteúdos Relevantes = Impact Hub Experience!", link: "http://www.impacthubrecife.com/", imageUrl: "impact-hub.jpg"}
