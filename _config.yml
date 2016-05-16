@@ -9,7 +9,7 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Event coming soon
-preparingNextEvent: true
+preparingNextEvent: false
 comingSoonText: "Fiquem ligados, estamos preparando a próxima Geek Night..."
 comingSoonDetailTitle: "Em breve..."
 comingSoonDetailText: >
@@ -52,7 +52,7 @@ heroTitle: "Geek Night Recife: <typeout>"
 typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
 typeoutFallback: "Tecnologia"
 heroButtons:
- - {link: "https://www.facebook.com/events/1689049584684540/", text: "Eu Vou!"}
+ - {link: "http://www.eventick.com.br/geek-night-recife", text: "Eu Vou!"}
 
 # About Block
 aboutTitle: "Sobre a Geek Night Recife"

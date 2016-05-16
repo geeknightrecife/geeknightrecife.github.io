@@ -9,15 +9,15 @@
 -
   id: 030
   title: "Pós Geek Night"
-  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 
 -
   id: 001
-  title: "Mais e mais Builds Simultâneas no Snap CI"
-  description: 'Desde seu início o Snap CI buscou uma arquitetura enxuta, que atendesse as demandas do momento, mas que fosse simples o bastante para ser evoluída. O número de builds simultâneas cresceu e tivemos que evoluir nossa arquitetura. Nessa palestra vamos apresentar a arquitetura do Snap CI, apresentar os problemas de escalabilidade que sofremos e os caminhos que trilhamos para evoluí-la.'
-  speakers: [1,2]
+  title: "Fronteiras entre o Lean e a Gambiarra"
+  description: 'Big upfront design é coisa do passado. Dificilmente encontraremos alguém que defende que devemos começar com uma arquitetura que tenha a resposta para todas as perguntas. Design evolutivo tem tido um importante papel nessa área. Porém, se estamos focados só no presente, não corremos o risco de criamos gambiarras que irão cobrar altos juros no futuro? Longe de ser uma resposta concreta ou fácil, essa palestra busca explorar as fronteiras entre ser Lean e fazer Gambiarras.'
+  speakers: [1]
 -
   id: 002
-  title: "Heurísticas: agregando valor ao teste"
-  description: 'Abordar as heurísticas para o teste de software como ferramentar para agregar valor e conseguinte, qualidade ao produto. Pretender passar um pouco da experiência adquirida na área de desenvolvimento. Como um testador poder adequar e flexibilizar seus testes utilizando técnicas de heurísticas.'
-  speakers: [3]
+  title: "It's a trap!"
+  description: 'Ao longo do tempo trabalhando com software, me deparei com problemas dos mais variados, porém percebi uma certa repetição de alguns e resolvi fazer um pequeno compilado dessas armadilhas que você deveria evitar.'
+  speakers: [2]
