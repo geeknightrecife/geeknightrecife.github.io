@@ -1,0 +1,23 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
+
+-
+  id: 001
+  title: "Fronteiras entre o Lean e a Gambiarra"
+  description: 'Big upfront design é coisa do passado. Dificilmente encontraremos alguém que defende que devemos começar com uma arquitetura que tenha a resposta para todas as perguntas. Design evolutivo tem tido um importante papel nessa área. Porém, se estamos focados só no presente, não corremos o risco de criamos gambiarras que irão cobrar altos juros no futuro? Longe de ser uma resposta concreta ou fácil, essa palestra busca explorar as fronteiras entre ser Lean e fazer Gambiarras.'
+  speakers: [1]
+-
+  id: 002
+  title: "It's a trap!"
+  description: 'Ao longo do tempo trabalhando com software, me deparei com problemas dos mais variados, porém percebi uma certa repetição de alguns e resolvi fazer um pequeno compilado dessas armadilhas que você deveria evitar.'
+  speakers: [2]
