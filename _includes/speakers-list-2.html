@@ -2,7 +2,8 @@
 <section id="speakers">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
-            {% for speaker in site.data.speakers %}
+            {% assign speakers = site.data.speakers | sort: 'id' %}
+            {% for speaker in speakers %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
@@ -37,7 +38,7 @@
             </div>
             {% endfor %}
         </div>
-        <a href="{{ site.becomeSpeaker }}" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Seja um Palestrante</a>         
+        <a href="{{ site.becomeSpeaker }}" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Seja um Palestrante</a>
     </div>
 </section>
 <!-- End Speakers List 2 -->
