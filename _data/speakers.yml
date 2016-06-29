@@ -1,27 +1,24 @@
 -
   id: 1
-  name: "Andrei"
-  surname: "Tognolo"
-  company: "ThoughtWorks"
-  title: "Senior Consultant Developer"
-  bio: "Um idealista que busca transformar utopias em realidade através de well crafted software. Tenho trabalho com desenvolvimento de software desde 2007, com focus em metodologias ágeis, principalmente usando Java, Ruby e JavaScript. Atualmente sou Senior Consultant Developer na ThoughtWorks, onde trabalho como membro do time de desenvolvimento do Snap CI"
-  thumbnailUrl: AndreiTognolo.jpg
+  name: "Bruno"
+  surname: "Lima"
+  company: "C.E.S.A.R"
+  title: "Front-end Developer"
+  bio: "Desenvolvedor web, focado em front-end. Voluntário da Mozilla, apoiador da open web e neutralidade da rede. Front-end Developer no CESAR e membro do NodeBots Recife."
+  thumbnailUrl: BrunoLima.jpg
   rockstar: true
   social:
-      - {name: "github", link: "http://github.com/andreitognolo"}
-      - {name: "linkedin", link: "http://www.linkedin.com/pub/andrei-tognolo/16/294/631"}
-      - {name: "twitter", link: "https://twitter.com/andreitognolo"}
+      - {name: "github", link: "http://github.com/brunolimawd"}
+      - {name: "linkedin", link: "https://br.linkedin.com/in/brunolimawd"}
+      - {name: "twitter", link: "http://twitter.com/brunolimawd"}
 -
   id: 2
-  name: "Gilberto"
-  surname: "Matos"
-  company: "C.E.S.A.R"
-  title: "Engenheiro de Software"
-  bio: "Possui experiência em desenvolvimento de software, atuando na área como profissional desde 1999, ao longo da carreira desempenhou funções como programador, analista de sistema, engenheiro de software, arquiteto de software e líder técnico. Adepto a metodologias ágeis, assina os manifestos Agile Software Development
-e Software Craftsmanship. Ele acredita que fazer software é uma arte e que programação deveria ser ensinada na escola."
-  thumbnailUrl: GilbertoMatos.jpg
+  name: "Marcos"
+  surname: "Oliveira"
+  company: "Badoque"
+  title: "Consultor de Novos Negócios"
+  bio: "Especialista em Sistemas e Estratégias de Inovação pelo CEDEPE Business School, é Graduado em Administração pela Universidade Federal de Pernambuco (UFPE), possui mais de 10 anos de atuação no fomento ao empreendedorismo (UFPE, Governo de Pernambuco e Porto Digital)."
+  thumbnailUrl: MarcosOliveira.jpg
   rockstar: true
   social:
-      - {name: "site", link: "http://gibalabs.wordpress.com"}
-      - {name: "linkedin", link: "https://br.linkedin.com/in/jos%C3%A9-gilberto-de-fran%C3%A7a-matos-687b1484"}
-      - {name: "twitter", link: "https://twitter.com/gilbertofmatos"}
+      - {name: "linkedin", link: "https://br.linkedin.com/in/marcos-oliveira-995b2331"}
