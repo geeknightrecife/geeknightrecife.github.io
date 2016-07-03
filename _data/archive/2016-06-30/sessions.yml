@@ -1,0 +1,23 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
+
+-
+  id: 001
+  title: "O realístico mundo do WebVR com A-Frame"
+  description: 'Oculus Rift é um grande exemplo do caminho que a realidade virtual está seguindo e esse mundo também está acessível à Web. Com o A-Frame podemos criar experiências incríveis, de uma maneira mais simples do que você imagina.'
+  speakers: [1]
+-
+  id: 002
+  title: "Como não começar uma startup"
+  description: 'Depois de mais de 10 anos trabalhando com empreendedores, principalmente na área de TI, observei alguns padrões naqueles que não conseguiram levar suas startups a frente. Quero compartilhar um pouco dessa experiência.'
+  speakers: [2]
