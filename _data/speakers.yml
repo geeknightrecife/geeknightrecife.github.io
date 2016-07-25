@@ -1,24 +1,13 @@
 -
   id: 1
-  name: "Bruno"
-  surname: "Lima"
-  company: "C.E.S.A.R"
-  title: "Front-end Developer"
-  bio: "Desenvolvedor web, focado em front-end. Voluntário da Mozilla, apoiador da open web e neutralidade da rede. Front-end Developer no CESAR e membro do NodeBots Recife."
-  thumbnailUrl: BrunoLima.jpg
+  name: "Glauco"
+  surname: "Pires"
+  company: "Manifesto Game Studio"
+  title: "Producer"
+  bio: "Glauco trabalha na indústria de jogos há cinco anos, e foi produtor do game Pixels Defense."
+  thumbnailUrl: GlaucoPires.jpg
   rockstar: true
   social:
-      - {name: "github", link: "http://github.com/brunolimawd"}
-      - {name: "linkedin", link: "https://br.linkedin.com/in/brunolimawd"}
-      - {name: "twitter", link: "http://twitter.com/brunolimawd"}
--
-  id: 2
-  name: "Marcos"
-  surname: "Oliveira"
-  company: "Badoque"
-  title: "Consultor de Novos Negócios"
-  bio: "Especialista em Sistemas e Estratégias de Inovação pelo CEDEPE Business School, é Graduado em Administração pela Universidade Federal de Pernambuco (UFPE), possui mais de 10 anos de atuação no fomento ao empreendedorismo (UFPE, Governo de Pernambuco e Porto Digital)."
-  thumbnailUrl: MarcosOliveira.jpg
-  rockstar: true
-  social:
-      - {name: "linkedin", link: "https://br.linkedin.com/in/marcos-oliveira-995b2331"}
+      - {name: "github", link: "http://github.com/grpires"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/grpires/en"}
+      - {name: "twitter", link: "http://twitter.com/grpires"}

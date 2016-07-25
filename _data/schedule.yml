@@ -20,15 +20,9 @@
     	endTime: "20:10",
     	sessionIds: [020]
     }
-    # Segunda Palestra
-    - {
-        startTime: "20:10",
-        endTime: "20:40",
-        sessionIds: [002]
-    }
     # Pós Geek Night
     - {
-        startTime: "20:40",
+        startTime: "20:10",
         endTime: "22:00",
         sessionIds: [030]
     }
