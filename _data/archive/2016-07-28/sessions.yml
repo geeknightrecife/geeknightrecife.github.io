@@ -1,0 +1,17 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
+-
+  id: 001
+  title: "Post mortem do Pixels Defense"
+  description: "Glauco trabalha na indústria de jogos há cinco anos, e foi produtor do game Pixels Defense. O post mortem do projeto vai abordar de forma sucinta alguns pontos que deram certo, outros que deram errado e algumas peculiaridades que surgem ao trabalhar com clientes de grande porte."
+  speakers: [1]

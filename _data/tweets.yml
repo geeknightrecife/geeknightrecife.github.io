@@ -1,18 +1,27 @@
 ---
+- id: 758790111270010881
+  username: brunolimawd
+  tweet: "#GeekNightRecife #GameNight (at @ThoughtWorks in Recife, PE) https://t.co/oAGkitkm0b"
+  date: 2016-07-28 22:23:54.000000000 +00:00
+- id: 758343257722089472
+  username: thoughtworksbr
+  tweet: "#RECIFE, amanhã é dia de #GeekNightRecife edição especial #GameNight! +info
+    e inscrições: https://t.co/pR1ogQNYmB https://t.co/04J4AUxNxK"
+  date: 2016-07-27 16:48:16.000000000 +00:00
 - id: 715671182247378949
   username: brunolimawd
   tweet: "#geekNightRecife (@ Nós Coworking) https://t.co/9XQEf8Fg8G"
-  date: 2016-03-31 22:44:41.000000000 +00:00
+  date: 2016-03-31 19:44:41.000000000 -03:00
 - id: 715666915268628480
   username: roselmamendes
   tweet: 'RT @thoughtworks_pt: Hoje às 19h no NÓS Coworking tem #GeekNightRecife!
     @renatagrfarias e @wandecleya da ThoughtWorks falarão sobre Web Des…'
-  date: 2016-03-31 22:27:43.000000000 +00:00
+  date: 2016-03-31 19:27:43.000000000 -03:00
 - id: 715631963814531072
   username: thoughtworks_pt
   tweet: 'Hoje às 19h no NÓS Coworking tem #GeekNightRecife! @renatagrfarias e @wandecleya
     da ThoughtWorks falarão sobre Web Design Responsivo. Vamos?'
-  date: 2016-03-31 20:08:50.000000000 +00:00
+  date: 2016-03-31 17:08:50.000000000 -03:00
 - id: 669653482018889729
   username: dpcavalcanti
   tweet: "@brunolimawd falando de #privacidade no #geeknightrecife #showdebola https://t.co/Z5MVqysUaw"
@@ -36,13 +45,3 @@
   tweet: 'Hoje acontecerá mais um #GeekNightRecife com palestra de @arthurpaixao e
     @brunolimawd. Acesse: https://t.co/kCSWMeoYwD'
   date: 2015-11-25 10:30:01.000000000 -03:00
-- id: 669207966533423108
-  username: fkenjikamei
-  tweet: 'RT @thoughtworks_pt: No dia 25/11 acontecerá mais um #GeekNightRecife com
-    palestra de @arthurpaixao e @brunolimawd Participe: https://t.co/…'
-  date: 2015-11-24 14:36:27.000000000 -03:00
-- id: 669194269521870848
-  username: thoughtworks_pt
-  tweet: 'No dia 25/11 acontecerá mais um #GeekNightRecife com palestra de @arthurpaixao
-    e @brunolimawd Participe: https://t.co/kCSWMeoYwD'
-  date: 2015-11-24 13:42:01.000000000 -03:00

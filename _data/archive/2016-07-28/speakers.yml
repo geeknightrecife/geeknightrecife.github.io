@@ -1,0 +1,13 @@
+-
+  id: 1
+  name: "Glauco"
+  surname: "Pires"
+  company: "Manifesto Game Studio"
+  title: "Producer"
+  bio: "Glauco trabalha na indústria de jogos há cinco anos, e foi produtor do game Pixels Defense."
+  thumbnailUrl: GlaucoPires.jpg
+  rockstar: true
+  social:
+      - {name: "github", link: "http://github.com/grpires"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/grpires/en"}
+      - {name: "twitter", link: "http://twitter.com/grpires"}
