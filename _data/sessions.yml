@@ -12,6 +12,22 @@
   description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 -
   id: 001
-  title: "Post mortem do Pixels Defense"
-  description: "Glauco trabalha na indústria de jogos há cinco anos, e foi produtor do game Pixels Defense. O post mortem do projeto vai abordar de forma sucinta alguns pontos que deram certo, outros que deram errado e algumas peculiaridades que surgem ao trabalhar com clientes de grande porte."
+  title: "NINA | Liberdade é não ter medo"
+  description: "
+A naturalização das condutas de estupro e assédio dentro dos coletivos no Brasil, associada com a total precariedade do sistema público de transporte, expõe milhares de mulheres a diversas situações de vulnerabilidade e, por conta disso, inibe suas possibilidades de desenvolvimento social.<br/><br/>
+A premissa do projeto NINA visa empoderar mulheres através de um aplicativo que denuncie tipos de violência que estas sofrem dentro dos espaços públicos ao mapear os principais casos usando um conceito do feminismo chamado: sororidade.<br/><br/>
+Quer saber mais sobre o NINA e ampliar a sororidade? Aparece lá no Geek Night que te conto! (:"
   speakers: [1]
+-
+  id: 002
+  title: "Mete a Colher: quando tecnologia e empatia se juntam pra mudar o mundo"
+  description: "
+Em briga de marido e mulher, a gente mete a colher sim! A tecnologia tem mudado muita coisa no mundo, e está mudando também os ditados populares.<br/><br/>
+O Mete a Colher nasceu numa Startup Weekend, e logo se transformou numa rede de apoio para mulheres que querem se ver livres de relacionamentos abusivos. Vamos compartilhar um pouco da experiência incrível que é conectar pessoas que querem se ajudar, e mostrar como queremos expandir essa rede. O app Mete a Colher, além de algoritmos, vai ser construído com sororidade, empoderamento feminino e empatia.
+"
+  speakers: [2]
+-
+  id: 003
+  title: "Fishbowl"
+  description: "Estamos com algumas ideias em mente. Atualizaremos logo com mais detalhes ;)"
+  speakers: []

@@ -1,13 +1,27 @@
 -
   id: 1
-  name: "Glauco"
-  surname: "Pires"
-  company: "Manifesto Game Studio"
-  title: "Producer"
-  bio: "Glauco trabalha na indústria de jogos há cinco anos, e foi produtor do game Pixels Defense."
-  thumbnailUrl: GlaucoPires.jpg
+  name: "Simony"
+  surname: "César"
+  company: "NINA Platform"
+  title: "Idealizadora e Designer"
+  bio: "Atualmente sou estudante de Design e Publicidade e Propaganda. Trabalho há 1 ano na PBGÁS, na Gerência de Comunicação Institucional e desde Maio de 2016 tenho dividido meu tempo de trabalho com o Projeto NINA.<br/><br/>
+Em 2011, comecei que ocupar cargos em Departamentos de Comunicação e Marketing de empresas dos mais diversos segmentos entre Recife e João Pessoa.<br/><br/>
+Paralelamente, desenvolvo projetos como freelancer desde editoriais como vídeo animações.<br/><br/>
+Academicamente, tenho interesse por estudos no campo do feminismo: mulheres na tecnologia, design e ativismo, cibercultura, economia colaborativa e comportamento de consumo."
+  thumbnailUrl: SimonyCesar.jpg
   rockstar: true
   social:
-      - {name: "github", link: "http://github.com/grpires"}
+      - {name: "facebook", link: "https://www.facebook.com/simonycesar"}
       - {name: "linkedin", link: "https://www.linkedin.com/in/grpires/en"}
-      - {name: "twitter", link: "http://twitter.com/grpires"}
+-
+  id: 2
+  name: "Renata"
+  surname: "Albertim"
+  company: "Mete a Colher"
+  title: "Jornalista e Mobilizadora"
+  bio: "Renata é jornalista de formação, e hoje trabalha com pesquisa de comportamento do consumidor, à frente do Supimpa Lab. Feminista com sangue no olho e um talento incrível para mobilizar pessoas. É com ela que contamos para divulgar o Mete a Colher na imprensa e fazer parcerias."
+  thumbnailUrl: RenataAlbertim.png
+  rockstar: true
+  social:
+      - {name: "facebook", link: "https://www.facebook.com/renata.dealbertim"}
+      - {name: "instagram", link: "https://www.instagram.com/renatalbertim/"}
