@@ -1,27 +1,29 @@
 -
   id: 1
-  name: "Simony"
-  surname: "César"
-  company: "NINA Platform"
-  title: "Idealizadora e Designer"
-  bio: "Atualmente sou estudante de Design e Publicidade e Propaganda. Trabalho há 1 ano na PBGÁS, na Gerência de Comunicação Institucional e desde Maio de 2016 tenho dividido meu tempo de trabalho com o Projeto NINA.<br/><br/>
-Em 2011, comecei que ocupar cargos em Departamentos de Comunicação e Marketing de empresas dos mais diversos segmentos entre Recife e João Pessoa.<br/><br/>
-Paralelamente, desenvolvo projetos como freelancer desde editoriais como vídeo animações.<br/><br/>
-Academicamente, tenho interesse por estudos no campo do feminismo: mulheres na tecnologia, design e ativismo, cibercultura, economia colaborativa e comportamento de consumo."
-  thumbnailUrl: SimonyCesar.jpg
+  name: "Luciano"
+  surname: "Queiroz"
+  company: "Freelancer"
+  title: "Software Engineer"
+  bio: "
+PHP Software Engineer, trabalha há mais de 4 anos remotamente para empresas dentro e fora do Brasil. Atualmente tem dedicado tempo e esforço a dominar o Domain Driven Design. Frequentador assíduo de eventos de programação ao redor do Brasil, acredita que a comunidade é o que faz a diferença na vida de um desenvolvedor.
+"
+  thumbnailUrl: LucianoQueiroz.jpg
   rockstar: true
   social:
-      - {name: "facebook", link: "https://www.facebook.com/simonycesar"}
-      - {name: "linkedin", link: "https://www.linkedin.com/in/grpires/en"}
+      - {name: "github", link: "https://github.com/lucianoqueiroz"}
+      - {name: "facebook", link: "https://twitter.com/luciianoqueiroz"}
+      - {name: "medium", link: "https://medium.com/@lucianoqueiroz"}
 -
   id: 2
-  name: "Renata"
-  surname: "Albertim"
-  company: "Mete a Colher"
-  title: "Jornalista e Mobilizadora"
-  bio: "Renata é jornalista de formação, e hoje trabalha com pesquisa de comportamento do consumidor, à frente do Supimpa Lab. Feminista com sangue no olho e um talento incrível para mobilizar pessoas. É com ela que contamos para divulgar o Mete a Colher na imprensa e fazer parcerias."
-  thumbnailUrl: RenataAlbertim.png
+  name: "Lailson"
+  surname: "Bandeira"
+  company: "Guava Software"
+  title: "Software Engineer"
+  bio: "
+Co-fundador da Guava, um estúdio de software que cria aplicações web customizadas, da concepção à implantação. Passa a maior parte do seu tempo programando em Ruby, embora nos últimos tempos esteja escrevendo mais Javascript do que gostaria. Organizador da conferência Tropical Ruby e fundador do Frevo on Rails, o Grupo de Usuários Ruby de Pernambuco. É formado em Ciência da Computação e M.Sc. em Inteligência Artificial.
+"
+  thumbnailUrl: LailsonBandeira.jpg
   rockstar: true
   social:
-      - {name: "facebook", link: "https://www.facebook.com/renata.dealbertim"}
-      - {name: "instagram", link: "https://www.instagram.com/renatalbertim/"}
+      - {name: "github", link: "https://github.com/lailsonbm"}
+      - {name: "facebook", link: "https://www.facebook.com/lailsonbm"}

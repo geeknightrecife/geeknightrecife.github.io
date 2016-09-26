@@ -12,22 +12,18 @@
   description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 -
   id: 001
-  title: "NINA | Liberdade é não ter medo"
+  title: "Is your code highly coupled to delivery mechanisms?"
   description: "
-A naturalização das condutas de estupro e assédio dentro dos coletivos no Brasil, associada com a total precariedade do sistema público de transporte, expõe milhares de mulheres a diversas situações de vulnerabilidade e, por conta disso, inibe suas possibilidades de desenvolvimento social.<br/><br/>
-A premissa do projeto NINA visa empoderar mulheres através de um aplicativo que denuncie tipos de violência que estas sofrem dentro dos espaços públicos ao mapear os principais casos usando um conceito do feminismo chamado: sororidade.<br/><br/>
-Quer saber mais sobre o NINA e ampliar a sororidade? Aparece lá no Geek Night que te conto! (:"
+Seu código está altamente acoplado a \"mecanismos de entrega\"?
+\" - Beleza, mas o que essa pergunta quer dizer?\"
+
+Nessa palestra vamos tentar entender melhor o que essa pergunta quer dizer, quais problemas ela levanta, quais problemas ela ajuda a resolver. Vamos investigar meios de identificar se o seu código, software ou domain está altamente acoplado a decisões que você não precisaria ainda ter tomado como escolha de database, framework, biblioteca de persistência e etc. E veremos como uma boa arquitetura permite você a adiar decisões ao mesmo tempo que mantém você focado nos uses-cases.
+"
   speakers: [1]
 -
   id: 002
-  title: "Mete a Colher: quando tecnologia e empatia se juntam pra mudar o mundo"
+  title: "Como processar 10 milhões de registros por hora com Ruby"
   description: "
-Em briga de marido e mulher, a gente mete a colher sim! A tecnologia tem mudado muita coisa no mundo, e está mudando também os ditados populares.<br/><br/>
-O Mete a Colher nasceu numa Startup Weekend, e logo se transformou numa rede de apoio para mulheres que querem se ver livres de relacionamentos abusivos. Vamos compartilhar um pouco da experiência incrível que é conectar pessoas que querem se ajudar, e mostrar como queremos expandir essa rede. O app Mete a Colher, além de algoritmos, vai ser construído com sororidade, empoderamento feminino e empatia.
+Ruby é uma das últimas escolhas pra quem precisa construir aplicações de alta performance. Afinal, a gente sempre ouve falar que a linguagem é lenta e não escala, certo? Bam! Nesta palestra vamos mostrar que isso não é verdade contando o caso da E.Life, que processa mais de 450 GB de dados por dia usando Ruby em uma estrutura super enxuta de servidores. Sim, é possível construir um sistema de alta performance com Ruby que consome poucos recursos.
 "
   speakers: [2]
--
-  id: 003
-  title: "Fishbowl"
-  description: "Estamos com algumas ideias em mente. Atualizaremos logo com mais detalhes ;)"
-  speakers: []

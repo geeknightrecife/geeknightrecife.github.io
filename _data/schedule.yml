@@ -11,26 +11,20 @@
     # Primeira Palestra
     - {
     	startTime: "19:20",
-    	endTime: "19:40",
+    	endTime: "19:50",
     	sessionIds: [001]
-    }
-    # Segunda Palestra
-    - {
-    	startTime: "19:40",
-    	endTime: "20:00",
-    	sessionIds: [002]
     }
     # Coffee Break
     - {
-    	startTime: "20:00",
+    	startTime: "19:50",
     	endTime: "20:30",
     	sessionIds: [020]
     }
-    # Fishbowl
+    # Segunda Palestra
     - {
     	startTime: "20:30",
     	endTime: "21:00",
-    	sessionIds: [003]
+    	sessionIds: [002]
     }
     # Pós Geek Night
     - {
