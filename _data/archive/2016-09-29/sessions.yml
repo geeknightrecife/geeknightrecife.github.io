@@ -1,0 +1,30 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
+-
+  id: 001
+  title: "Is your code highly coupled to delivery mechanisms?"
+  description: "
+Seu código está altamente acoplado a \"mecanismos de entrega\"?<br><br>
+
+\" - Beleza, mas o que essa pergunta quer dizer?\"<br><br>
+
+Nessa palestra vamos tentar entender melhor o que essa pergunta quer dizer, quais problemas ela levanta, quais problemas ela ajuda a resolver. Vamos investigar meios de identificar se o seu código, software ou domain está altamente acoplado a decisões que você não precisaria ainda ter tomado como escolha de database, framework, biblioteca de persistência e etc. E veremos como uma boa arquitetura permite você a adiar decisões ao mesmo tempo que mantém você focado nos uses-cases.
+"
+  speakers: [1]
+-
+  id: 002
+  title: "Como processar 10 milhões de registros por hora com Ruby"
+  description: "
+Ruby é uma das últimas escolhas pra quem precisa construir aplicações de alta performance. Afinal, a gente sempre ouve falar que a linguagem é lenta e não escala, certo? Bam! Nesta palestra vamos mostrar que isso não é verdade contando o caso da E.Life, que processa mais de 450 GB de dados por dia usando Ruby em uma estrutura super enxuta de servidores. Sim, é possível construir um sistema de alta performance com Ruby que consome poucos recursos.
+"
+  speakers: [2]
