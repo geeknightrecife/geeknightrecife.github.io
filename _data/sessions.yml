@@ -12,19 +12,21 @@
   description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 -
   id: 001
-  title: "Is your code highly coupled to delivery mechanisms?"
+  title: "Memoir de um Dev não-Ops"
   description: "
-Seu código está altamente acoplado a \"mecanismos de entrega\"?<br><br>
-
-\" - Beleza, mas o que essa pergunta quer dizer?\"<br><br>
-
-Nessa palestra vamos tentar entender melhor o que essa pergunta quer dizer, quais problemas ela levanta, quais problemas ela ajuda a resolver. Vamos investigar meios de identificar se o seu código, software ou domain está altamente acoplado a decisões que você não precisaria ainda ter tomado como escolha de database, framework, biblioteca de persistência e etc. E veremos como uma boa arquitetura permite você a adiar decisões ao mesmo tempo que mantém você focado nos uses-cases.
+Trabalhei por 2 anos no Snap CI, um produto onde não só praticávamos integração e entrega contínua como também províamos um ambiente para que outros times o fizessem. Sempre apontaram para nossa equipe como \"a DevOps\".
+<br><br>
+Essa palestra tem como objetivo compartilhar um pouco da nossa jornada, o que deu certo e não tão certo, e como isso moldou a nossa visão do que é DevOps.
 "
   speakers: [1]
 -
   id: 002
-  title: "Como processar 10 milhões de registros por hora com Ruby"
+  title: "Fishbowl sobre DevOps"
   description: "
-Ruby é uma das últimas escolhas pra quem precisa construir aplicações de alta performance. Afinal, a gente sempre ouve falar que a linguagem é lenta e não escala, certo? Bam! Nesta palestra vamos mostrar que isso não é verdade contando o caso da E.Life, que processa mais de 450 GB de dados por dia usando Ruby em uma estrutura super enxuta de servidores. Sim, é possível construir um sistema de alta performance com Ruby que consome poucos recursos.
+  <i>Facilitado por Deni Cavalcanti e Fernando Junior</i><br><br>
+  Essa edição estamos preparando um fishbowl fuderoso sobre DevOps! Vamos compartilhar nossas experiências no dia-a-dia sobre DevOps e contamos com uma galera experiente pra alimentar as discussões e não deixar nada parado.<br>
+  Pra quem não sabe, isso é um fishbowl:<br>
+  <a href=\"http://agiletrendsbr.com/fishbowls/\">http://agiletrendsbr.com/fishbowls/</a><br>
+  Participem, contribuam e aprendam com essa discussão!
 "
-  speakers: [2]
+  speakers: []
