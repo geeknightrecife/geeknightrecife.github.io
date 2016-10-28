@@ -1,55 +1,57 @@
 ---
-- id: 781640863302713344
+- id: 791195218741714944
   username: dpcavalcanti
-  tweet: Rolando agora no @GeekNightRecife "Como processar 10 milhões de registros
-    por hora com Ruby" com Lailson Bandeira… https://t.co/4i1gDECcEw
-  date: 2016-09-29 23:44:38.000000000 +00:00
-- id: 781638536256716800
+  tweet: "@GeekNightRecife falando de #devops essa quinta!! Voce nao Vai perder, nao
+    e? #geeknightrecife https://t.co/jvb4lWrKEI"
+  date: 2016-10-26 08:30:14.000000000 +00:00
+- id: 791041233175121921
   username: luciianoqueiroz
-  tweet: 'RT @dpcavalcanti: Rolando agooooora o @GeekNightRecife falando sobre #ddd
-    com @luciianoqueiroz  #geeknightrecife #showdebola https://t.co/g…'
-  date: 2016-09-29 23:35:23.000000000 +00:00
-- id: 781627550476996612
+  tweet: 'RT @GeekNightRecife: Galera vai rolar palestra do @nandopaf no #GeekNightRecife
+    e vai rolar Fishbowl sobre DevOps https://t.co/SndqvI1CPJ h…'
+  date: 2016-10-25 22:18:21.000000000 +00:00
+- id: 790966918454845440
   username: GeekNightRecife
-  tweet: 'RT @dpcavalcanti: Rolando agooooora o @GeekNightRecife falando sobre #ddd
-    com @luciianoqueiroz  #geeknightrecife #showdebola https://t.co/g…'
-  date: 2016-09-29 22:51:44.000000000 +00:00
-- id: 781627433950871552
+  tweet: 'Galera vai rolar palestra do @nandopaf no #GeekNightRecife e vai rolar Fishbowl
+    sobre DevOps https://t.co/SndqvI1CPJ https://t.co/2xqua3Gn5U'
+  date: 2016-10-25 17:23:03.000000000 +00:00
+- id: 790625155374546944
+  username: YankaSantosOn
+  tweet: 'RT @GeekNightRecife: Mais um #geeknightrecife chegando! Vai ser massa! Corre
+    lá que as vagas são limitadas. https://t.co/fAzgYPR9yO'
+  date: 2016-10-24 18:45:00.000000000 +00:00
+- id: 790621995847254016
+  username: luciianoqueiroz
+  tweet: 'RT @GeekNightRecife: Mais um #geeknightrecife chegando! Vai ser massa! Corre
+    lá que as vagas são limitadas. https://t.co/fAzgYPR9yO'
+  date: 2016-10-24 18:32:27.000000000 +00:00
+- id: 790621369876701184
   username: dpcavalcanti
-  tweet: 'Rolando agooooora o @GeekNightRecife falando sobre #ddd com @luciianoqueiroz  #geeknightrecife
-    #showdebola https://t.co/gwEZjV3CBD'
-  date: 2016-09-29 22:51:16.000000000 +00:00
-- id: 781608577119256576
+  tweet: 'RT @GeekNightRecife: Mais um #geeknightrecife chegando! Vai ser massa! Corre
+    lá que as vagas são limitadas. https://t.co/fAzgYPR9yO'
+  date: 2016-10-24 18:29:58.000000000 +00:00
+- id: 790621268194172928
   username: GeekNightRecife
-  tweet: 'Logo mais estaremos iniciando mais um #GeekNightRecife e estaremos transmitindo
-    aovivo neste link https://t.co/7oeshpirtp'
-  date: 2016-09-29 21:36:21.000000000 +00:00
-- id: 781490502222962688
-  username: luciianoqueiroz
+  tweet: 'Mais um #geeknightrecife chegando! Vai ser massa! Corre lá que as vagas
+    são limitadas. https://t.co/fAzgYPR9yO'
+  date: 2016-10-24 18:29:34.000000000 +00:00
+- id: 789612750829973504
+  username: dpcavalcanti
   tweet: |-
-    RT @GeekNightRecife: Iae pessoal^-^
-    Esta quinta-feira dia 29/09 estará acontecendo mais um #GeekNightRecife
-    Para saber mais basta acessar
-    h…
-  date: 2016-09-29 13:47:09.000000000 +00:00
-- id: 781253887835639808
+    RT @GeekNightRecife: Olá pessoal ^-^
+    o #GeekNightRecife está com uma fanpage no facebook, corre e da aquele velho like lá ^-^
+    https://t.co/…
+  date: 2016-10-21 23:42:04.000000000 +00:00
+- id: 789174576395620352
+  username: YankaSantosOn
+  tweet: |-
+    RT @GeekNightRecife: Olá pessoal ^-^
+    o #GeekNightRecife está com uma fanpage no facebook, corre e da aquele velho like lá ^-^
+    https://t.co/…
+  date: 2016-10-20 18:40:55.000000000 +00:00
+- id: 789174024467128320
   username: GeekNightRecife
   tweet: |-
-    Iae pessoal^-^
-    Esta quinta-feira dia 29/09 estará acontecendo mais um #GeekNightRecife
-    Para saber mais basta acessar
-    https://t.co/SndqvI1CPJ
-  date: 2016-09-28 22:06:56.000000000 +00:00
-- id: 758790111270010881
-  username: brunolimawd
-  tweet: "#GeekNightRecife #GameNight (at @ThoughtWorks in Recife, PE) https://t.co/oAGkitkm0b"
-  date: 2016-07-28 19:23:54.000000000 -03:00
-- id: 758343257722089472
-  username: thoughtworksbr
-  tweet: "#RECIFE, amanhã é dia de #GeekNightRecife edição especial #GameNight! +info
-    e inscrições: https://t.co/pR1ogQNYmB https://t.co/04J4AUxNxK"
-  date: 2016-07-27 13:48:16.000000000 -03:00
-- id: 715671182247378949
-  username: brunolimawd
-  tweet: "#geekNightRecife (@ Nós Coworking) https://t.co/9XQEf8Fg8G"
-  date: 2016-03-31 19:44:41.000000000 -03:00
+    Olá pessoal ^-^
+    o #GeekNightRecife está com uma fanpage no facebook, corre e da aquele velho like lá ^-^
+    https://t.co/oaOzbZH88A
+  date: 2016-10-20 18:38:44.000000000 +00:00

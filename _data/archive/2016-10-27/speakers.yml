@@ -1,0 +1,15 @@
+-
+  id: 1
+  name: "Fernando"
+  surname: "Junior"
+  company: "ThoughtWorks"
+  title: "Software Engineer"
+  bio: "
+Sou desenvolvedor na Thoughtworks há 4 anos. Por aqui que descobri os desafios envolvidos e entregar software bom e continuamente. Agora não consigo parar de falar sobre isso =)
+"
+  thumbnailUrl: FernandoJunior.jpeg
+  rockstar: true
+  social:
+      - {name: "github", link: "https://github.com/fernando-alves"}
+      - {name: "twitter", link: "https://twitter.com/nandopaf"}
+      - {name: "steam", link: "https://steamcommunity.com/id/nand0paf"}
