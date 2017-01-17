@@ -1,15 +1,30 @@
 -
   id: 1
-  name: "Fernando"
-  surname: "Junior"
-  company: "ThoughtWorks"
-  title: "Software Engineer"
-  bio: "
-Sou desenvolvedor na Thoughtworks há 4 anos. Por aqui que descobri os desafios envolvidos e entregar software bom e continuamente. Agora não consigo parar de falar sobre isso =)
-"
-  thumbnailUrl: FernandoJunior.jpeg
+  name: "Simone"
+  surname: "Amorin"
+  company: "Accenture"
+  title: "Front-end"
+  bio: "Front-end na empresa Accenture"
+  thumbnailUrl: 
   rockstar: true
   social:
-      - {name: "github", link: "https://github.com/fernando-alves"}
-      - {name: "twitter", link: "https://twitter.com/nandopaf"}
-      - {name: "steam", link: "https://steamcommunity.com/id/nand0paf"}
+-
+  id: 2
+  name: "Arthur"
+  surname: "Michel"
+  company: "DigitalBits Brazil"
+  title: "Software Engineer"
+  bio: "Software Engineer na DigitalBits Brazil"
+  thumbnailUrl: 
+  rockstar: true
+  social:
+-
+  id: 3
+  name: "Jeftár"
+  surname: "Mascarenhas"
+  company: "Leet Tech"
+  title: "Front-end Develop"
+  bio: "Front-end Develop na Leet Tech"
+  thumbnailUrl: 
+  rockstar: true
+  social:
