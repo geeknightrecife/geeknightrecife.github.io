@@ -87,6 +87,11 @@ facebookApiVersion: "2.4"
 # Partners Block
 organizersTitle: "Parceiros"
 
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Me avise quando rolar um Geek Night Recife!"
+subscribeAction: "http://github.us15.list-manage2.com/subscribe?u=308c3e7cd6ab8817f82a77344&id=bed3442471"
+
 # Footer
 socialLinks:
  - {link: "https://www.facebook.com/groups/geeknightrecife/", icon: "facebook"}
