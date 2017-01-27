@@ -1,0 +1,30 @@
+-
+  id: 1
+  name: "Simone"
+  surname: "Amorin"
+  company: "Accenture"
+  title: "Front-end"
+  bio: "Front-end na empresa Accenture"
+  thumbnailUrl: 
+  rockstar: true
+  social:
+-
+  id: 2
+  name: "Arthur"
+  surname: "Michel"
+  company: "DigitalBits Brazil"
+  title: "Software Engineer"
+  bio: "Software Engineer na DigitalBits Brazil"
+  thumbnailUrl: 
+  rockstar: true
+  social:
+-
+  id: 3
+  name: "Jeftár"
+  surname: "Mascarenhas"
+  company: "Leet Tech"
+  title: "Front-end Develop"
+  bio: "Front-end Develop na Leet Tech"
+  thumbnailUrl: 
+  rockstar: true
+  social:

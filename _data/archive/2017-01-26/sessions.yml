@@ -1,0 +1,28 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+-
+  id: 001
+  title: "CSS Variables"
+  description: ""
+  speakers: [1]
+  presentation: ""
+-
+  id: 002
+  title: "Error handling com JavaScript e Promises"
+  description: ""
+  speakers: [2]
+-
+  id: 003
+  title: "Currying - javascript funcional"
+  description: ""
+  speakers: [3]
