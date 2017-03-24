@@ -1,30 +1,23 @@
 -
   id: 1
-  name: "Simone"
-  surname: "Amorin"
-  company: "Accenture"
-  title: "Front-end"
-  bio: "Front-end na empresa Accenture"
-  thumbnailUrl: 
+  name: "Diana"
+  surname: "De' Carli Valença"
+  company: "ThoughtWorks"
+  title: "Gerente de projetos, atualmente, Delivery Leader"
+  bio: "
+Doutoranda e Mestre em Ciências da Computação pelo CIn e Bacharel em Psicologia. Há quatro anos estuda dedicadamente sobre comportamento de Engenheiros de Software. Trabalha na área acadêmica desde 2008. 
+Já foi consultora com foco em desenvolvimento de pessoas e cultura organizacional na empresa Valença e Associados.
+Hoje atua como consultora da ThoughtWorks em gestão de projetos e como Delivery Leader. É apaixonada pelo tema de autonomia."
+  thumbnailUrl: DianaCarli.jpg
   rockstar: true
   social:
 -
   id: 2
-  name: "Arthur"
-  surname: "Michel"
-  company: "DigitalBits Brazil"
-  title: "Software Engineer"
-  bio: "Software Engineer na DigitalBits Brazil"
+  name: ""
+  surname: ""
+  company: ""
+  title: ""
+  bio: ""
   thumbnailUrl: 
-  rockstar: true
-  social:
--
-  id: 3
-  name: "Jeftár"
-  surname: "Mascarenhas"
-  company: "Leet Tech"
-  title: "Front-end Develop"
-  bio: "Front-end Develop na Leet Tech"
-  thumbnailUrl: 
-  rockstar: true
+  rockstar: false
   social:

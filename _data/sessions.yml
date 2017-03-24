@@ -12,17 +12,14 @@
   description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
 -
   id: 001
-  title: "CSS Variables"
-  description: ""
+  title: "Como eu cheguei no mundo de TI"
+  description: "
+Sou psicóloga de formação e acabei vindo trabalhar nesse mundo tão, tão distante: A Tecnologia!
+Vou compartilhar com vocês um pouquinho da minha história e como a tecnologia entrou de vez na minha vida!"
   speakers: [1]
   presentation: ""
 -
   id: 002
-  title: "Error handling com JavaScript e Promises"
+  title: "Mesa de debate sobre desenvolvimento de software"
   description: ""
   speakers: [2]
--
-  id: 003
-  title: "Currying - javascript funcional"
-  description: ""
-  speakers: [3]
