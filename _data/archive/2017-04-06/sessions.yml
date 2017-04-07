@@ -1,0 +1,32 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+-
+  id: 001
+  title: "Como eu cheguei no mundo de TI"
+  description: "
+Sou psicóloga de formação e acabei vindo trabalhar nesse mundo tão, tão distante: A Tecnologia!
+<br>
+Vou compartilhar com vocês um pouquinho da minha história e como a tecnologia entrou de vez na minha vida!"
+  speakers: [1]
+  presentation: ""
+-
+  id: 002
+  title: "Mesa de debate sobre desenvolvimento de software"
+  description: "
+Principais tópicos:
+<br><br>
+- O que leva uma pessoa a escrever código?<br>
+- Quais são os próximos desafios no desenvolvimento de software?<br>
+- Java será o Cobol do futuro? Qual linguagem sobreviverá em um futuro distante?
+"
+  speakers: [2,3,4]

@@ -1,0 +1,43 @@
+-
+  id: 1
+  name: "Diana"
+  surname: "De' Carli Valença"
+  company: "ThoughtWorks"
+  title: "Gerente de projetos, atualmente, Delivery Leader"
+  bio: "
+Doutoranda e Mestre em Ciências da Computação pelo CIn e Bacharel em Psicologia. Há quatro anos estuda dedicadamente sobre comportamento de Engenheiros de Software. Trabalha na área acadêmica desde 2008. 
+Já foi consultora com foco em desenvolvimento de pessoas e cultura organizacional na empresa Valença e Associados.
+Hoje atua como consultora da ThoughtWorks em gestão de projetos e como Delivery Leader. É apaixonada pelo tema de autonomia."
+  thumbnailUrl: DianaCarli.jpg
+  rockstar: true
+  social:
+-
+  id: 2
+  name: "Dayanne"
+  surname: "Araújo"
+  company: "C.E.S.A.R"
+  title: "Engenharia de Software"
+  bio: "Gosta de procurar soluções para problemas e melhorias. Nesse sentido, encara computação como uma poderosa ferramenta. Ultimamente, está flertando com a Inteligência Artificial e Realidade Aumentada. Acredita e pratica princípios ágeis. Aprecia o trabalho energizado. Sente enorme satisfação em identificar oportunidades de trabalho e fazer experimentações em projetos pessoais (Pergunte-me sobre). Adora aprender e compreender outras perspectivas. Bacharela em Ciência da Computação pelo DEINFO-UFRPE, trabalha com equipes ágeis e Engenharia de Software no C.E.S.A.R."
+  thumbnailUrl: DayanneAraujo.jpg
+  rockstar: true
+  social:
+-
+  id: 3
+  name: "Camilla"
+  surname: "Crispim"
+  company: "ThoughtWorks"
+  title: "Consultora desenvolvedora de software na ThoughtWorks"
+  bio: "Trabalha na ThoughtWorks há 4 anos, onde resolve os mais diversos problemas como desenvolvedora, líder técnica e coach. Atualmente, trabalha como assistente técnica da CTO da TW, Rebecca Parsons, onde atua na criação e edição do Technology Radar e na execução da Estratégia Tecnológica da ThoughtWorks. Camilla, além de uma apaixonada por práticas de desenvolvimento de software, também advoga por mulheres e LGBTs na tecnologia"
+  thumbnailUrl: CamillaCrispim.jpg
+  rockstar: true
+  social:
+-
+  id: 4
+  name: "Raquel"
+  surname: "Guimarães"
+  company: "ThoughtWorks"
+  title: "Consultora desenvolvedora de software na ThoughtWorks"
+  bio: ""
+  thumbnailUrl: RaquelGuimaraes.jpg
+  rockstar: true
+  social:
