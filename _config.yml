@@ -110,3 +110,5 @@ footerBlocks:
 
 # Speakers List Block
 showSessions: true
+
+exclude: [vendor]
