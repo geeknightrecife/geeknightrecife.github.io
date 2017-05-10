@@ -5,3 +5,4 @@ deploy:
   target_branch: master
   on:
     branch: master
+script: bash -x build.sh
