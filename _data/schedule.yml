@@ -5,36 +5,30 @@
     # Check-in
     - {
     	startTime: "19:00",
-    	endTime: "19:10",
+    	endTime: "19:20",
     	sessionIds: [010]
     }
     # Primeira Palestra
     - {
-    	startTime: "19:10",
-    	endTime: "19:40",
+    	startTime: "19:20",
+    	endTime: "19:50",
     	sessionIds: [001]
-    }
-    # Segunda Palestra
-    - {
-        startTime: "19:40",
-        endTime: "20:20",
-        sessionIds: [002]
     }
     # Coffee Break
     - {
-    	startTime: "20:20",
-    	endTime: "20:30",
+    	startTime: "19:50",
+    	endTime: "20:10",
     	sessionIds: [020]
     }
-    # Terceira Palestra
+    # Segunda Palestra
     - {
-    	startTime: "20:30",
-    	endTime: "21:00",
-    	sessionIds: [003]
+    	startTime: "20:10",
+    	endTime: "20:40",
+    	sessionIds: [002]
     }
     # Pós Geek Night
     - {
-        startTime: "21:00",
-        endTime: "22:00",
+        startTime: "20:40",
+        endTime: "21:00",
         sessionIds: [030]
     }

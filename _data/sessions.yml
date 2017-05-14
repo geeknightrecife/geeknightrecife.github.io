@@ -9,24 +9,18 @@
 -
   id: 030
   title: "Pós Geek Night"
-  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contanto!"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 -
   id: 001
-  title: "Como eu cheguei no mundo de TI"
+  title: "I believe I can fly - Você pode ir pra nuvem!"
   description: "
-Sou psicóloga de formação e acabei vindo trabalhar nesse mundo tão, tão distante: A Tecnologia!
-<br>
-Vou compartilhar com vocês um pouquinho da minha história e como a tecnologia entrou de vez na minha vida!"
+Eu posso ir pra nuvem, minha empresa pode ir pra nuvem? Essa é uma pergunta que muitos empresários e gestores de TI se fazem; a resposta é SIM, praticamente, todos podem ir pra nuvem!<br>
+A nuvem oferece diversos serviços que atendem as mais diversas necessidades do mercado, desde o desenvolvedor de garagem a multinacional, e do minúsculo ao imenso projeto.<br>
+Nesta palestra iremos esclarecer dúvidas sobre nuvem, explicar os primeiros passos (ou batidas de asa) para chegar até ela, e também entender como ela pode extinguir algumas dificuldades que temos no nosso dia-a-dia.<br>
+Tá esperando o que? DECOLA!"
   speakers: [1]
-  presentation: ""
 -
   id: 002
-  title: "Mesa de debate sobre desenvolvimento de software"
-  description: "
-Principais tópicos:
-<br><br>
-- O que leva uma pessoa a escrever código?<br>
-- Quais são os próximos desafios no desenvolvimento de software?<br>
-- Java será o Cobol do futuro? Qual linguagem sobreviverá em um futuro distante?
-"
-  speakers: [2,3,4]
+  title: "Colaboração com a nuvem da Microsoft"
+  description: "Convido vocês a participarem da nossa palestra de colaboração em nuvem, pois iremos falar das novas ferramentas de produtividade do Office 365, além de passar dicas de colaboração em equipe."
+  speakers: [2]
