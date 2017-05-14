@@ -5,3 +5,5 @@ _sass/.sass-cache
 _site
 snap-ci-console.log
 .idea
+.bundle
+.jekyll-metadata

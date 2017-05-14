@@ -9,7 +9,7 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Event coming soon
-preparingNextEvent: true
+preparingNextEvent: false
 comingSoonText: "Fiquem ligados, estamos preparando a próxima Geek Night..."
 comingSoonDetailTitle: "Em breve..."
 comingSoonDetailText: >
@@ -59,7 +59,6 @@ aboutTitle: "Sobre a Geek Night Recife"
 aboutBlock:
  - {title: "O Evento", image: "conferencia.jpg", text: "A Geek Night é um encontro informal mensal onde escolhemos e discutimos sobre um tópico de tecnologia relevante/interessante. Esperamos criar um espaço para discussão de idéias, tecnologias e técnicas no campo do desenvolvimento de software. Pode ser um grupo de pessoas trabalhando em um projeto open source ou trazer seu próprio projeto para trabalharmos." }
  - {title: "Palestras", image: "palestras.jpg", text: "Tendo a idéia de ser um espaço democrático, aberto e diverso, a Geek Night vem recebendo palestras, práticas e fóruns, tendo todo o tipo de assunto relacionados ao universo geek." }
-
  - {title: "Networking", image: "networking.jpg", text: "Frequentemente após o término do encontro o papo continua no bar ou restaurante mais próximo, permitindo que os participantes possam trocar idéias sobre os temas abordados naquela noite, e conhecer melhor a comunidade que fazem parte." }
 
 # Rockstar Speakers Block
