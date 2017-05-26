@@ -1,0 +1,23 @@
+-
+  id: 1
+  name: "Diogo"
+  surname: "Bacelar"
+  company: "MTAC Brasil"
+  title: "Arquiteto de Soluções"
+  bio: "Arquiteto de soluções de nuvem baseadas no Microsoft Azure, já atuou como professor do Senai de Pernambuco e possui as certificações MCT (Microsoft Certified Trainer), MCSE Cloud Platform and Infrastructure, MCSA (Cloud Platform e Windows Server 2012), VMWare Certified Associate e CompTIA Cloud Essentials. Já palestrou em diversos eventos de renome, dentre eles o programa S2B da Microsoft, o CONSOLINE (Congresso de Software livre do Nordeste, RSS do Porto Digital e o Global Azure Bootcamp, evento que acontece simultaneamente em várias partes do mundo. Também faz parte da ONG MTAC Brasil onde entrega palestras, workshops e auxilia outras ONGs a irem para o mundo da computação em nuvem, realizando projetos de arquitetura e implantação de soluções baseadas no Azure."
+  thumbnailUrl: DiogoBacelar.png
+  rockstar: true
+  social:
+    - {name: "facebook", link: "https://facebook.com/diogobacelar"}
+    - {name: "linkedin", link: "https://linkedin.com/in/diogobacelar"}
+-
+  id: 2
+  name: "Tiago"
+  surname: "Lima"
+  company: "HSBS"
+  title: "Cloud Solution Specialist"
+  bio: "Atuo aproximadamente há 10 anos na área de TI, durante esse período ganhei experiências em diversas áreas, como segurança da informação, desenvolvimento, infraestrutura de servidores (Windows e Linux) e ativos de rede. Nos últimos 5 anos decidi me dedicar nas soluções de mensageria e colaboração da Microsoft (Exchange e Office 365), com foco em implantação, migração e adoção das ferramentas. Também faço parte da associação MTAC Brasil, como Technical Evangelist."
+  thumbnailUrl: TiagoLima.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/tiago-limas"}
