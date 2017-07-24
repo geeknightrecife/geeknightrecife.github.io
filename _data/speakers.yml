@@ -1,23 +1,24 @@
 -
   id: 1
-  name: "Diogo"
-  surname: "Bacelar"
-  company: "MTAC Brasil"
-  title: "Arquiteto de Soluções"
-  bio: "Arquiteto de soluções de nuvem baseadas no Microsoft Azure, já atuou como professor do Senai de Pernambuco e possui as certificações MCT (Microsoft Certified Trainer), MCSE Cloud Platform and Infrastructure, MCSA (Cloud Platform e Windows Server 2012), VMWare Certified Associate e CompTIA Cloud Essentials. Já palestrou em diversos eventos de renome, dentre eles o programa S2B da Microsoft, o CONSOLINE (Congresso de Software livre do Nordeste, RSS do Porto Digital e o Global Azure Bootcamp, evento que acontece simultaneamente em várias partes do mundo. Também faz parte da ONG MTAC Brasil onde entrega palestras, workshops e auxilia outras ONGs a irem para o mundo da computação em nuvem, realizando projetos de arquitetura e implantação de soluções baseadas no Azure."
-  thumbnailUrl: DiogoBacelar.png
+  name: "Afonso"
+  surname: "Pacifer"
+  company: "CSShortcut"
+  title: "Web Platform Evangelist"
+  bio: "Afonso Pacifer é CSS Evangelist / Open Source Developer. Co-fundador e criador de conteúdo no CSShortcut, apresentador do Css Cast Show, moderador do FEMUG-RJ, professor voluntário na webSchool.io e membro do time alpha no CSS Brasil. Defensor do uso da plataforma nativa para a criação de aplicações Web, hoje seu trabalho não é ir contra frameworks e bibliotecas, mas sim, tentar evitar que os mesmo não deixem os desenvolvedores cegos perante as maravilhas que a plataforma nativa tem a oferecer."
+  thumbnailUrl: AfonsoPacifer.jpg
   rockstar: true
   social:
-    - {name: "facebook", link: "https://facebook.com/diogobacelar"}
-    - {name: "linkedin", link: "https://linkedin.com/in/diogobacelar"}
+    - {name: "site", link: "https://afonsopacifer.github.io"}
+    - {name: "github", link: "https://github.com/afonsopacifer"}
+    - {name: "twitter", link: "https://twitter.com/afonsopacifer"}
 -
   id: 2
-  name: "Tiago"
-  surname: "Lima"
-  company: "HSBS"
-  title: "Cloud Solution Specialist"
-  bio: "Atuo aproximadamente há 10 anos na área de TI, durante esse período ganhei experiências em diversas áreas, como segurança da informação, desenvolvimento, infraestrutura de servidores (Windows e Linux) e ativos de rede. Nos últimos 5 anos decidi me dedicar nas soluções de mensageria e colaboração da Microsoft (Exchange e Office 365), com foco em implantação, migração e adoção das ferramentas. Também faço parte da associação MTAC Brasil, como Technical Evangelist."
-  thumbnailUrl: TiagoLima.jpg
+  name: "Gilberto"
+  surname: "Matos"
+  company: "Thoughtworks"
+  title: "Thoughtworker"
+  bio: "Possuo experiência em desenvolvimento de software, ao longo da minha carreira desempenhei funções como programador, analista de sistema, engenheiro de software, arquiteto de software e líder técnico. Gosto de estudar novas tecnologias, escrever código com qualidade, compartilhar conhecimento e gerar bons resultados."
+  thumbnailUrl: GilbertoMatos.jpg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/tiago-limas"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jos%C3%A9-gilberto-de-fran%C3%A7a-matos-687b1484/?ppe=1"}

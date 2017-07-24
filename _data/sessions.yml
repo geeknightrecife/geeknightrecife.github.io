@@ -12,15 +12,16 @@
   description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
 -
   id: 001
-  title: "I believe I can fly - Você pode ir pra nuvem!"
-  description: "
-Eu posso ir pra nuvem, minha empresa pode ir pra nuvem? Essa é uma pergunta que muitos empresários e gestores de TI se fazem; a resposta é SIM, praticamente, todos podem ir pra nuvem!<br>
-A nuvem oferece diversos serviços que atendem as mais diversas necessidades do mercado, desde o desenvolvedor de garagem a multinacional, e do minúsculo ao imenso projeto.<br>
-Nesta palestra iremos esclarecer dúvidas sobre nuvem, explicar os primeiros passos (ou batidas de asa) para chegar até ela, e também entender como ela pode extinguir algumas dificuldades que temos no nosso dia-a-dia.<br>
-Tá esperando o que? DECOLA!"
+  title: "Web Components and beyond with Polymer"
+  description: "Será que estamos a beira de uma revolução? Ou ela já aconteceu e você não está sabendo?<br> 
+   Nessa Talk abordaremos muito mais do que Web Components e PWAs, vamos a fundo na plataforma utilizando novos conceitos que vão desde propriedades customizadas no CSS até HTTP/2.<br>
+   Antes que você ache que estamos falando de mais um framework JavaScript, dê uma chance e veja o que a plataforma nativa tem a oferecer HOJE!<br> 
+   Dica: comece a cogitar que um cara chamado Polymer, pode fazer você mudar sua visão da web como um todo e para sempre."
   speakers: [1]
 -
   id: 002
-  title: "Colaboração com a nuvem da Microsoft"
-  description: "Convido vocês a participarem da nossa palestra de colaboração em nuvem, pois iremos falar das novas ferramentas de produtividade do Office 365, além de passar dicas de colaboração em equipe."
+  title: "Os Lannisters sempre pagam suas dívidas"
+  description: "No mundo de Westeros ou no mundo real, seja como um Lannister.<br>
+  Sempre pague as suas dívidas técnicas antes que elas se tornem impagáveis.<br> 
+  Conversaremos sobre indícios e estratégias para diminuir as dívidas técnicas em um projeto de software."
   speakers: [2]
