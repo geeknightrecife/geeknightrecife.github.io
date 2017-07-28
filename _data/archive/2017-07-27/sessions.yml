@@ -1,0 +1,27 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 030
+  title: "Pós Geek Night"
+  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
+-
+  id: 001
+  title: "Web Components and beyond with Polymer"
+  description: "Será que estamos a beira de uma revolução? Ou ela já aconteceu e você não está sabendo?<br> 
+   Nessa Talk abordaremos muito mais do que Web Components e PWAs, vamos a fundo na plataforma utilizando novos conceitos que vão desde propriedades customizadas no CSS até HTTP/2.<br>
+   Antes que você ache que estamos falando de mais um framework JavaScript, dê uma chance e veja o que a plataforma nativa tem a oferecer HOJE!<br> 
+   Dica: comece a cogitar que um cara chamado Polymer, pode fazer você mudar sua visão da web como um todo e para sempre."
+  speakers: [1]
+-
+  id: 002
+  title: "Os Lannisters sempre pagam suas dívidas"
+  description: "No mundo de Westeros ou no mundo real, seja como um Lannister.<br>
+  Sempre pague as suas dívidas técnicas antes que elas se tornem impagáveis.<br> 
+  Conversaremos sobre indícios e estratégias para diminuir as dívidas técnicas em um projeto de software."
+  speakers: [2]
