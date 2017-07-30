@@ -9,3 +9,4 @@ deploy:
   target_branch: master
 
 script: bash -x build.sh
+
