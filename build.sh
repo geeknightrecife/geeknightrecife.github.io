@@ -13,4 +13,7 @@ export TZ="America/Recife"
 cd automation/minifying
 ./minify_js.sh
 cd -
+
 JEKYLL_ENV=production bundle exec jekyll build
+
+rm .nojekyll
