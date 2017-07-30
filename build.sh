@@ -8,6 +8,8 @@
 # sed\ -i\ \"s/facebookAppId:\ \\\"\\\"/facebookAppId:\ \\\"\$FACEBOOK_APP_ID\\\"/g\"\ _config.yml
 # sed\ -i\ \"s/facebookAppSecret:\ \\\"\\\"/facebookAppSecret:\ \\\"\$FACEBOOK_APP_SECRET\\\"/g\"\ _config.yml
 
+rm .nojekyll
+
 export TZ="America/Recife"
 
 cd automation/minifying
