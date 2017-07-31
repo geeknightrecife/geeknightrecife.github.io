@@ -16,4 +16,4 @@ cd automation/minifying
 ./minify_js.sh
 cd -
 
-JEKYLL_ENV=production bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build -Vt
