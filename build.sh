@@ -17,5 +17,3 @@ cd automation/minifying
 cd -
 
 JEKYLL_ENV=production bundle exec jekyll build
-
-rm .nojekyll
