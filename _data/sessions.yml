@@ -7,21 +7,13 @@
   title: "Coffee Break"
   description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
 -
-  id: 030
-  title: "Pós Geek Night"
-  description: "Gostou? Que tal sair e continuar a conversa? A propósito, vamos manter contato!"
--
   id: 001
-  title: "Web Components and beyond with Polymer"
-  description: "Será que estamos a beira de uma revolução? Ou ela já aconteceu e você não está sabendo?<br> 
-   Nessa Talk abordaremos muito mais do que Web Components e PWAs, vamos a fundo na plataforma utilizando novos conceitos que vão desde propriedades customizadas no CSS até HTTP/2.<br>
-   Antes que você ache que estamos falando de mais um framework JavaScript, dê uma chance e veja o que a plataforma nativa tem a oferecer HOJE!<br> 
-   Dica: comece a cogitar que um cara chamado Polymer, pode fazer você mudar sua visão da web como um todo e para sempre."
+  title: "Firebase Functions: Prós e Contras"
+  description: "O Firebase cresceu bastante como plataforma e hoje conta com vários serviços, incluindo Hosting Authentication, Realtime and Firestore Databases, Storage e Functions, ainda em versão beta. 
+  Vamos descobrir o que é possível fazer com Functions, focando nas vantagens e desvantagens de desenvolver desta forma."
   speakers: [1]
 -
   id: 002
-  title: "Os Lannisters sempre pagam suas dívidas"
-  description: "No mundo de Westeros ou no mundo real, seja como um Lannister.<br>
-  Sempre pague as suas dívidas técnicas antes que elas se tornem impagáveis.<br> 
-  Conversaremos sobre indícios e estratégias para diminuir as dívidas técnicas em um projeto de software."
+  title: "Enjoy the Vue"
+  description: "VueJS é um framework de Javascript progressivo flexível, rápido e leve para construir interfaces de usuário que vem crescendo sem parar. Usado por grandes nomes na indústria e pronto para produção. Conheça seu funcionamento, ecossistema e ferramentas para começar seu desenvolvimento."
   speakers: [2]
