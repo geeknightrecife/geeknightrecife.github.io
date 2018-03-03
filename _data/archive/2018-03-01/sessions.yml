@@ -1,0 +1,21 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 001
+  title: "Firebase Functions: Prós e Contras"
+  description: "O Firebase cresceu bastante como plataforma e hoje conta com vários serviços, incluindo Hosting Authentication, Realtime and Firestore Databases, Storage e Functions, ainda em versão beta. 
+  Vamos descobrir o que é possível fazer com Functions, focando nas vantagens e desvantagens de desenvolver desta forma."
+  speakers: [1]
+  presentation: "https://geeknight-3448b.firebaseapp.com"
+-
+  id: 002
+  title: "Enjoy the Vue"
+  description: "VueJS é um framework de Javascript progressivo flexível, rápido e leve para construir interfaces de usuário que vem crescendo sem parar. Usado por grandes nomes na indústria e pronto para produção. Conheça seu funcionamento, ecossistema e ferramentas para começar seu desenvolvimento."
+  speakers: [2]
+  presentation: "https://docs.google.com/presentation/d/1bEdA68Ks_LiNb8QsBOG8DX0tGHj6aC9KU-E5AXWHnBQ"

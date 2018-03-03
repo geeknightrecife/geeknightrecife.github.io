@@ -1,0 +1,27 @@
+-
+  id: 1
+  name: "Francisco"
+  surname: "Gileno"
+  company: "CESAR"
+  title: "Software Engineer"
+  bio: "Engenheiro de Software a mais de 15 anos, com experiência em projetos Web, com ênfase no Frontend.
+Já fui dono de uma empresa de software por 3 anos, e já passei 2 anos e meio na Nova Zelândia, onde trabalhei como .NET Software Developer.
+Desde 2013 trabalho no CESAR, as vezes como frontend, as vezes como fullstack developer."
+  thumbnailUrl: FranciscoGileno.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/gileno"}
+    - {name: "twitter", link: "https://twitter.com/gilenooliveira"}
+-
+  id: 2
+  name: "Pedro"
+  surname: "Sereno"
+  company: "CESAR"
+  title: "Software Engineer"
+  bio: "Estudante de ciência da computação e engenheiro de software no CESAR. Entusiasta sobre tecnologia de um modo geral, tendo web como seu crush. No tempo livre gosta de assistir séries e animes."
+  thumbnailUrl: PedroSereno.jpg
+  rockstar: true
+  social:
+    - {name: "github", link: "https://github.com/psg2"}
+    - {name: "linkedin", link: "https://br.linkedin.com/in/pedro-sereno-36328112a"}
+    - {name: "twitter", link: "https://twitter.com/psg_inanis"}
