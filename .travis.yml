@@ -3,6 +3,8 @@ branches:
   - source
 
 deploy:
+  edge:
+    branch: v1.8.47
   local_dir: _site
   provider: pages
   skip_cleanup: true
