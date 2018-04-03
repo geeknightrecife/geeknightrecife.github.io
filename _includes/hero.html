@@ -34,9 +34,8 @@
                   {{ site.data.location.eventStartTime | date: "%-Y" }}, {{ site.data.location.eventLocationName }}, {{ site.data.location.eventAddressLocality }}
                 </p>
               {% endif %}
-              {% for button in site.heroButtons %}
-              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-              {% endfor %}
+              <div id="sympla-widget-267927" class="center-block" height="auto"></div>
+              <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/267927"></script>
             {% endif %}
         </div>
     </div>

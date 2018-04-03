@@ -8,12 +8,11 @@
   description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
 -
   id: 001
-  title: "Firebase Functions: Prós e Contras"
-  description: "O Firebase cresceu bastante como plataforma e hoje conta com vários serviços, incluindo Hosting Authentication, Realtime and Firestore Databases, Storage e Functions, ainda em versão beta. 
-  Vamos descobrir o que é possível fazer com Functions, focando nas vantagens e desvantagens de desenvolver desta forma."
+  title: "Reduzindo o tamanho da sua APK"
+  description: "Sabe quando vamos baixar um simples aplicativo na loja do Google e descobrimos que ele tem mais de 20mb? Saiba algumas dicas que podem te ajudar a reduzir o tamanho da apk do seu aplicativo."
   speakers: [1]
 -
   id: 002
-  title: "Enjoy the Vue"
-  description: "VueJS é um framework de Javascript progressivo flexível, rápido e leve para construir interfaces de usuário que vem crescendo sem parar. Usado por grandes nomes na indústria e pronto para produção. Conheça seu funcionamento, ecossistema e ferramentas para começar seu desenvolvimento."
-  speakers: [2]
+  title: "Fishbowl: apps nativos vs híbridos"
+  description: "Espaço aberto para discussão dando continuidade na temática mobile diante da perspectiva divergente entre os tipos de desenvolvimento de aplicativos, seja em plataformas nativas ou utilizando tecnologias híbridas (cross-platform)."
+  speakers: [1]

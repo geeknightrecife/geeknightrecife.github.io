@@ -11,18 +11,18 @@
     # Primeira Palestra
     - {
     	startTime: "19:30",
-    	endTime: "19:55",
+    	endTime: "19:45",
     	sessionIds: [001]
     }
     # Coffee Break
     - {
-    	startTime: "19:55",
-    	endTime: "20:20",
+    	startTime: "19:45",
+    	endTime: "20:00",
     	sessionIds: [020]
     }
     # Segunda Palestra
     - {
-    	startTime: "20:20",
-    	endTime: "20:50",
+    	startTime: "20:00",
+    	endTime: "20:30",
     	sessionIds: [002]
     }
