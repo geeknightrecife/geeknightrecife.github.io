@@ -1,0 +1,18 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 001
+  title: "Reduzindo o tamanho da sua APK"
+  description: "Sabe quando vamos baixar um simples aplicativo na loja do Google e descobrimos que ele tem mais de 20mb? Saiba algumas dicas que podem te ajudar a reduzir o tamanho da apk do seu aplicativo."
+  speakers: [1]
+-
+  id: 002
+  title: "Fishbowl: apps nativos vs híbridos"
+  description: "Espaço aberto para discussão dando continuidade na temática mobile diante da perspectiva divergente entre os tipos de desenvolvimento de aplicativos, seja em plataformas nativas ou utilizando tecnologias híbridas (cross-platform)."
+  speakers: [1]

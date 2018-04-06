@@ -1,0 +1,13 @@
+-
+  id: 1
+  name: "Antonio"
+  surname: "Silva"
+  company: "Accenture Digital"
+  title: "Mobile Developer"
+  bio: "Mestrando no C.E.S.A.R School e Mobile Developer na Accenture Digital. Atualmente trabalha com desenvolvimento para plataforma Android e é entusiasta sobre tópicos em ciência de dados e comunidades de TI. No tempo livre gosta de andar de patins."
+  thumbnailUrl: AntonioSilva.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/antoniosj"}
+    - {name: "twitter", link: "https://twitter.com/_antoniosj"}
+    - {name: "github", link: "https://github.com/antoniosj"}
