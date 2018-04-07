@@ -45,14 +45,19 @@ module Jekyll
       app_access_token = @oauth.get_app_access_token
       @graph = Koala::Facebook::API.new(app_access_token)
       pictures = []
-      @graph.get_connections(schedule['facebookAlbumId'], 'photos').each do |picture|
-        pictures.push(
-          'id' => @graph.get_picture(picture['id']),
-          'link' => @graph.get_connections(picture['id'], '', :fields => 'link')['link']
-        )
-      end
 
-      set_album_link(schedule['facebookAlbumId'])
+      begin
+        @graph.get_connections(schedule['facebookAlbumId'], 'photos').each do |picture|
+          pictures.push(
+            'id' => @graph.get_picture(picture['id']),
+            'link' => @graph.get_connections(picture['id'], '', :fields => 'link')['link']
+          )
+        end
+
+        set_album_link(schedule['facebookAlbumId'])
+      rescue Koala::Facebook::APIError => ex
+        puts ex
+      end
 
       return pictures
     end
