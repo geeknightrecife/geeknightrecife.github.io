@@ -1,13 +1,71 @@
 -
   id: 1
-  name: "Antonio"
-  surname: "Silva"
-  company: "Accenture Digital"
-  title: "Mobile Developer"
-  bio: "Mestrando no C.E.S.A.R School e Mobile Developer na Accenture Digital. Atualmente trabalha com desenvolvimento para plataforma Android e é entusiasta sobre tópicos em ciência de dados e comunidades de TI. No tempo livre gosta de andar de patins."
-  thumbnailUrl: AntonioSilva.png
+  name: "Ana Paula"
+  surname: "Cavalcanti"
+  company: "The Open University"
+  title: "PhD Researcher"
+  bio: ""
+  thumbnailUrl: AnaPaulaCavalcanti.jpeg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/antoniosj"}
-    - {name: "twitter", link: "https://twitter.com/_antoniosj"}
-    - {name: "github", link: "https://github.com/antoniosj"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/apfurtado/"}
+-
+  id: 2
+  name: "Carlos"
+  surname: "Leal"
+  company: "CESAR"
+  title: "QA Engineer"
+  bio: "Atualmente é QA no CESAR, possui 6 anos de experiencia na área. Nunca se sentiu feliz realizando as atividades de teste mais analíticas, por isso tem praticamente toda sua carreira voltada para área mais técnica, onde teve oportunidade de trabalhar com segurança, redes wireless e muito código. Não curte a palavra testador, tampouco automatizador, mas gosta de gatos e cachorros!"
+  thumbnailUrl: CarlosLeal.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/celeal/"}
+-
+  id: 3
+  name: "Melissa"
+  surname: "Pontes"
+  company: "CESAR"
+  title: "QA Engineer"
+  bio: ""
+  thumbnailUrl: MelissaPontes.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/melissapontes/"}
+-
+  id: 4
+  name: "Virgínia"
+  surname: "Chalegre"
+  company: "t-access"
+  title: "CEO"
+  bio: "Autora do livro Teste e Acessibilidade – NEA Ediçoes. Mestre em Testes de Acessibilidade, CIN-UFPE, Especialista em Engenharia de Software,
+FBV/Qualiti, 2007, Especialista em Gestão e Qualidade de Software,
+Universitat Politécnica de Catalunya, 2008, Bacharel em Ciência da
+Computação, UNICAP, 2003. Dezoito anos de experiência em Engenharia de Software, executando projetos e ministrando treinamentos. Sócia-Fundadora e CEO da t-access, empresa que trabalha com testes de software, acessibilidade digital e inclusão de pessoas com deficiência no mercado de trabalho. Palestrante e professora da disciplina de acessibilidade no Mestrado e na
+Especialização de Design do CESAR School. Já trabalhou como Engenheira de Testes, na NTE- Espanha. No CESAR, atuou como líder do time de testes em projetos nacionais e internacionais."
+  thumbnailUrl: VirginiaChalegre.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/virginiachalegre/"}
+-
+  id: 5
+  name: "Elisabeth"
+  surname: "Morais"
+  company: "CESAR"
+  title: "QA Specialist"
+  bio: ""
+  thumbnailUrl: ElisabethMorais.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://br.linkedin.com/in/elisabeth-morais-msc-b1180012"}
+-
+  id: 6
+  name: "Viviane"
+  surname: "Lyrio"
+  company: "CESAR"
+  title: "QA Engineer"
+  bio: "Viviane Lyrio é QA no CESAR, certificada CTFL-ISTQB. Ela implementou o CESARThon, que é uma Hackathon de Teste que ajudou a encontrar mais de 200 bugs em diferentes aplicativos. Ela também trabalhou em vários projetos em diferentes áreas, definindo estratégias de teste para empresas conhecidas mundialmente como Samsung, Motorola e HP. Ela é uma grande entusiasta de testes de software e práticas ágeis, está atualmente engajada em pesquisas para usar o Hackathon e o Teste de Desempenho para melhorar a qualidade do software. Esse entusiasmo é compartilhado em conferências, onde ela muitas vezes se junta como palestrante para compartilhar suas experiências e aprender com outros participantes. Viviane gosta de viajar pelo mundo e aproveitar esta oportunidade para conversar sobre testes de software, trocar conhecimentos, descobrir novas culturas e fazer amigos."
+  thumbnailUrl: VivianeLyrio.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vivianelyrio/"}
+    - {name: "email", link: "mailto:viviane.lyrio@cesar.org.br"}
