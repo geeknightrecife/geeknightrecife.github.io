@@ -24,5 +24,5 @@
     - {
     	startTime: "20:00",
     	endTime: "20:30",
-    	sessionIds: [002]
+    	sessionIds: [001]
     }
