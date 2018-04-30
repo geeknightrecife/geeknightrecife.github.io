@@ -51,8 +51,9 @@ heroImage: "hero.jpg"
 heroTitle: "Geek Night Recife: <typeout>"
 typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
 typeoutFallback: "Tecnologia"
-heroButtons:
- - {link: "https://www.sympla.com.br/geek-night-recife__246594", text: "Eu Vou!"}
+# eventId: 267927
+# heroButtons:
+#  - {link: "https://www.sympla.com.br/geek-night-recife__246594", text: "Eu Vou!"}
 
 # About Block
 aboutTitle: "Sobre a Geek Night Recife"

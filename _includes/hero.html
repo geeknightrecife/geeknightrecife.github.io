@@ -34,8 +34,8 @@
                   {{ site.data.location.eventStartTime | date: "%-Y" }}, {{ site.data.location.eventLocationName }}, {{ site.data.location.eventAddressLocality }}
                 </p>
               {% endif %}
-              <div id="sympla-widget-267927" class="center-block" height="auto"></div>
-              <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/267927"></script>
+              <div id="sympla-widget-{{ site.eventId }}" class="center-block" height="auto"></div>
+              <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/{{ site.eventId }}"></script>
             {% endif %}
         </div>
     </div>
