@@ -5,24 +5,24 @@
     # Check-in
     - {
     	startTime: "19:00",
-    	endTime: "19:30",
+    	endTime: "19:15",
     	sessionIds: [010]
     }
     # Primeira Palestra
     - {
-    	startTime: "19:30",
-    	endTime: "19:45",
+    	startTime: "19:15",
+    	endTime: "20:00",
     	sessionIds: [001]
     }
     # Coffee Break
     - {
-    	startTime: "19:45",
-    	endTime: "20:00",
+    	startTime: "20:00",
+    	endTime: "20:15",
     	sessionIds: [020]
     }
     # Segunda Palestra
     - {
-    	startTime: "20:00",
-    	endTime: "20:30",
+    	startTime: "20:15",
+    	endTime: "21:00",
     	sessionIds: [001]
     }
