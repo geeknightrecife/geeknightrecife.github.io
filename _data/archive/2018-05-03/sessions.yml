@@ -1,0 +1,21 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 001
+  title: "O futuro dos Testes de Software:<br>Nós? Ou Agentes Inteligentes?"
+  description: "Em uma mesa redonda com vários influenciadores na área de Testes de Software, serão discutidas quais as expectativas em relação ao futuro.<br>
+<br>
+Diante desta perspectiva, o debate abordará a migração:<br>
+- De software que roda em dispositivos desktop ou móveis para plataforma IoT, aumentando o mercado de software embarcado;<br>
+- Do paradigma de interface com o usuário Web para software que usa apenas comunicação audiovisual como os assistentes Alexa da Amazon, Siri do iOS, Google Home e a Cortana, da Microsoft;<br>
+- Da automação de cenários de testes para a criação de agentes inteligentes que irão identificar os cenários de testes, bem como verificá-los.<br>
+<br>
+Dessa forma, como será o futuro da área de testes de software?<br>
+Existirá uma necessidade maior por especialistas na área de Testes? Ou por especialistas na área de Inteligência Artificial?"
+  speakers: [1, 2, 3, 4, 5, 6]
