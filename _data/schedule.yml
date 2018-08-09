@@ -14,15 +14,9 @@
     	endTime: "20:00",
     	sessionIds: [001]
     }
-    # Coffee Break
-    - {
-    	startTime: "20:00",
-    	endTime: "20:15",
-    	sessionIds: [020]
-    }
     # Segunda Palestra
     - {
-    	startTime: "20:15",
+    	startTime: "20:00",
     	endTime: "21:00",
-    	sessionIds: [001]
+    	sessionIds: [002]
     }
