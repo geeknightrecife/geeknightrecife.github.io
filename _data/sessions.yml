@@ -18,7 +18,7 @@ Os bots estão inseridos onde as pessoas passam mais tempo - redes sociais/mensa
 As pessoas se sentem mais confortáveis em trocar mensagens. Existem vários bots que solucionam diversos problemas com uma simples conversa.  É um mercado novo e que tem muito a ser explorado."
   speakers: [1]
 -
-id: 002
+  id: 002
   title: "ChatBots na prática, construindo seu primeiro ChatBot com DialogFlow"
   description: "Exposição de conteúdos teóricos sobre Chatbots, dicas de boas práticas ao se iniciar planejar um ChatBot, Overview da plataforma de ChatBots do Google: DialogFlow, prototipação do ChatBot pelos participantes."
   speakers: [2]
