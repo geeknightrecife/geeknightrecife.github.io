@@ -1,0 +1,24 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 001
+  title: "Tudo que você precisa saber sobre chatbots"
+  description: "De 2016 para cá o interesse por chatbots cresceu de forma considerável, o que já era de se esperar.<br>
+<br>
+Diante de todas as inovações uma das principais é a relação com o público consumidor, seja de qual for o produto ou serviço. 
+<br>
+Os bots estão inseridos onde as pessoas passam mais tempo - redes sociais/mensageiros, assim, fica mais fácil para as empresas/pessoas se comunicarem com seus clientes/usuários. 
+<br>
+As pessoas se sentem mais confortáveis em trocar mensagens. Existem vários bots que solucionam diversos problemas com uma simples conversa.  É um mercado novo e que tem muito a ser explorado."
+  speakers: [1]
+-
+  id: 002
+  title: "ChatBots na prática, construindo seu primeiro ChatBot com DialogFlow"
+  description: "Exposição de conteúdos teóricos sobre Chatbots, dicas de boas práticas ao se iniciar planejar um ChatBot, Overview da plataforma de ChatBots do Google: DialogFlow, prototipação do ChatBot pelos participantes."
+  speakers: [2]

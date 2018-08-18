@@ -1,0 +1,27 @@
+-
+  id: 1
+  name: "Rian"
+  surname: "Nascimento"
+  company: "Chatbot Pernambuco"
+  title: "Community Manager"
+  bio: "Pernambucano nato, Rian Nascimento tem 21 anos é estudante de Administração pela Nova Roma/FGV.
+Atualmente ele concentra os seus esforços na evangelização do tema bots (chatbots) para estudantes e empreendedores, além de gerenciar a comunidade Chatbot Pernambuco com mais de 840 membros."
+  thumbnailUrl: RianNascimento.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://br.linkedin.com/in/rianfnascimento"}
+    - {name: "instagram", link: "https://www.instagram.com/rianfnascimento/"}
+    - {name: "facebook", link: "https://www.facebook.com/rianfnascimento"}
+    - {name: "email", link: "mailto:rianjfn@gmail.com"}
+-
+  id: 2
+  name: "Otacilio"
+  surname: "Maia"
+  company: "Cesar | GitHub "
+  title: "Estagiário | GitHub Campus Expert"
+  bio: "É estudante de Ciências da Computação pelo Cesar School, GitHub Campus Expert, FilipeFlop Maker Hero, mantenedor da lib Brasilino, aprovada para o Arduino Library Manager, e contribuidor em outros projetos Open Source."
+  thumbnailUrl: OtacilioMaia.jpeg
+  rockstar: true
+  social:
+    - {name: "site", link: "https://otaciliomaia.com/"}
+    - {name: "email", link: "mailto:contato@otaciliomaia.com"}
