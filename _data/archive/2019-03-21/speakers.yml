@@ -1,0 +1,22 @@
+-
+  id: 1
+  name: ""
+  surname: ""
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: Person.jpeg
+  rockstar: true
+  social:
+    - {name: "", link: ""}
+-
+  id: 2
+  name: ""
+  surname: ""
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: Person.jpeg
+  rockstar: true
+  social:
+    - {name: "", link: ""}

@@ -1,0 +1,18 @@
+-
+  id: 010
+  title: "Check-in"
+  description: "Hora de fazer o credenciamento, conhecer gente e pegar os melhores lugares."
+-
+  id: 020
+  title: "Coffee Break"
+  description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
+-
+  id: 001
+  title: ""
+  description: ""
+  speakers: [1]
+-
+  id: 002
+  title: ""
+  description: ""
+  speakers: [2]
