@@ -8,11 +8,11 @@
   description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
 -
   id: 001
-  title: ""
-  description: ""
+  title: "Test driven life"
+  description: "João Paulo Moraes (Jota) falará sobre como o desenvolvimento orientado a teste sempre esteve mais presente na nossa vida do que imaginamos, desde nosso desenvolvimento intelectual até coisas mais simples."
   speakers: [1]
 -
   id: 002
-  title: ""
-  description: ""
+  title: "Metodologias Ágeis e a inclusão de Diversidade nas equipes de desenvolvimento de software sob o recorte LGBT"
+  description: "A diversidade está presente nos grupos desde o encontro de diferentes competências, habilidades, trajetórias, estilos de trabalho e pensamento, até os recortes de gênero, sexualidade, raça, entre outros. Ao enxergar a pluralidade contida nas equipes, se faz necessário posicionamentos que incluam os indivíduos. Destacando o recorte LGBT, vamos bater um papo sobre como as práticas trazidas pelos métodos ágeis, cujo foco encontra-se nas pessoas e valores, exercem influência na inclusão de diversidade nas equipes de desenvolvimento de software."
   speakers: [2]

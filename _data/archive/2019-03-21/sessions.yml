@@ -8,11 +8,14 @@
   description: "Pausa para um lanche, bater um papo e se preparar para a próxima sessão."
 -
   id: 001
-  title: ""
-  description: ""
+  title: "UX e Agile: o guia da sobrevivente"
+  description: "Afinal de contas, dá pra juntar ux design e agile sem stress? Essa palestra é uma busca por essa resposta, trazendo estudos de caso e o estado da arte na prática de UX Design num ambiente de desenvolvimento ágil, seja por Designers, Devs, PMs e/ou outras pessoas envolvidas no processo."
   speakers: [1]
 -
   id: 002
-  title: ""
-  description: ""
+  title: "Como familiarizar teu time às práticas do SCRUM"
+  description: "Olar!
+
+Sobre SCRUM já se fala há um bom tempo, né? Conhecemos papéis, princípios, valores, eventos, artefatos... O que às vezes não nos fica claro são as adversidades encontradas para que consigamos gerar indicadores para acompanharmos nosso time. 
+Nessa palestra vou apresentar uma ferramenta bem completinha, que consegue nos auxiliar para ter esse controle mais de perto. Bora? :)"
   speakers: [2]

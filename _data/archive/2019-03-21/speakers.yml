@@ -1,22 +1,23 @@
 -
   id: 1
-  name: ""
-  surname: ""
-  company: ""
-  title: ""
-  bio: ""
-  thumbnailUrl: Person.jpeg
+  name: "Jônathas"
+  surname: "Souza"
+  company: "Bemind"
+  title: "Product Designer Pleno"
+  bio: "UI / UX Designer, com foco em artefatos mobile. Trabalha na área de Design desde 2010, atuando nos segmentos de Design Gráfico, Design Editorial e UI/UX. Bacharelando em Design pela Universidade Federal de Pernambuco (2020) e bolsista do Laboratório de Concepção e Análise de Artefatos Inteligentes (LaCA²I) da UFPE."
+  thumbnailUrl: JonathasSouza.png
   rockstar: true
   social:
-    - {name: "", link: ""}
+    - {name: "linkedin", link: "https://linkedin.com/in/jonathasbsouza"}
+    - {name: "site", link: "https://jonathas.work"}
 -
   id: 2
-  name: ""
-  surname: ""
-  company: ""
-  title: ""
-  bio: ""
-  thumbnailUrl: Person.jpeg
+  name: "Thaís"
+  surname: "Antunes Bione"
+  company: "Accenture"
+  title: "Analista de Projetos"
+  bio: "Sou formada em Ciência da Computação e faço pós em Gestão de Projetos. Atuei como desenvolvedora de software por 6 anos e atuo há um ano e pouquinho no controle de projetos e programas. Conheci mais de perto as metodologias ágeis em meados de 2012, quando me apaixonei. :)"
+  thumbnailUrl: ThaisBione.png
   rockstar: true
   social:
-    - {name: "", link: ""}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/thaisbione"}
