@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geek Night Recife</title>
+    <description>Um encontro informal para discutir sobre tecnologia</description>
+    <link>http://geeknightrecife.github.io/</link>
+    <atom:link href="http://geeknightrecife.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
