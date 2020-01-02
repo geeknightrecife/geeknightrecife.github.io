@@ -1,0 +1,3 @@
+-
+  elements:
+    - {name: "ThoughtWorks", description: "Desenvolvimento Ágil e Design de Experiência", link: "https://www.thoughtworks.com/pt/", imageUrl: "thoughtworks.png"}

@@ -1,0 +1,27 @@
+-
+  id: 1
+  name: "João Paulo"
+  surname: "Moraes"
+  company: "Thoughtworks"
+  title: "Dev"
+  bio: "JP é formado em Ciência da Computação pela Universidade Federal de Pernambuco. Trabalha com Desenvolvimento de Software desde 2008, tendo participado de diversos projetos com produtos de grandes clientes internacionais, envolvendo programação em Java, C# e C++. Atualmente é consultor de desenvolvimento de software na Thoughtworks Recife."
+  thumbnailUrl: JoaoPauloMoraes.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jpmoraez"}
+-
+  id: 2
+  name: "Mariana"
+  surname: "Ramos"
+  company: "MV Sistemas"
+  title: "Desenvolvedora de Software"
+  bio: "Recifense, somando 21 voltinhas ao redor do sol. 
+Desenvolvedora de Software, entusiasta de metodologias ágeis, diversidade e humanização em TI.
+Poeta na vida e no Slam das Minas PE. 
+Autora do Zine e Tumblr \"Poesia sem nome\".
+Baterista/Percussionista/Curiosa de outros instrumentos.
+Bacharel em Ciência da Computação."
+  thumbnailUrl: MarianaRamos.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/mariana-ramos-c-nery"}

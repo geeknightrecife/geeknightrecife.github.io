@@ -1,0 +1,3 @@
+-
+  elements:
+    - {name: "CESAR School", description: "Educação, Empreendedorismo e Inovação em expansão", link: "https://www.cesar.school", imageUrl: "cesarschool.png", width: "350px"}
